@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1FSRlHq0Q9SdEHgwNcxaVQ
-! Version: 202206122236
+! Checksum: e6ovE/E19g/DyriNl+eCiQ
+! Version: 202206131036
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2022 22:36 UTC
+! Last modified: 13 Jun 2022 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5862,11 +5862,13 @@ _mongo_stats/
 ||brontops.com^
 ||bydst.com^
 ||ccm19.de^
+||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
 ||cpx.to^
 ||crsspxl.com^
 ||crwdcntrl.net^
+||cvlb.dev^
 ||cxt.ms^
 ||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
@@ -8788,6 +8790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
 ||push-ad.com^$third-party
@@ -8803,6 +8806,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushify.com^$third-party
 ||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
+||pushprofit.ru^$third-party
+||pushpushgo.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
 ||reprocautious.com^$third-party
@@ -10835,6 +10840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||props.id^$third-party
 ! Italian
 ||0stats.com^$third-party
+||24log.it^$third-party
 ||accessi.it^$third-party
 ||avstat.it^$third-party
 ||buzzoole.com^$third-party
@@ -27453,6 +27459,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||player.vgtrk.com/js/stat.js?
 @@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
+@@||post2go.ru/widget/tracking?$~third-party
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
