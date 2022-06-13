@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: d+5TcGOoGsOPDTPa8C97kA
+! Checksum: GO7kbdIYtWFOzT/7kiUtjQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.58.22
-! TimeUpdated: 2022-06-13T10:30:57+00:00
+! Version: 2.0.58.24
+! TimeUpdated: 2022-06-13T14:34:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -853,6 +853,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/121492
+dogfight360.com##+js(abort-current-script, document.write, document.write(ad);)
 ! https://forum.adguard.com/index.php?threads/resolved-69t79-com.48734
 ! Scriptlet set-constant gets overwritten and ad pictures are still requested then
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119195
@@ -1077,6 +1079,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||dogfight360.com/Usbeam/yuelun_ad/
 wiki.mbalib.com###p-ad-bd
 wiki.mbalib.com##.ad-br
 /https:\/\/[a-z0-9.]{6,}.(com|net)\/[\s\S]*[a-zA-Z0-9]{6,}.(gif|png)/$domain=69t79.com,image,third-party
@@ -4044,9 +4047,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 ||jrhbhz.com^
+||tangkai.ltd^
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
+||qjing39.top^
 ||mnvde.com^
 ||opuik.com^
 ||500img.com^
@@ -19903,6 +19908,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||iceberg.ink^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||gguuu.top^
