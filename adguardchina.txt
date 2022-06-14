@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: GO7kbdIYtWFOzT/7kiUtjQ
+! Checksum: 6Q6E50tMc+aFy47dIUnhBg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.58.24
-! TimeUpdated: 2022-06-13T14:34:33+00:00
+! Version: 2.0.58.31
+! TimeUpdated: 2022-06-14T10:31:07+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2344,6 +2344,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+/images/ggzz/*.gif
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -3581,6 +3582,8 @@ ubmcmm.baidustatic.com
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
+##.mbads
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -3679,6 +3682,7 @@ ubmcmm.baidustatic.com
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
+##a[href="/static/xzgg/index.html"]
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
@@ -4047,10 +4051,15 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 ||jrhbhz.com^
+||kkuuu.top^
+||9191919199.com^
 ||tangkai.ltd^
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
+||kzerr.com^
+||kzeaa.com^
+||kvkaa.com^
 ||qjing39.top^
 ||mnvde.com^
 ||opuik.com^
@@ -4059,6 +4068,8 @@ ubmcmm.baidustatic.com
 ||awsxc.live^
 ||cgdjy.top^
 ||taiwtp1.com^
+||ceshi2.ink^
+||exwytd7.com^
 ||17265111.com^
 ||22195976.com^
 ||32851897.com^
@@ -4069,16 +4080,28 @@ ubmcmm.baidustatic.com
 ||pbgcsk3.com^
 ||qbyyvg3.com^
 ||xtp01.com^
+||666585.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
 ||666582.xyz^
 ||666584.xyz^
 ||ylkjit.com^
+||laijd.cn^
 ||xinshizongqin.com^
+||8686865554893.com^
 ||z4a.net^
+||kvhaa.com^
+||u0071.com^
+||u0057.com^
+||n0244.com^
+||n0255.com^
 ||8feichai.com^
 ||u0065.com^
+||qwe0231141.bj.bcebos.com^
+||imgtg.com^*.gif
+||sz88.oss-cn-shenzhen.aliyuncs.com^
+||huazitupian.oss-cn-hongkong.aliyuncs.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -11929,6 +11952,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+dmh8.com##body > a
 hmoe11.net##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -19908,6 +19932,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||machan.fans^
+||cfqc.me^
+||fetm.xin^
+||tokay.pro^
 ||iceberg.ink^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
@@ -19921,6 +19949,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||shoujizhuanqian.store^
 ||yyyyt.ltd^
+||zhongmeigk.hk^
+||hs89.cn^
+||chaotickets.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -19937,6 +19968,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
 ||zwgege.cn^
+||ponymi.xyz^
+||aa9u.cn^
 ||aa9v.cn^
 ||aa9z.cn^
 ||aak7.cn^
