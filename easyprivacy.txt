@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Wv/nfgzlZEd4leX1ZOf2iw
-! Version: 202206152236
+! Checksum: ANaZnYrwULsC/RZR5EfqHw
+! Version: 202206161036
 ! Title: EasyPrivacy
-! Last modified: 15 Jun 2022 22:36 UTC
+! Last modified: 16 Jun 2022 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9312,6 +9312,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chewcoat.com^
 ||chickensstation.com^
 ||childlikecook.com^
+||childlikecrowd.com^
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
@@ -12705,7 +12706,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ping.hellobar.com^
 ||ping.instantsearchplus.com^
 ||ping.smyte.com^
-||ping.staticmoly.me^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
@@ -12976,6 +12976,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statdb.pressflex.com^
 ||static-tracking.klaviyo.com^
 ||static.parsely.com^$third-party
+||staticmoly.me/metric.php
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
 ||statm.the-adult-company.com^
