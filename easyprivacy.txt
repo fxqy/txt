@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XPkXlF0RJEjuRkpqMAk2HA
-! Version: 202206162236
+! Checksum: KTl75YTwNE0txmXBQsCbog
+! Version: 202206171036
 ! Title: EasyPrivacy
-! Last modified: 16 Jun 2022 22:36 UTC
+! Last modified: 17 Jun 2022 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13636,6 +13636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||di2xwvxz1jrvu.cloudfront.net^
 ||dkupaw9ae63a8.cloudfront.net^
 ||dl1d2m8ri9v3j.cloudfront.net^
+||dn0qt3r0xannq.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dp64mxip2za0c.cloudfront.net^
@@ -14951,6 +14952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e.zg-api.com/event$domain=zillow.com
 ||e2ma.net/track/
 ||e377.thestar.com^
+||ea.epochbase.com^
 ||ebay.com^*/customer_image_service?
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||edisound.com/api/p/stats
@@ -27017,6 +27019,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
+@@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de
