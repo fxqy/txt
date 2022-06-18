@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 5hgZz/kMW+VHu15vP6YviQ
+! Checksum: A+7uFwq3rCG+fZhi8naUEg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.58.72
-! TimeUpdated: 2022-06-18T09:02:48+00:00
+! Version: 2.0.58.77
+! TimeUpdated: 2022-06-18T16:30:57+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2352,6 +2352,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/images/segucrwj*.jpg
 /images/segucrwj*.gif
 /images/mobileads*.jpg
 -880-80-4.jpg
@@ -3748,7 +3749,7 @@ ubmcmm.baidustatic.com
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
-##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
+~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body[class|="view"] > .ad-box
@@ -4060,6 +4061,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 ||jrhbhz.com^
+||afk3rs.xyz^
+||tklm77.top^
+||306842.com^
 ##a[href*="/682kg.com"]
 ||9191919199.com^
 ||bob4915.com^
@@ -4102,6 +4106,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||sosrom.cn^
 ||xtp01.com^
+||666592.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -4112,6 +4117,7 @@ ubmcmm.baidustatic.com
 ||666589.xyz^
 ||nbgsintl.com^
 ||ylkjit.com^
+||eiya.net^
 ||yanzunyang.top^
 ||laijd.cn^
 ||xinshizongqin.com^
@@ -10945,9 +10951,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taizexy.com^*.gif
 ||talkfx.*/showTKImg?
 ||taobaocdn.com^$image,domain=cnblogs.com
-||taoguba.com.cn/js/tgbduilian
 ||taoguba.com.cn/res/js/tgbgg/
-||taoguba.com.cn/res/libs/tgbxc.js
 ||taosq.net/public/250x250.jpg
 ||taotaoxiang.*/111/
 ||taotaoxiang.cc/333/
@@ -11111,8 +11115,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||uho.com.tw^$subdocument
 ||ulifestyle.com.hk/images/*_300x100
 ||ultraimg.com^$domain=18board.com|18p2p.com
-||ulzdk.com/statics/v2/js/kulis.js
-||ulzdk.com/Uploads/ulzdkgif/bfq.gif
 ||union.591.com.tw/cpt?
 ||union.china.com.cn^
 ||union.yihaodian.com^
@@ -11123,7 +11125,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upan.cc/images/pay/
-||upanso.com/taoke/
 ||upantool.com/a/
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
@@ -11975,7 +11976,6 @@ c114.com.cn###ad_r1
 chinanews.com.cn###ad_right_fc1
 kdslife.com###ad_swip
 bioon.com###ad_tb
-taoguba.com.cn###ad_tgb_list
 cctime.com###ad_three
 sina.com.cn###ad_tl_01
 gaokao.com###ad_top_gkw
@@ -12929,7 +12929,6 @@ appinn.com###ranshownow
 game2.cn###rb
 junshidao.com###rb_wap
 moe.best###rcm_sidebar
-tiboo.cn###read_hd1
 chinaqking.com###readerServiceDIV
 pujia8.com###recommend
 ganji.com###recommend_storeg_div
@@ -13301,7 +13300,6 @@ bestopview.com##.Adv_c
 pc6.com##.Advbox
 chaicp.com,qiuyi.cn##.Advertisement
 big5.china.com.cn##.Advertising > a
-usefultools.icu##.Advertising_all
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.BAIDU_CLB_AD
 le.com##.Banner
 zhihu.com##.Banner-link
@@ -13360,7 +13358,6 @@ zhihu.com##.MRelateFeedAd
 my0511.com##.MY0511-broadcast
 ltn.com.tw##.NC1.boxTitle
 ltn.com.tw##.NC3
-taoguba.com.cn##.NH_ad
 cnfol.com##.NavTopAd
 cnfol.com##.NewAdBox
 taoguba.com.cn##.NewH_top_left + .left
@@ -14210,7 +14207,6 @@ zuowen.com##.couplet_left
 tigtag.com##.couplet_r
 zuowen.com##.couplet_right
 atyun.com##.coupletbox
-upanso.com##.coupon
 caixin.com##.course_box
 meishij.net##.cp_body_right
 baidu.com##.cpc-adv-container
@@ -19672,6 +19668,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||1kcx.hk^
 ||slinindy.top^
 ||hklst.top^
+||ttdds.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
@@ -19782,6 +19779,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||52xs.live^
 ||whzshoes.com^
 ||zhihuinongye.biz^
+||tihushuo.com^
 ||cojwnb.com^
 ||duihuan8.wang^
 ||hdw0.top^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /dFu2LphqNg6EWn2gDvS+A
-! Version: 202206181036
+! Checksum: CXM7N7UCxtAdtr3+MwELTw
+! Version: 202206182236
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 18 Jun 2022 10:36 UTC
+! Last modified: 18 Jun 2022 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -15,6 +15,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/images/segucrwj*.jpg
 /images/segucrwj*.gif
 /images/mobileads*.jpg
 -880-80-4.jpg
@@ -1412,7 +1413,7 @@ ubmcmm.baidustatic.com
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
-##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
+~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body[class|="view"] > .ad-box
@@ -1728,6 +1729,9 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||afk3rs.xyz^
+||tklm77.top^
+||306842.com^
 ##a[href*="/682kg.com"]
 ||9191919199.com^
 ||bob4915.com^
@@ -1774,6 +1778,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666592.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -1785,6 +1790,7 @@ ubmcmm.baidustatic.com
 ||nbgsintl.com^
 ||ylkjit.com^
 !2301
+||eiya.net^
 ||yanzunyang.top^
 !2212
 ||laijd.cn^
@@ -17369,6 +17375,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||1kcx.hk^
 ||slinindy.top^
 ||hklst.top^
+||ttdds.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
@@ -17488,6 +17495,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||whzshoes.com^
 ||zhihuinongye.biz^
 !2209
+||tihushuo.com^
 ||cojwnb.com^
 ||duihuan8.wang^
 ||hdw0.top^
