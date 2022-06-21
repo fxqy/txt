@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wDTnudAIsAHrlTN6/Y9iyw
-! Version: 202206202236
+! Checksum: aqB3aSw4OmbTeLxBBWDoHQ
+! Version: 202206211036
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 20 Jun 2022 22:36 UTC
+! Last modified: 21 Jun 2022 10:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1752,6 +1752,7 @@ ubmcmm.baidustatic.com
 ||ijswq.com^
 ||kvkaa.com^
 ||kzeaa.com^
+||fwesx.com^
 ||kzerr.com^
 ||mnvde.com^
 ||opuik.com^
@@ -1783,6 +1784,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666596.xyz^
 ||666595.xyz^
 ||666593.xyz^
 ||666576.xyz^
@@ -1797,6 +1799,7 @@ ubmcmm.baidustatic.com
 ||nbgsintl.com^
 ||ylkjit.com^
 !2301
+||1198194.com^
 ||eiya.net^
 ||yanzunyang.top^
 !2212
@@ -1810,6 +1813,7 @@ ubmcmm.baidustatic.com
 ||fcgjewelry.com^
 ||kvhaa.com^
 !2209
+||nftcpw.com^
 !2208
 !2207
 ||8feichai.com^
@@ -14696,7 +14700,7 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
+c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -17379,6 +17383,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||nymnt.top^
+||hht687.site^
+||hddss.top^
+||youhuotiyu.asia^
+||biercloud.love^
 ||mtsry.top^
 ||slifindy.top^
 ||dj57.club^
@@ -17424,9 +17433,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tokay.pro^
 ||ttdds.top^
 ||yyxjt.cloud^
+||zrys.xyz^
 ||yyyyt.ltd^
 ||zhongmeigk.hk^
 !2305
+||tbs1.xyz^
+||ijshh.com^
 ||xiaoxiaozhijia.shop^
 ||2329.ink^
 ||666video.asia^
@@ -17455,8 +17467,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yue78.online^
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
+||xitang.love^
 ||zwgege.cn^
 !2304
+||wula.store^
+||hcmyfni.cn^
+||mssmkj.com^
 ||jykhjwb.cn^
 ||miaorentang.xyz^
 ||caicnax.cn^
@@ -17484,6 +17500,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yping.online^
 ||zhrrrec.cn^
 !2303
+||wukelansm.top^
 ||zaixianweiyuanchuang.cn^
 ||8889888.vip^
 ||469716.top^
@@ -17502,6 +17519,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sjpoxe6.com^
 ||tianyao.site^
 !2302
+||xjfyx.com^
 ||zhihuichuxing.pw^
 ||zhjzjnb.xyz^
 !2301
@@ -17511,6 +17529,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tongxinren.co^
 ||vz1m.com^
 !2212
+||bestnfz.com^
+||nfntime.com^
 ||greatnfq.com^
 ||fangbaba.xyz^
 ||bestnfq.com^
@@ -17541,6 +17561,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jsk.wang^
 !2206
 !2403
+##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
 !2402
 ##a[href*=".eampakt.com/"]

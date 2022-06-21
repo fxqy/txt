@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7XwlSXMC2H/7SBuykXthYA
+! Checksum: eh3AJebF6PHgZ8n/XeLwtw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.58.93
-! TimeUpdated: 2022-06-20T14:31:05+00:00
+! Version: 2.0.59.0
+! TimeUpdated: 2022-06-21T10:30:56+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1081,6 +1081,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||cdn.vidcrunch.com/integrations/*_Responsive_Floating_DFP_$domain=discuss.com.hk
 home.firefoxchina.cn##a[title][track_key="sites_saoma"]
 home.firefoxchina.cn##a[track_key="sites_mingzhan"] + a[title="VIP"]
 home.firefoxchina.cn##.border-gray-200.tuijian
@@ -4086,6 +4087,7 @@ ubmcmm.baidustatic.com
 ||ijswq.com^
 ||kvkaa.com^
 ||kzeaa.com^
+||fwesx.com^
 ||kzerr.com^
 ||mnvde.com^
 ||opuik.com^
@@ -4114,6 +4116,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||sosrom.cn^
 ||xtp01.com^
+||666596.xyz^
 ||666595.xyz^
 ||666593.xyz^
 ||666576.xyz^
@@ -4127,6 +4130,7 @@ ubmcmm.baidustatic.com
 ||666592.xyz^
 ||nbgsintl.com^
 ||ylkjit.com^
+||1198194.com^
 ||eiya.net^
 ||yanzunyang.top^
 ||laijd.cn^
@@ -4136,6 +4140,7 @@ ubmcmm.baidustatic.com
 ||z4a.net^
 ||fcgjewelry.com^
 ||kvhaa.com^
+||nftcpw.com^
 ||8feichai.com^
 ||n0244.com^
 ||n0255.com^
@@ -17008,7 +17013,7 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
+c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -19675,6 +19680,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||nymnt.top^
+||hht687.site^
+||hddss.top^
+||youhuotiyu.asia^
+||biercloud.love^
 ||mtsry.top^
 ||slifindy.top^
 ||dj57.club^
@@ -19720,8 +19730,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tokay.pro^
 ||ttdds.top^
 ||yyxjt.cloud^
+||zrys.xyz^
 ||yyyyt.ltd^
 ||zhongmeigk.hk^
+||tbs1.xyz^
+||ijshh.com^
 ||xiaoxiaozhijia.shop^
 ||2329.ink^
 ||666video.asia^
@@ -19750,7 +19763,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yue78.online^
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
+||xitang.love^
 ||zwgege.cn^
+||wula.store^
+||hcmyfni.cn^
+||mssmkj.com^
 ||jykhjwb.cn^
 ||miaorentang.xyz^
 ||caicnax.cn^
@@ -19777,6 +19794,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xuekalun.com^
 ||yping.online^
 ||zhrrrec.cn^
+||wukelansm.top^
 ||zaixianweiyuanchuang.cn^
 ||8889888.vip^
 ||469716.top^
@@ -19794,6 +19812,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||pjuulzj.cn^
 ||sjpoxe6.com^
 ||tianyao.site^
+||xjfyx.com^
 ||zhihuichuxing.pw^
 ||zhjzjnb.xyz^
 ||avtej.com^
@@ -19801,6 +19820,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nanjian.ink^
 ||tongxinren.co^
 ||vz1m.com^
+||bestnfz.com^
+||nfntime.com^
 ||greatnfq.com^
 ||fangbaba.xyz^
 ||bestnfq.com^
@@ -19824,6 +19845,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xinbici.com^
 ||ienglish.ren^
 ||jsk.wang^
+##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
 ##a[href*=".eampakt.com/"]
 ##a[href$=".120ydrayy.com"]
