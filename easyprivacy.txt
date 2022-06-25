@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vXL/JvWuPPdIsjM/DilNGg
-! Version: 202206242235
+! Checksum: Y6gUEVwmxyZDzpHD/9OYPg
+! Version: 202206251035
 ! Title: EasyPrivacy
-! Last modified: 24 Jun 2022 22:35 UTC
+! Last modified: 25 Jun 2022 10:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3919,6 +3919,7 @@
 /shinystat.
 /shinystat_
 /shopify-boomerang-
+/shopify/track
 /shopify_stats.js
 /showcounter.$domain=~showcounter.com
 /showhits.php?
@@ -13488,6 +13489,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wren.condenastdigital.com^
 ||ws.audioeye.com^
 ||ws.sharethis.com^$script
+||wsmcdn.audioeye.com^
 ||wtbevents.pricespider.com^
 ||x.babe.today^
 ||x.disq.us^
@@ -15185,6 +15187,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jumbo.zomato.com^
 ||juno.com/start/javascript.do?message=
 ||justanswer.com/browsercheck/
+||kansascity.com/nyb-zsooli/
 ||kayak.com/k/redirect/tracking?
 ||kck.st/web/track
 ||klm.us/CWZUvc/
