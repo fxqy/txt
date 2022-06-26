@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 2AyRgtsf1ioKNRmDpi2IsQ
+! Checksum: R3/hMgFFpAEy/yWCCmP78A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.59.47
-! TimeUpdated: 2022-06-26T09:02:45+00:00
+! Version: 2.0.59.50
+! TimeUpdated: 2022-06-26T16:30:55+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3158,6 +3158,7 @@ ubmcmm.baidustatic.com
 ###adrights14
 ###ads.row
 ###ads_c_tpc
+##.btn.btn-success.text-white[href*=".com:"]
 ###ads_in_video
 ###ads_top_video
 ###adtop1
@@ -4141,6 +4142,8 @@ ubmcmm.baidustatic.com
 ##a[href*=".urfatek.com/"]
 ||helilong.xyz^
 ||slcgngo.cn^
+||slimindy.top^
+||goldnfu.com^
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
 ##a[href*=".eampakt.com/"]
@@ -11417,6 +11420,7 @@ ubmcmm.baidustatic.com
 ||zzyytt.top^
 $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com|youtubeto.com
 .189.gd^*.html?p=$popup,third-party
+/indexpc.html?agent=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -15683,7 +15687,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||u17i.com/readad/
-||uc.cn/s/uae/g/0s/ua.js
 ||uc.zhuici.com^
 ||uc129.com/images/top_hjsj.jpg
 ||uc129.com/m/
