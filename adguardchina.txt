@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HRAhJWnx5AQcH4odHW9R7Q
+! Checksum: o5kHQgSXnxkaZpl8VSsr1w
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.60.16
-! TimeUpdated: 2022-07-03T16:30:57+00:00
+! Version: 2.0.60.22
+! TimeUpdated: 2022-07-04T09:03:00+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -628,9 +628,8 @@ lnk2.cc##+js(set-constant, adblock, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59264
 youranshare.com##+js(abort-current-script, $, adskilltest)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61563
-tsubasa.im##+js(set-constant, compare_post, noopFunc)
-tsubasa.im##+js(remove-class, d-none, body)
-tsubasa.im#?#.alert-adblock
+tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
+tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63631
 @@||getitfree.cn/wp-content/plugins/adunblocker/public/js/banner_ads_*.js
@@ -4279,6 +4278,16 @@ ubmcmm.baidustatic.com
 ||qianchengwenhua.xyz^
 ||badjniop.top^
 ||mdjxz.com^
+||sym.zone^
+||xingyuanaigaowei.love^
+||badgniop.top^
+||iyuedu.cn.com^
+||voihkjd.cn^
+||xyhly.xyz^
+||hlww66.site^
+||neornad.cn^
+||wchh.online^
+||666649.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
