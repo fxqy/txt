@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KD6svuvXxxiDy1YpUJ1u4Q
-! Version: 202207051036
+! Checksum: n0A6TQ3B/PNd57dOiyIDtA
+! Version: 202207052236
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 05 Jul 2022 10:36 UTC
+! Last modified: 05 Jul 2022 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1964,6 +1964,13 @@ ubmcmm.baidustatic.com
 ||yuretb.site^
 ||badmniop.top^
 ||badlniop.top^
+||gdls114.com^
+||badlnniop.top^
+||gfdh56.site^
+||666657.xyz^
+||dwchenzlforever.love^
+||lacerate.club^
+||huodong.press^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -21738,7 +21745,7 @@ smjb.net##div[style*="height: 50%"]
 ||feiszw.com/style/w.js
 ||fzxiaoshuo.com/source/
 ||g*.biqugetv.com^
-||gg.zhhbqg.com^
+||zhhbqg.com/ww/
 ||hbfie.org/mb/meng/
 ||heiyanwang.com/sc/
 ||iwurexs.com/hello/
@@ -21837,13 +21844,9 @@ $image,third-party,domain=258zw.com
 /windowwap_*_*_*.js?$script,third-party
 /xxgg/app.js
 /xxgg/book.js
-/xxgg/dj*.js
 /xxgg/gzh.js
-/xxgg/pf*.js
 /xxgg/pv.js
 /xxgg/xsggs.js
-:4433/hm/cdn/static/jq_
-MoBi*.baidu.js$script,third-party
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
 ##[class][onclick="window.location.href='https://www.tsqcy.cn'"]
@@ -21851,11 +21854,6 @@ MoBi*.baidu.js$script,third-party
 ##[class][onclick^="window.location.href"][onclick*=".bcebos."]
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
-_1MObaudu.js
-_1baidu.js$script,third-party
-_NYTEF.js
-_jyjy.js$script,third-party
-_muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
@@ -21868,7 +21866,6 @@ _muytrf.js$script,third-party
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##iframe[src*=".xxmh"][src*="?u="]
-xhtml?%22+$script,third-party
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.666wx.cc|m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.jmshuwu.net|m.wx-book.com|wodexiaoshuoh.com
 !#Novels
