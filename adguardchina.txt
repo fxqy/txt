@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: zgEq7Z7lcp9p59imnI+vyw
+! Checksum: CJEdowz6BHk7W4DRK/e4Vg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.60.71
-! TimeUpdated: 2022-07-09T17:02:40+00:00
+! Version: 2.0.60.79
+! TimeUpdated: 2022-07-10T10:30:55+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4382,6 +4382,22 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||666679.xyz^
+||uu99k.com^
+||gfnormal00aj.com^
+||pqfgtp.cn^
+||siqwfy.cn^
+||lvjoe.pw^
+||gogpix.cn^
+||7080ys.top^
+||rofvjko.cn^
+||yuvvddt.cn^
+||gnbunbiv.rest^
+||qsxfsp.shop^
+||mthdqs.cn^
+||ghhtt.top^
+##a[href*=".qilinsb.com/"]
+||mdjf9vh9.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16404,6 +16420,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+pianba.tv##.cpcad
+theporn.cc##.toolbar-gg
+theporn.cc##.gg-config
+vpsmm.com#?#.sidebar div:-abp-has(>a>img)
+vpsmm.com##.top_a1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20420,7 +20441,7 @@ firefoxchina.cn##.sp-content
 zww.me##.sp-top-img
 missyuan.com##.spaceborder
 baidu.com##.spage-couplet-container
-vpsdx.com##.span4 > a > img
+vpsdx.cn,vpsdx.com##.span4 > a > img
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 shmet.com##.spb-biz-cont

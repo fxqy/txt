@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8VTZI1Eo82y3hudpVRwcUg
-! Version: 202207092236
+! Checksum: IRtaxQL4ITBrUhcS8KvpdQ
+! Version: 202207101036
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 09 Jul 2022 22:36 UTC
+! Last modified: 10 Jul 2022 10:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -2055,6 +2055,22 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||666679.xyz^
+||uu99k.com^
+||gfnormal00aj.com^
+||pqfgtp.cn^
+||siqwfy.cn^
+||lvjoe.pw^
+||gogpix.cn^
+||7080ys.top^
+||rofvjko.cn^
+||yuvvddt.cn^
+||gnbunbiv.rest^
+||qsxfsp.shop^
+||mthdqs.cn^
+||ghhtt.top^
+##a[href*=".qilinsb.com/"]
+||mdjf9vh9.xyz^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14088,6 +14104,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pianba.tv##.cpcad
+theporn.cc##.toolbar-gg
+theporn.cc##.gg-config
+vpsmm.com#?#.sidebar div:-abp-has(>a>img)
+vpsmm.com##.top_a1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18104,7 +18125,7 @@ firefoxchina.cn##.sp-content
 zww.me##.sp-top-img
 missyuan.com##.spaceborder
 baidu.com##.spage-couplet-container
-vpsdx.com##.span4 > a > img
+vpsdx.cn,vpsdx.com##.span4 > a > img
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 shmet.com##.spb-biz-cont
