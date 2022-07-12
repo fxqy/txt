@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Dj+0XQx7q9tiu0dQ8/DuFQ
-! Version: 202207112236
+! Checksum: pswDpYpeyk74wuoChoPw7Q
+! Version: 202207121036
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 11 Jul 2022 22:36 UTC
+! Last modified: 12 Jul 2022 10:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -2089,6 +2089,16 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||hkedve.cn^
+||ixihet.cn^
+||v34ffs.site^
+||fjlpyz.cn^
+||hust.cx^
+||meilmei.xyz^
+||gndunbix.rest^
+||yelmlrq.cn^
+||666683.xyz^
+||uwdspsh.cn^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -19973,7 +19983,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
-@@_pic_cpm_$domain=52xkdy.com
+@@_cpm_ads_$domain=52xkdy.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
