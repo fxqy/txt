@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hKcNRKyvXY35F36GfCGXVQ
-! Version: 202207121035
+! Checksum: AgpwerAr/YxVtYBn3I63mw
+! Version: 202207122235
 ! Title: EasyPrivacy
-! Last modified: 12 Jul 2022 10:35 UTC
+! Last modified: 12 Jul 2022 22:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6312,6 +6312,7 @@ _mongo_stats/
 ||arkayne.com^$third-party
 ||arlime.com^$third-party
 ||arpxs.com^$third-party
+||arrivalist.com^$third-party
 ||arrowpushengine.com^$third-party
 ||arsdev.net^$third-party
 ||artefact.is^$third-party
@@ -15964,7 +15965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.opentable.nl^
 ||track.opentable.sg^
 ! akamaihd.net
-||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
+||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ! Plausible selfhosted
 ||jeremiahlee.com/fanboynz.js
 ! confection.io
