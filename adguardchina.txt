@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: yg1ruvbktVZMP0Lu0CdcBA
+! Checksum: RULvD0v6YXWIM94p8oiXog
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.61.11
-! TimeUpdated: 2022-07-13T16:31:01+00:00
+! Version: 2.0.61.16
+! TimeUpdated: 2022-07-14T07:30:53+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4454,6 +4454,18 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||vdzzauf.cn^
+||czwdzcm.cn^
+||songdongdong.love^
+||xuxjaqp.cn^
+||gfnormal00ah.com^
+||666722.xyz^
+||551vip.xyz^
+||jphfqq.cn^
+||wanyi.pw^
+||ugkmihh.cn^
+||nfqtime.com^
+||smyarlr.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -20574,7 +20586,7 @@ affyun.com##.text ~ a
 chineseinla.com##.text-ads-col
 baidu.com##.text-advertise
 fastadmin.net##.text-center > .carousel
-1010dy.vip##.text-center[style]
+1010dy1.com##.text-center[style]
 baidu.com##.text-link-ads
 auto-online.com.tw##.text_links_h
 jiyingw.vip##.textwidget > p > a > img
@@ -21243,7 +21255,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
 vk922.com##a[href^="/ad/"]
 ziyuanba.com##a[href^="/ago."]
-1010dy.vip##a[href^="/go"]
+1010dy1.com##a[href^="/go"]
 szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
