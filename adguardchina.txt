@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: aPIh3OOaqeozVf9tyaMkRw
+! Checksum: I9f6cyFUEsBGnBsZ4FAZgA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.61.28
-! TimeUpdated: 2022-07-15T16:31:14+00:00
+! Version: 2.0.61.35
+! TimeUpdated: 2022-07-16T08:30:57+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3690,6 +3690,7 @@ ubmcmm.baidustatic.com
 ##.yd_ad3
 ##.yd_ad5
 ##.yd_ad6
+##style + .a-loading
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -4488,6 +4489,18 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||rrll.love^
+||qfgall.cn^
+||juhuitongcheng.life^
+||gfnormal01ae.com^
+||666724.xyz^
+||topnfq.com^
+||nvqhbij.cn^
+||aqiwxzv.cn^
+||zhangwanwan.online^
+||h56hg7.site^
+||gnkunbie.rest^
+||fcluqg.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -18091,7 +18104,6 @@ outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 tools.2345.com##._hb-box + .mod
 qq.com##._switchad
 pincong.rocks##.a-a
-cqzjt.com,pianba.tv##.a-loading
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 159i.com##.a1.style25
 159i.com##.a1d
@@ -22778,6 +22790,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pttplay.com/js/momo/adsbygoogle.js
+@@||haiwai.com^$generichide
 @@||pub.alimama.com/common/adzone/
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||qiantucdn.com/static/images/adsbygoogle.js
@@ -24254,6 +24267,7 @@ smjb.net##div[style*="height: 50%"]
 ||zhenben.cc/2000/
 ||zhhbqg.com/rr/
 ||zhuishubox.com/js/after-rain.js
+shuquge.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
