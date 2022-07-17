@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: q7tEhcOOLlLRBnGDzKEl/Q
-! Version: 202207162235
+! Checksum: Z55x7cJTd+Uh+Oinn1rTLw
+! Version: 202207171035
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2022 22:35 UTC
+! Last modified: 17 Jul 2022 10:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6009,7 +6009,6 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
 ||omtrdc.net^
-||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
 ||ostrichesica.com^
@@ -6938,6 +6937,7 @@ _mongo_stats/
 ||firstpromoter.com^$third-party
 ||fishhoo.com^$third-party
 ||fitanalytics.com^$third-party
+||fixel.ai^$third-party
 ||flagcounter.com^$third-party
 ||flaghit.com^$third-party
 ||flash-counter.com^$third-party
