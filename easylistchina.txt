@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3AtRKawsQhau9fY25jEv7A
-! Version: 202207171036
+! Checksum: BZb2v6j8KWIpCbXvG8Z5Cw
+! Version: 202207172236
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 17 Jul 2022 10:36 UTC
+! Last modified: 17 Jul 2022 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -843,6 +843,7 @@ ubmcmm.baidustatic.com
 ###comiis_xizi_gg02
 ###container > .sectionBanner
 ###crazy_ad_float
+###nav-home > .coment-bottom
 ###crazy_ad_layer
 ###cs_left_couplet
 ###cs_right_couplet
@@ -2182,6 +2183,8 @@ ubmcmm.baidustatic.com
 ||3xhmhct.cn^
 ||cfhlrai.cn^
 ||doremi.ink^
+||xixhx.com^
+||renxinghuan.com^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
