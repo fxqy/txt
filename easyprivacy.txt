@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g9BaZR6vSiSBo3HCfSpYaA
-! Version: 202207212235
+! Checksum: zqvtrt7/ZzfJ+TAJhZifEA
+! Version: 202207221035
 ! Title: EasyPrivacy
-! Last modified: 21 Jul 2022 22:35 UTC
+! Last modified: 22 Jul 2022 10:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26602,6 +26602,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logsbin.dantri.com.vn^
 ||pixel.coccoc.com^
 ||stats.muasamcong.gov.vn^
+||tka.tiki.vn/pixel/
 ||track-srv.vietnamnet.vn^
 ! Specific blocking filters necessary for sites allowlisting with $genericblock filter option
 ! Gamestar.de
