@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DuNw4AyXbQnGPrKPrV7UHg
-! Version: 202207242236
+! Checksum: IrhFzkGYDSUOfMIhzyCC4A
+! Version: 202207251036
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last modified: 24 Jul 2022 22:36 UTC
+! Last modified: 25 Jul 2022 10:36 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -2321,6 +2321,19 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||qrnmyn.cn^
+||xinyuejiayuan.com^
+||tongsone.uno^
+||ojgtbs.cn^
+||eeoqsr.cn^
+||666735.xyz^
+||3dcn.me^
+||jhkj.work^
+||vfcwij.cn^
+||rlojitu.xyz^
+||pnrqz.xyz^
+||ppcwzry.cn^
+||cfkkdhs.cn^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14336,6 +14349,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jinbaodm.com##div[id^="a-loading"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
