@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 8bq48dR7461gU5+/LVUSVg
+! Checksum: 3uhXgPQPNyNwgfrt5esl6g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.62.6
-! TimeUpdated: 2022-07-25T16:31:03+00:00
+! Version: 2.0.62.13
+! TimeUpdated: 2022-07-26T09:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4673,6 +4673,23 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||uongsono.uno^
+||gkenql.cn^
+||inpnjq.cn^
+||kmbikv.cn^
+||qsdqyf.cn^
+||letzgr.cn^
+||eyoupie.cn^
+||meiyouguang.top^
+||666736.xyz^
+||wslits.cn^
+||wzqbte.xyz^
+||orientalocean.mobi^
+||eengbalu.fun^
+||vofiamb.cn^
+||exgzyg.cn^
+||mstgc.com^
+||ahfy.me^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16677,6 +16694,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+cupfox.app##.banner-box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
