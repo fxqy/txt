@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: x1SSfSOr7opnJysiECan5Q
-! Version: 202207291036
+! Checksum: UA6V3bGQMcxzQ1KzKKi1+Q
+! Version: 202207292236
 ! Title: EasyPrivacy
-! Last modified: 29 Jul 2022 10:36 UTC
+! Last modified: 29 Jul 2022 22:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11560,6 +11560,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.live.com^
 ||analytics.livestream.com^
 ||analytics.logsss.com^
+||analytics.m7g.twitch.tv^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.midwesternmac.com^
@@ -16273,6 +16274,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ! ||go.fvtc.edu^
 ! ||links.strava.com^
 ! ||wl.spotify.com^
+! ||digital.att.com^
 ||clickmail.stubhub.com^$image,script
 ||email.mg.everyonesocial.com^$image,script
 ||wl.spotify.com^$image,script
@@ -22580,7 +22582,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||dialogue.nl.mazda.be^
 ||diamages.carte-gr.total.fr^
 ||digital-engineering.de^
-||digital.att.com^
 ||digitalworkplace.ricoh.fr^
 ||direct.colfondos.co^
 ||directoryzcb.carte-gr.total.fr^
@@ -27558,6 +27559,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
