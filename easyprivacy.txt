@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UA6V3bGQMcxzQ1KzKKi1+Q
-! Version: 202207292236
+! Checksum: FQXwLYWGSdaKIpV3wap0fg
+! Version: 202207301036
 ! Title: EasyPrivacy
-! Last modified: 29 Jul 2022 22:36 UTC
+! Last modified: 30 Jul 2022 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12009,6 +12009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
 ||creator.zmags.com^
+||credible.com/api/logs-fe
 ||crm-vwg.com/tracker/
 ||crowdfactory.com/tracker/
 ||crowdskout.com/analytics.js
@@ -26873,6 +26874,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
+@@||evolutionpayroll.com/ess/scripts/angularytics/angularytics.min.js$~third-party
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
