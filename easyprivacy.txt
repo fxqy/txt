@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: r78uTR9t8CaZ0q6oVTm6sw
-! Version: 202208021021
+! Checksum: zCUWE2u9m5D3umYgVWMEXQ
+! Version: 202208022221
 ! Title: EasyPrivacy
-! Last modified: 02 Aug 2022 10:21 UTC
+! Last modified: 02 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3191,6 +3191,7 @@
 /onetag/*
 /onetagv2/*
 /onfocus-tag.
+/onl/track.php?
 /onlinecount.php
 /onsitegeo.
 /onstuimig-tag-
@@ -4216,6 +4217,7 @@
 /stats/tracker.js
 /stats/tracking.
 /stats/transp.bmp
+/stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -11863,7 +11865,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickfunnels.com/cf.js
 ||clickfunnels.com/userevents/
 ||clickfunnels.com^*/track?
+||clickiocdn.com/clickiotag_log/
 ||clickiocdn.com/consent/log/
+||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clickstream.odysee.com^
 ||clicktale.pantherssl.com^

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Kp7hqM5BfU3OfBujgUxiDQ
+! Checksum: LIx+LJMrKDvgV1biZ62pSw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.62.86
-! TimeUpdated: 2022-08-02T10:31:00+00:00
+! Version: 2.0.62.90
+! TimeUpdated: 2022-08-02T20:30:59+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,6 +75,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||api.sdffwef11.com^
 ||mg.xhkvff.cn^
 ||mc.mwgpg.cn^
 ||pm.poqwua.cn^
@@ -938,6 +939,9 @@ nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.di
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/125768
+nxpaaq.com#$#iframe[src="/close.html"] { display: none !important; }
+nxpaaq.com#$##mainContent { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108123
 4399.com#$#body { background-image: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100164
@@ -1069,10 +1073,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org
+/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com
 !
 !
 !
+||api.dmcdn.net/all.js$domain=gotv.ctitv.com.tw
+gotv.ctitv.com.tw##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 ||i.agentimg.xyz/4156af89sa5f16a53451a6df.gif
 18comic.org##div[data-height="250"][data-width="300"]
 ||jmcomic.asia/iframe_*&idzone=
@@ -2199,6 +2205,9 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Good: example.org#@#.ad
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/14210
+bilibili.com#@?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
+bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad-img) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123608
 hyperallergic.com#@#.ad-above-footer
 ! https://github.com/easylist/easylistchina/issues/201
@@ -2362,6 +2371,8 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+/taiyangchengjituantupian.
+/template/1/images/t2.gif
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -4849,6 +4860,23 @@ ubmcmm.baidustatic.com
 ||54askjdklm.xyz^
 ||666739.xyz^
 ||u0062.com^
+||n0255.com^
+||n0244.com^
+||n0211.com^
+||23539355.com^
+||vbutjg.com^
+||vesdsp.com^
+||u0081.com^
+||u0057.com^
+||u0071.com^
+||fadacaitp.com^
+||9304hhh999.vip^
+||hdgzta.com^
+||zuoai99hair.com^
+||imgapp.top^
+||go2yd.com^
+||u0056.com^
+||n0488.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -11373,6 +11401,8 @@ ubmcmm.baidustatic.com
 ||zzxhx.com^
 ||zzxxli.club^
 ||zzyytt.top^
+||hdtu.oss-cn-beijing.aliyuncs.com^
+||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
 ||7xi9g1.com1.z0.glb.clouddn.com^
@@ -16371,7 +16401,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||tongji-badu.cc/listplay.
 szxx.com.cn###A0
+quiet-quiet.com###fleft
+quiet-quiet.com###float
 mydrivers.com##.main_right_div[style="padding-top: 10px;"]
 2yjw.com##.orbui
 szxx.com.cn###A1
