@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: d7Ku7v1tkC591Uz42L/sSw
-! Version: 202208012221
+! Checksum: S9s45nHV97NTUb7aQUOAzg
+! Version: 202208020204
 ! Title: EasyPrivacy
-! Last modified: 01 Aug 2022 22:21 UTC
+! Last modified: 02 Aug 2022 02:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2312,6 +2312,7 @@
 /hit/?r=
 /hit/tracker
 /hit2.php
+/hit?aff_id=$xmlhttprequest
 /hit?artefactId=
 /hit?t=*&__seed=
 /hit?time=
@@ -8893,6 +8894,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||subscribers.com^$third-party
 ||truenat.bid^$third-party
 ||truepush.com^$third-party
+||unative.com^$third-party
 ||urbanairship.com^
 ||viapush.com^$third-party
 ||webpu.sh^$third-party
@@ -14876,6 +14878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockeronstreamtape.me/stat/
 ||adblockeronstreamtape.xyz/stat/
 ||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
@@ -15851,6 +15854,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.thesaurus.com^
 ||track.totalav.com^$script
 ||track.ultimate-guitar.com^
+||tracker.affiliate.iqbroker.com^
 ||tracker.jawcloud.co^
 ||tracker.nbcuas.com^
 ||tracker.shopclues.com^
