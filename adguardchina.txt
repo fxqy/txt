@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: lMnjEbqrPeNES5w/G5HsWg
+! Checksum: Kp7hqM5BfU3OfBujgUxiDQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.62.78
-! TimeUpdated: 2022-08-01T23:30:56+00:00
+! Version: 2.0.62.86
+! TimeUpdated: 2022-08-02T10:31:00+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3216,6 +3216,7 @@ ubmcmm.baidustatic.com
 ~cityheaven.net###gg1
 ###gg300
 ###gg_url
+##.carousel-inner > a[href="/hth.html"]
 ###googleAD1
 ###googleAD2
 ###googleAD3
@@ -4838,6 +4839,16 @@ ubmcmm.baidustatic.com
 ||u0065.com^
 ||n0399.com^
 ||u0067.com^
+||mkqdj.cn^
+||u5ree6.com^
+||propsad.com^
+||zujilife.online^
+||pstdzxu.cn^
+||oxneww.co^
+||ngqph.cn^
+||54askjdklm.xyz^
+||666739.xyz^
+||u0062.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16361,6 +16372,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+mydrivers.com##.main_right_div[style="padding-top: 10px;"]
+2yjw.com##.orbui
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21876,7 +21889,6 @@ gdot.me,sc115.com##script + a
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
-tvyb02.com##script + div[style="text-align:center;"]
 jianshu.com##section[aria-label="jianshu-ad"]
 bbc.com##section[class*="AdContainer"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
@@ -24139,6 +24151,7 @@ smjb.net##div[style*="height: 50%"]
 ||zhenben.cc/2000/
 ||zhhbqg.com/rr/
 ||zhuishubox.com/js/after-rain.js
+||xsbiqugew.com^*.php
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

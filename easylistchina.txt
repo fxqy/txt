@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4iIXCMcMLDQyiA0KmwHvnQ
-! Version: 202208020204
+! Checksum: fhR/jqtxnFpgGkNebuR1ZQ
+! Version: 202208021021
 ! Title: EasyList China
-! Last modified: 02 Aug 2022 02:04 UTC
+! Last modified: 02 Aug 2022 10:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -873,6 +873,7 @@ ubmcmm.baidustatic.com
 ~cityheaven.net###gg1
 ###gg300
 ###gg_url
+##.carousel-inner > a[href="/hth.html"]
 ###googleAD1
 ###googleAD2
 ###googleAD3
@@ -2498,6 +2499,15 @@ ubmcmm.baidustatic.com
 ||n0399.com^
 ||u0067.com^
 ||mkqdj.cn^
+||u5ree6.com^
+||propsad.com^
+||zujilife.online^
+||pstdzxu.cn^
+||oxneww.co^
+||ngqph.cn^
+||54askjdklm.xyz^
+||666739.xyz^
+||u0062.com^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14032,6 +14042,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##.main_right_div[style="padding-top: 10px;"]
+2yjw.com##.orbui
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19548,7 +19560,6 @@ gdot.me,sc115.com##script + a
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
-tvyb02.com##script + div[style="text-align:center;"]
 jianshu.com##section[aria-label="jianshu-ad"]
 bbc.com##section[class*="AdContainer"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
@@ -21823,6 +21834,7 @@ smjb.net##div[style*="height: 50%"]
 ||zhenben.cc/2000/
 ||zhhbqg.com/rr/
 ||zhuishubox.com/js/after-rain.js
+||xsbiqugew.com^*.php
 ! General rules for Novels
 ###asdw3
 ###asdw3 + img + :not(div)
