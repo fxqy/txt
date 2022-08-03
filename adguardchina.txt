@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: LIx+LJMrKDvgV1biZ62pSw
+! Checksum: evZ/Kbm/K+gbSlYyo88wHw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.62.90
-! TimeUpdated: 2022-08-02T20:30:59+00:00
+! Version: 2.0.62.98
+! TimeUpdated: 2022-08-03T10:31:00+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2205,9 +2205,6 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Good: example.org#@#.ad
 !
 !
-! https://github.com/uBlockOrigin/uAssets/issues/14210
-bilibili.com#@?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
-bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad-img) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123608
 hyperallergic.com#@#.ad-above-footer
 ! https://github.com/easylist/easylistchina/issues/201
@@ -2371,9 +2368,9 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
-/taiyangchengjituantupian.
-/template/1/images/t2.gif
 -1688-wp-media/ads/
+/xiwang/fumeiti.js
+/xiwang/dfumeiti.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -2978,6 +2975,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /svr/popwin.aspx?$third-party
 /sxgg/12.js
 /sxgg/13
+/taiyangchengjituantupian.
 /tan.js
 /tan1.js
 /tanad.js
@@ -2985,6 +2983,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /td_ads_ckbeck.js
 /template/*/adm/*
 /template/*/ads/*
+/template/1/images/t2.gif
 /template/gg.js
 /template/hei//poster.php
 /template/hei/js/1.php
@@ -3227,7 +3226,6 @@ ubmcmm.baidustatic.com
 ~cityheaven.net###gg1
 ###gg300
 ###gg_url
-##.carousel-inner > a[href="/hth.html"]
 ###googleAD1
 ###googleAD2
 ###googleAD3
@@ -3645,7 +3643,7 @@ ubmcmm.baidustatic.com
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
-##.row > a[href="/hth.html"]
+##a[title][href="/hth.html"]
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
@@ -3659,7 +3657,6 @@ ubmcmm.baidustatic.com
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##.tab-content + .col-pd
 ##.table_ad
-##.text-center > a[href="/hth.html"]
 ##.textadlist
 ##.theme_custom_slidebox-ad-below
 ##.themepark_advertisement
@@ -4154,6 +4151,7 @@ ubmcmm.baidustatic.com
 ||1so8inqb.cn^
 ||2077.tech^
 ||21cnbm.com^
+||23539355.com^
 ||2i0da8u7.cn^
 ||2ppgsmeh.cn^
 ||32258228.com^
@@ -4163,6 +4161,7 @@ ubmcmm.baidustatic.com
 ||476bu131.cn^
 ||49468220.com^
 ||50039tk.com^
+||54askjdklm.xyz^
 ||551vip.xyz^
 ||5xokfmru.cn^
 ||6399tp.com^
@@ -4201,6 +4200,7 @@ ubmcmm.baidustatic.com
 ||666736.xyz^
 ||666737.xyz^
 ||666738.xyz^
+||666739.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -4213,6 +4213,7 @@ ubmcmm.baidustatic.com
 ||885842.com^
 ||8kuwoyi.xyz^
 ||91office.club^
+||9304hhh999.vip^
 ||998k.at^
 ||aaapvu.cn^
 ||abbc.cc^
@@ -4295,6 +4296,7 @@ ubmcmm.baidustatic.com
 ||congsons.uno^
 ||cosyroom.biz^
 ||cqdalqx.cn^
+||csfphpn.cn^
 ||csztzc.com^
 ||ctlmufv.cn^
 ||ctlweb.site^
@@ -4337,6 +4339,7 @@ ubmcmm.baidustatic.com
 ||exgzyg.cn^
 ||eyoupie.cn^
 ||f05.xyz^
+||fadacaitp.com^
 ||fangshan.us^
 ||fcluqg.cn^
 ||fdsousf.cn^
@@ -4392,6 +4395,7 @@ ubmcmm.baidustatic.com
 ||gnmunbir.rest^
 ||gnnunbis.rest^
 ||gnounbit.rest^
+||go2yd.com^
 ||goasdfa.top^
 ||gocyghol.vip^
 ||gogpix.cn^
@@ -4408,12 +4412,14 @@ ubmcmm.baidustatic.com
 ||gz7pz.com^
 ||h56hg7.site^
 ||hbtyk.top^
+||hdgzta.com^
 ||healthcare.ink^
 ||hecan123.top^
 ||helilong.xyz^
 ||hengbalp.fun^
 ||hfwzbp.cn^
 ||hfzq1600.com^
+||hhnlhl.cn^
 ||hhyyt.top^
 ||hkedve.cn^
 ||hlww66.site^
@@ -4445,6 +4451,7 @@ ubmcmm.baidustatic.com
 ||iirpvchv.cn^
 ||ikrweb.cn^
 ||ikvcxz.cn^
+||imgapp.top^
 ||inpnjq.cn^
 ||iongsoni.uno^
 ||ishoutu.net^
@@ -4520,6 +4527,7 @@ ubmcmm.baidustatic.com
 ||ltht.tech^
 ||luotuoma.center^
 ||lvjoe.pw^
+||lwfcipd.cn^
 ||lyggt.top^
 ||mbveryu.top^
 ||mbxsku.cn^
@@ -4539,6 +4547,7 @@ ubmcmm.baidustatic.com
 ||mifeng.buzz^
 ||miuspzkmn.bar^
 ||miytdie.cn^
+||mkqdj.cn^
 ||mmrrk.top^
 ||mnbvbrow.xyz^
 ||mnuy56.site^
@@ -4555,6 +4564,11 @@ ubmcmm.baidustatic.com
 ||mxwgt.cn^
 ||mywei.love^
 ||mzwfrp.cn^
+||n0211.com^
+||n0244.com^
+||n0255.com^
+||n0399.com^
+||n0488.com^
 ||n5725.com^
 ||n6579.com^
 ||ncoeqz.today^
@@ -4567,10 +4581,12 @@ ubmcmm.baidustatic.com
 ||nfwtime.com^
 ||nfwvip.com^
 ||nfzplus.com^
+||ngqph.cn^
 ||niunai.buzz^
 ||niuspykmn.bar^
 ||njamlya.top^
 ||nongchanlianhe.top^
+||nongsonx.uno^
 ||ntsibo.com^
 ||nttrr.top^
 ||ntyrt.top^
@@ -4594,6 +4610,7 @@ ubmcmm.baidustatic.com
 ||otownx.xyz^
 ||ouno.site^
 ||outrepublicanshelf.com^
+||oxneww.co^
 ||oyecntg.cn^
 ||oyybgs.cn^
 ||p4f52tll.cn^
@@ -4602,6 +4619,7 @@ ubmcmm.baidustatic.com
 ||papathp.cn^
 ||pbhdwm.cn^
 ||pcprgck.cn^
+||pdtqjd.cn^
 ||pfpmmxa.xyz^
 ||pfskzj.cn^
 ||piilvhtu.cn^
@@ -4613,7 +4631,9 @@ ubmcmm.baidustatic.com
 ||ppcwzry.cn^
 ||pqfgtp.cn^
 ||prjwqs.xyz^
+||propsad.com^
 ||prudence.love^
+||pstdzxu.cn^
 ||pxfeiws.cn^
 ||pymby.top^
 ||pzcrwml.cn^
@@ -4707,7 +4727,15 @@ ubmcmm.baidustatic.com
 ||tuiquanqiu.cn^
 ||twjsx.cn^
 ||txie.club^
+||u0056.com^
+||u0057.com^
+||u0062.com^
+||u0065.com^
+||u0067.com^
+||u0071.com^
+||u0081.com^
 ||u0083.com^
+||u5ree6.com^
 ||uekjbr.cn^
 ||ugkmihh.cn^
 ||uhyhdrh.cn^
@@ -4722,11 +4750,13 @@ ubmcmm.baidustatic.com
 ||uwdspsh.cn^
 ||uyzdcun.cn^
 ||v34ffs.site^
+||vbutjg.com^
 ||vdresaa.top^
 ||vdzzauf.cn^
 ||veadmin.com^
 ||vengbald.fun^
 ||very010.com^
+||vesdsp.com^
 ||vfcwij.cn^
 ||vhlret.cn^
 ||viswcnb.cn^
@@ -4837,46 +4867,32 @@ ubmcmm.baidustatic.com
 ||zlreqxe.xyz^
 ||zoujitea.hk^
 ||zsgwed.cn^
+||zujilife.online^
+||zuoai99hair.com^
 ||zvbhei.cn^
 ||zxiaochun.site^
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
-||csfphpn.cn^
-||nongsonx.uno^
-||pdtqjd.cn^
-||hhnlhl.cn^
-||lwfcipd.cn^
-||u0065.com^
-||n0399.com^
-||u0067.com^
-||mkqdj.cn^
-||u5ree6.com^
-||propsad.com^
-||zujilife.online^
-||pstdzxu.cn^
-||oxneww.co^
-||ngqph.cn^
-||54askjdklm.xyz^
-||666739.xyz^
-||u0062.com^
-||n0255.com^
-||n0244.com^
-||n0211.com^
-||23539355.com^
-||vbutjg.com^
-||vesdsp.com^
-||u0081.com^
-||u0057.com^
-||u0071.com^
-||fadacaitp.com^
-||9304hhh999.vip^
-||hdgzta.com^
-||zuoai99hair.com^
-||imgapp.top^
-||go2yd.com^
-||u0056.com^
-||n0488.com^
+||666742.xyz^
+||uengbalc.fun^
+||txnnhz.cn^
+||xujmcrc.cn^
+||shscva.cn^
+||xengbale.fun^
+||1dfsdfg.com^
+||shino3ur.xyz^
+||nngzfd.cn^
+||pvzdrx.cn^
+||rnajzp.cn^
+||ciems.xyz^
+||txfhfdd.cn^
+||zp1999.online^
+||ifczkst.cn^
+||juringupstage.com^
+||twuafbj.cn^
+||pjcdjtn.cn^
+||tzcfyre.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -11401,8 +11417,6 @@ ubmcmm.baidustatic.com
 ||zzxhx.com^
 ||zzxxli.club^
 ||zzyytt.top^
-||hdtu.oss-cn-beijing.aliyuncs.com^
-||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
 ||7xi9g1.com1.z0.glb.clouddn.com^
@@ -11428,6 +11442,7 @@ ubmcmm.baidustatic.com
 ||d3t3z4teexdk2r.cloudfront.net^
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
+||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||drmcmm.baidu.com^
 ||duiwai.baidu.com^
 ||eduad.baidu.com^
@@ -11440,6 +11455,7 @@ ubmcmm.baidustatic.com
 ||gd.189.cn^*.htm?SP=$third-party
 ||gg.miued.com^
 ||hao123union.baidu.com^$third-party
+||hdtu.oss-cn-beijing.aliyuncs.com^
 ||hiad.myweb.hinet.net^
 ||huazitupian.oss-cn-hongkong.aliyuncs.com^
 ||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
@@ -15689,6 +15705,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js
+||tongji-badu.cc/listplay.
 ||tonnn.com/promotion2/*.js
 ||toolfk.com/common/zfb.jpg
 ||topmba.mobi/ad/
@@ -16401,12 +16418,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||tongji-badu.cc/listplay.
 szxx.com.cn###A0
-quiet-quiet.com###fleft
-quiet-quiet.com###float
-mydrivers.com##.main_right_div[style="padding-top: 10px;"]
-2yjw.com##.orbui
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17002,6 +17015,8 @@ ofweek.com###fixedADWrap
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_daoliu
 comic.qq.com###fixed_right > div
 duba.com###fixedad
+quiet-quiet.com###fleft
+quiet-quiet.com###float
 e0838.com###float-bot
 hahamx.cn###float-left-ad
 speedpan.com###float-window
@@ -19743,6 +19758,7 @@ qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 cnbeta.com##.main_content_left > .mt5[style="text-align:center;"]
 m.07073.com##.main_content_tit + div
+mydrivers.com##.main_right_div[style="padding-top: 10px;"]
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 2345.com##.mainbg
@@ -19949,7 +19965,7 @@ read.qidian.com##.operation-wrap
 iqiyi.com##.oppo
 baidu.com##.optimus
 66huacai.com,kuaihou.com##.orange
-fuliba2021.net,itdog.cn##.orbui
+2yjw.com,fuliba2021.net,itdog.cn##.orbui
 fuliba2021.net,ypojie.com##.orbui-post-footer
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 jdwx.info,motobuy.com.tw##.other
@@ -21335,7 +21351,6 @@ baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-accoun
 baidu.com#?#.ec_wise_ad
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 benyixiwang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
-bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 api.so.lianmeng.360.cn,pos.baidu.com##body
@@ -22210,7 +22225,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/api/ad/*$domain=pinduoduo.com
@@ -24176,6 +24191,7 @@ smjb.net##div[style*="height: 50%"]
 ||wxtp.cdn.bcebos.com^$popup
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||xbiqugecc.com/bcc/
+||xsbiqugew.com^*.php
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
 ||ysxs8.vip/js/bd_top.js
@@ -24184,7 +24200,6 @@ smjb.net##div[style*="height: 50%"]
 ||zhenben.cc/2000/
 ||zhhbqg.com/rr/
 ||zhuishubox.com/js/after-rain.js
-||xsbiqugew.com^*.php
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
