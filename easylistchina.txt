@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /dYKxFH4fzIlW4hf/dij4A
-! Version: 202208041021
+! Checksum: +6tgviajsVo3md8ThjiiJA
+! Version: 202208042221
 ! Title: EasyList China
-! Last modified: 04 Aug 2022 10:21 UTC
+! Last modified: 04 Aug 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2562,6 +2562,12 @@ ubmcmm.baidustatic.com
 ||mengbalh.fun^
 ||bvfmdoo.cn^
 ||666745.xyz^
+||huang-biao.com^
+||qianduoduo.fit^
+||guanyou.ltd^
+||kwjfoeq.cn^
+||cncnails.net^
+||pgl7.cn^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14092,6 +14098,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||btschool.net/images/*/HDYGR
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com,bdimg.com#?#.l_post:-abp-has(>.fengchao-wrap-feed)
 duelmeta.com##.single-bottom-html
 szxx.com.cn###A1
 szxx.com.cn###A2
