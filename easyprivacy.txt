@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BfKqajZMIYFmU2Sw01IFsg
-! Version: 202208042221
+! Checksum: 4Xo9D8b2CHmJsDa/TISKZQ
+! Version: 202208051021
 ! Title: EasyPrivacy
-! Last modified: 04 Aug 2022 22:21 UTC
+! Last modified: 05 Aug 2022 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -578,6 +578,7 @@
 /analytics-plugin/*
 /analytics-post-
 /analytics-pusher/*
+/analytics-reporter/*
 /analytics-savebt?
 /analytics-scripts.
 /analytics-sdk.
@@ -3531,6 +3532,7 @@
 /processUserCookie?
 /prod-analytics.
 /prod-client-js-logger/*
+/prod-dataroid.
 /prod/log_preprocess
 /prod/ping?
 /prodtracker?
@@ -5177,6 +5179,7 @@
 /webtrekk_mediaTracking.
 /webtrekk_teaserTracking.
 /webtrends.min.
+/webtrends/webtrends.
 /WebTrendsAnalytics/*
 /wego.farmer.
 /weizenbock/dist/*
@@ -6732,6 +6735,7 @@ _mongo_stats/
 ||datamilk.app^$third-party
 ||datamind.ru^$third-party
 ||dataperforma.com^$third-party
+||dataroid.com^$third-party
 ||datasteam.io^$third-party
 ||dataunlocker.com^$third-party
 ||dataxpand.com^$third-party
@@ -7332,6 +7336,7 @@ _mongo_stats/
 ||jirafe.com^$third-party
 ||jixie.io^$third-party
 ||journity.com^$third-party
+||js-delivr.com^$third-party
 ||jsonip.com^$third-party
 ||jstracker.com^$third-party
 ||jump-time.net^$third-party
@@ -12249,6 +12254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
+||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
 ||fmnetwork.nl/tracking/
 ||fog.pixual.co^
@@ -13689,6 +13695,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d15kdaxu5c0hfw.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
+||d1733r3id7jrw5.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
 ||d196fri2z18sm.cloudfront.net^
@@ -13801,6 +13808,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn0qt3r0xannq.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
+||dnxlgencstz4.cloudfront.net^
 ||dp64mxip2za0c.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -15533,6 +15541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.mangadex.org^
 ||plausible.omgapi.org^
 ||player-telemetry.vimeo.com^
+||pm.dailykos.com^
 ||pocket-lint.com/media/pf304.js
 ||poki.com/observer/
 ||politico.com/resource/assets/js.min/video-tracking.
