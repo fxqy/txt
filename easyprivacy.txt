@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xwCCqUSAErdKt8bqBAju0g
-! Version: 202208091021
+! Checksum: X52ixAYES/DoTx8RlexGlQ
+! Version: 202208092221
 ! Title: EasyPrivacy
-! Last modified: 09 Aug 2022 10:21 UTC
+! Last modified: 09 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9883,6 +9883,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plotrabbit.com^
 ||pluckypocket.com^
 ||pluckytaste.com^
+||pocketfaucet.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
 ||pointlesspocket.com^
