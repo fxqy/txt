@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fOlWGWEZzVJaU93Z30WMlw
-! Version: 202208082221
+! Checksum: ljxsMMP0XncXtMe2TUq3Sg
+! Version: 202208091021
 ! Title: EasyList China
-! Last modified: 08 Aug 2022 22:21 UTC
+! Last modified: 09 Aug 2022 10:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2658,6 +2658,20 @@ ubmcmm.baidustatic.com
 ||zygxy.online^
 ||zyl520zh.online^
 ||zzycj.com^
+||ouliglsu.space^
+||youthlaw.name^
+||markson.hk^
+||xuliglsw.space^
+||shxr.technology^
+||herky.com.cn^
+||xcmno.xyz^
+||hgkzl.cn^
+||666752.xyz^
+||tuotianxia.top^
+||culiglsm.space^
+||rgbsl.com^
+||yuhuka.cc^
+||51grow.club^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14172,8 +14186,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ysapp20.xyz^*.gif
+||ysapp20.xyz/slf120.
+||csx365.com/v
+||csx365.com/h
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pornlulu.com##.container-fluid > .links
+baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>style)
+baidu.com,bdimg.com#?#.l_post:-abp-has(>style)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20418,6 +20439,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||olgame.tw^$generichide
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
+@@||eu4cn.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eu4cn.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org

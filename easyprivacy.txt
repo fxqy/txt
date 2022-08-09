@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IyL7tqqY2aMr++34yt/0Wg
-! Version: 202208082221
+! Checksum: xwCCqUSAErdKt8bqBAju0g
+! Version: 202208091021
 ! Title: EasyPrivacy
-! Last modified: 08 Aug 2022 22:21 UTC
+! Last modified: 09 Aug 2022 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -522,6 +522,7 @@
 /amp-analytics/*
 /amp-omniture-iframe?
 /amp-skimlinks-
+/amp-tealium?
 /amp.gif?
 /amp/?rid=
 /amp/analytics
@@ -7820,6 +7821,7 @@ _mongo_stats/
 ||pixelinteractivemedia.com^$third-party
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
+||pixels.ai^$third-party
 ||pixfuture.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
@@ -7851,7 +7853,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||postclickmarketing.com^$third-party
 ||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
@@ -12157,6 +12158,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
 ||flashstats.libsyn.com^
 ||flex.msn.com/mstag/
+||flipp.com/beacons
 ||flix360.com/beat?
 ||flixcar.com/*/tracking/
 ||flixcar.com/gvid
@@ -13098,6 +13100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||surveywall-api.survata.com^$third-party
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
+||svibeacon.onezapp.com^
 ||svnlnk.com/aff/trk.html
 ||swarm.video/track/
 ||swiftypecdn.com/cc.js$third-party
