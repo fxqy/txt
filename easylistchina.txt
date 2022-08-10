@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yjqo6arw3O93vFZUuF+tog
-! Version: 202208092221
+! Checksum: fK7OmzmeuiyjKW8edWMUvg
+! Version: 202208100111
 ! Title: EasyList China
-! Last modified: 09 Aug 2022 22:21 UTC
+! Last modified: 10 Aug 2022 01:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2672,6 +2672,13 @@ ubmcmm.baidustatic.com
 ||rgbsl.com^
 ||yuhuka.cc^
 ||51grow.club^
+||666753.xyz^
+||jwtkw2w.cn^
+||xiezhong.club^
+||xkzzyk.cn^
+||okfzopj.cn^
+||ruliglso.space^
+||8feichai.com^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
