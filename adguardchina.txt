@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 2FGEGUsTglMT9qSl5AZUTg
+! Checksum: shmM5B1ieyX6mX8C85BpMQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.63.83
-! TimeUpdated: 2022-08-10T16:31:01+00:00
+! Version: 2.0.63.89
+! TimeUpdated: 2022-08-11T10:34:57+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5038,6 +5038,21 @@ ubmcmm.baidustatic.com
 ||zygxy.online^
 ||zyl520zh.online^
 ||zzycj.com^
+||uorlsblg.cyou^
+||porlsbll.cyou^
+||oorlsblk.cyou^
+||ihvwak.cn^
+||lptssbs.cn^
+||lcmnyfk.cn^
+||yanping521.vip^
+||lingke02.xyz^
+||renfs.xyz^
+||666754.xyz^
+||xn--wxtr9fwyxk9co4hbua.xn--fiqs8s^
+||yijiachen.cn^
+||yumnxwvd.ink^
+||bbt114.cn^
+||zhouxingyu.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -15177,7 +15192,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
 ||phpstudyimg.com/all/xiaojieqiantie.gif
-||pianba.tv/api/*.js
 ||pianjicdn.com^*.php
 ||pianyuan.org/zfb.
 ||piaodown.com/xtm/
@@ -18951,7 +18965,7 @@ caixin.com##.course_box
 meishij.net##.cp_body_right
 baidu.com##.cpc-adv-container
 makepolo.com##.cpc_tgs
-pianba.tv##.cpcad
+pbpb.tv##.cpcad
 zuoye.baidu.com,zybang.com##.cpro
 docin.com##.cpro_mod
 qq.com##.cps_inner
@@ -21771,7 +21785,7 @@ secretmine.net##div[id^="secre-"]
 mjzj.com##div[id^="sidebar-top-carouse"]
 douyu.com##div[id^="sign_p_"]
 suizhoushi.com##div[id^="sznew_ad"]
-dmh8.com,pianba.tv##div[id^="test"]
+dmh8.com##div[id^="test"]
 ottawazine.com##div[id^="text-"]
 e0575.cn##div[id^="tid_"]
 baidu.com##div[id^="toast"]
