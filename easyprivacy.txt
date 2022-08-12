@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: sibS2oLVnTJkfqxwHhd+aQ
-! Version: 202208121021
+! Checksum: nGymOKPY4lAzruQZkiObgQ
+! Version: 202208122221
 ! Title: EasyPrivacy
-! Last modified: 12 Aug 2022 10:21 UTC
+! Last modified: 12 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5565,6 +5565,7 @@ cgi-bin/counter
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
 .southwest.com/r/$image
+.sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
 .spmailtechnol.com/q/$image
 .spmailtechnolo.com/q/$image
@@ -11674,6 +11675,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc.marfeelcache.com^
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
+||bdg.com/event?
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.cdnma.com^
@@ -11778,7 +11780,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||check.deadlinefunnel.com^$third-party
 ||checkout.com/logger/
 ||checkout.com/logging
-||chicoryapp.com^$third-party
 ||choicestream.com^*/pixel/
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.com^*/1x1.gif
@@ -14451,6 +14452,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.co.jp/js/retargeting.js
 ||zucks.net.zimg.jp^
 ! Korean
+||acelogger.heraldcorp.com^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
@@ -14458,6 +14460,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.cizion.com^
 ||log.mofa.go.kr^
 ||log.targetpush.co.kr^
+||logger.bzu.kr^
 ||logs-partners.coupang.com^
 ||megadata.co.kr^
 ||mtag.mman.kr^
