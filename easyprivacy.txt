@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LNzuhKllz7o3U9oqLxCbHg
-! Version: 202208142221
+! Checksum: ZLqOwpTSmUhJ3ClIOqOyZw
+! Version: 202208151021
 ! Title: EasyPrivacy
-! Last modified: 14 Aug 2022 22:21 UTC
+! Last modified: 15 Aug 2022 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -360,6 +360,7 @@
 /AdBlockDetection/scriptForGA.
 /AdCookies.js
 /AdCount/*
+/add_anonymous_identifier
 /add_page_view?
 /add_stats
 /add_utm_links.
@@ -3892,6 +3893,7 @@
 /SEMTracking.
 /send-impressions.html
 /sendLogs?cid
+/sensefuel/tracking/*
 /sensor.modern.ncl.
 /sensor/statistic?
 /sensorsdata-
@@ -6013,6 +6015,7 @@ _mongo_stats/
 ||lite-cdn.com^
 ||liveyield.com^
 ||lltrck.com^
+||lmepbq.com^
 ||loloclicks.biz^
 ||lsdm.co^
 ||maggieeatstheangel.com^
@@ -12166,6 +12169,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com^
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
+||fingerprinter-production.herokuapp.com^
 ||fiorenetwork.com/aparatvast/log.php?
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -13502,6 +13506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||widgeo.net/tracking.php?
 ||widget-pixels.outbrain.com^
 ||widget.quantcast.com^
+||widget.trustpilot.com/stats/
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
 ||widgetserver.com/metrics/
@@ -13846,6 +13851,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.praetor.im^$third-party
 ||andyhoppe.com/count/
 ||api.fanmatics.com/event
+||artemis-cdn.ocdn.eu^
 ||audimark.de/tracking/
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
@@ -14526,7 +14532,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terra.com.br/metrics/
 ||track.e7r.com.br^
 ||track.noddus.com^
+||tracker.tolvnow.com^
 ||trrsf.com.br/metrics/
+||visit-prod-us.occa.ocs.oraclecloud.com^
 ||webstats.sapo.pt^
 ||xl.pt/api/stats.ashx?
 ! Romanian
@@ -15086,6 +15094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||g.pcmag.com^
 ||ga.dx.com^
 ||ga.nsimg.net^
+||gadgets360.com/analytics.js
 ||gaiaonline.com/internal/mkt_t.php?
 ||gak.webtoons.com^
 ||gamedistribution.com/collect?
