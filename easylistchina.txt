@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KDYdYA+LBUauJxHg5QrMNA
-! Version: 202208152221
+! Checksum: wZ8lY7ecSaxz/xwMt8fzKQ
+! Version: 202208162221
 ! Title: EasyList China
-! Last modified: 15 Aug 2022 22:21 UTC
+! Last modified: 16 Aug 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -424,7 +424,6 @@
 /jdzjgg/*
 /jfjs/ad.js
 /jianshen8/images/plan_banner_
-/jquery.24_ef3e.
 /js/aa.htm$script
 /js/aahome.htm
 /js/AD_tv.js
@@ -1821,6 +1820,7 @@ ubmcmm.baidustatic.com
 ||1so8inqb.cn^
 ||2077.tech^
 ||21cnbm.com^
+||21fsdf.com^
 ||23539355.com^
 ||2i0da8u7.cn^
 ||2ppgsmeh.cn^
@@ -1890,6 +1890,7 @@ ubmcmm.baidustatic.com
 ||666756.xyz
 ||666757.xyz^
 ||666758.xyz^
+||666759.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -1909,6 +1910,7 @@ ubmcmm.baidustatic.com
 ||aaapvu.cn^
 ||abbc.cc^
 ||abbqhst.cn^
+||accentneglectporter.com^
 ||aeimmmj.cn^
 ||aengbalz.fun^
 ||afij001.xyz^
@@ -2047,6 +2049,7 @@ ubmcmm.baidustatic.com
 ||eengbalu.fun^
 ||eeoqsr.cn^
 ||efangcdn.com^
+||ehprnuo.cn^
 ||eiykmtb.cn^
 ||ekwibgl.cn^
 ||enrosr.cn^
@@ -2349,6 +2352,7 @@ ubmcmm.baidustatic.com
 ||mstgc.com^
 ||mthdqs.cn^
 ||mtk.pub^
+||mtqdji.cn^
 ||mtsoytt.cn^
 ||mttty.top^
 ||mudcxq.cn^
@@ -2468,6 +2472,7 @@ ubmcmm.baidustatic.com
 ||qnmvqdl.cn^
 ||qofvpbo.cn^
 ||qongsonw.uno^
+||qorlsbls.cyou^
 ||qqpwhge.cn^
 ||qqwxi.xyz^
 ||qrnmyn.cn^
@@ -2528,6 +2533,7 @@ ubmcmm.baidustatic.com
 ||shzq8888.com^
 ||sinaimges.com^
 ||siqwfy.cn^
+||sisafnib.space^
 ||sl6.top^
 ||slcgngo.cn^
 ||slieindy.top^
@@ -2551,18 +2557,21 @@ ubmcmm.baidustatic.com
 ||supanchor.co^
 ||supernfq.com^
 ||svlzckw.cn^
+||sxbexrv.cn^
 ||sxieqbu.cn^
 ||syb.hk^
 ||sym.zone^
 ||taiheian.top^
 ||taipingyang.hk^
 ||tangxiaodou.top^
+||tanyp.xyz^
 ||tdtxkvj.cn^
 ||teoopx.cn^
 ||tertqm.cn^
 ||tgfyq.cn^
 ||tianmenshan.top^
 ||tianning.xyz^
+||tierzf.xyz^
 ||tkngckh.cn^
 ||tmrhoe2.com^
 ||tongsone.uno^
@@ -2627,6 +2636,7 @@ ubmcmm.baidustatic.com
 ||vhlret.cn^
 ||viswcnb.cn^
 ||viuspbkmn.bar^
+||vivachina.co^
 ||vkoehsx.cn^
 ||vkygseu.cn^
 ||vofiamb.cn^
@@ -2671,6 +2681,7 @@ ubmcmm.baidustatic.com
 ||wtd57s7j.cn^
 ||wu3wl2g7.cn^
 ||wuliglsg.space^
+||wumnxwvg.ink^
 ||wurnbx.xyz^
 ||wwggnaw.xyz^
 ||wy123.fun^
@@ -2731,6 +2742,7 @@ ubmcmm.baidustatic.com
 ||yanyuda.xyz^
 ||yaomuzhubao.com^
 ||yctrs.top^
+||yd1s.top^
 ||ydhwhz.cn^
 ||yelmlrq.cn^
 ||yengbalf.fun^
@@ -2763,6 +2775,7 @@ ubmcmm.baidustatic.com
 ||yyttc.top^
 ||yyttm.top^
 ||yzsbpp.top^
+||zaiaplb.cn^
 ||zdhfff.xyz^
 ||zengbalg.fun^
 ||zgcydvu.cn^
@@ -2795,6 +2808,7 @@ ubmcmm.baidustatic.com
 ||zygxy.online^
 ||zyl520zh.online^
 ||zzycj.com^
+||zzyl.mobi^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -20770,12 +20784,13 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ||17ce.com^*_$image
 !#18comic.org
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-##.col-lg-3 > .well[data-height="250"][data-width="300"]
+##.col-lg-3 > .well[data-group][style]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
+##div[style="display: flex;justify-content: center;"] > .well[data-group][style]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
 ||18comic.*/static/resources/files/*0x
@@ -22313,7 +22328,7 @@ theporn.cc##.pt-70 > div[id]
 !#torrentkitty
 ##.nordvpn-popup + .sidebar-vpn
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
-/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+.tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 !#u
