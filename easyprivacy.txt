@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: O38mqItGeq/ssECn9r5o2w
-! Version: 202208162221
+! Checksum: 2ogbVk+NI8I6GQu9OsvVXA
+! Version: 202208172221
 ! Title: EasyPrivacy
-! Last modified: 16 Aug 2022 22:21 UTC
+! Last modified: 17 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3619,6 +3619,7 @@
 /pxls/*
 /pxlspamanalyst-
 /pxrc.php
+/pxtrack.
 /pxtrk.gif
 /pzn/proxysignature
 /qa-tracker.
@@ -6063,6 +6064,7 @@ _mongo_stats/
 ||rftslb.com^
 ||rkdms.com^
 ||rlcdn.com^
+||rtactivate.com^
 ||s-onetag.com^
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
@@ -7021,6 +7023,7 @@ _mongo_stats/
 ||freshplum.com^$third-party
 ||friendbuy.com^$third-party
 ||frodx.com^$third-party
+||froomle.com^$third-party
 ||fruitflan.com^$third-party
 ||fsd2.digital^$third-party
 ||fstats.xyz^$third-party
@@ -8002,6 +8005,7 @@ _mongo_stats/
 ||research-tool.com^$third-party
 ||researchintel.com^$third-party
 ||researchnow.co.uk^$third-party,domain=~dynata.com
+||resetdigital.co^$third-party
 ||reson8.com^$third-party
 ||responsetap.com^$third-party
 ||resulticks.com^$third-party
@@ -10205,6 +10209,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stupendousselection.com^
 ||stupendoussleet.com^$third-party
 ||stupendoussnow.com^
+||stupidscene.com^
 ||stupidsnake.com^
 ||subsequentsand.com^
 ||subsequentstew.com^
@@ -12946,6 +12951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
 ||sa.scorpion.co^
+||saasexch.com/bapi/fe/usd/report/
 ||sail-horizon.com/horizon/$third-party
 ||sailthru.com/img/$image,third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
@@ -26795,7 +26801,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
-@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk
 @@||herokuapp.com/api/analytics$domain=madeincookware.com
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hobbyking.com^*/gtm.js$script,~third-party
@@ -27142,7 +27148,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|unicef.de|vox.de
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
