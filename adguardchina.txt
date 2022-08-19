@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: G00dRd+LzGCouylDWe9Yiw
+! Checksum: wkTZwJRXvHLMyx+Fg1SWIQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.64.53
-! TimeUpdated: 2022-08-18T16:31:16+00:00
+! Version: 2.0.64.65
+! TimeUpdated: 2022-08-19T16:30:59+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -942,6 +942,8 @@ nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.di
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/uBlockOrigin/uAssets/issues/14023
+ulifestyle.com.hk#$#body { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127464
 book.qidian.com#$##j-topBgBox + .crumbs-nav.top-op { margin-bottom: 10px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125768
@@ -1082,6 +1084,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+price.com.hk###ad-inhouse-top
+yazhouse8.com##.banners
 hkcards.com###ad-slot-01
 hkcards.com##.row > .col-12 > #ad-slot
 7k7k.com##.bgLink
@@ -5200,6 +5204,25 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||qisafniy.space^
+||gkiyvbk.cn^
+||pyrrtep.cn^
+||666764.xyz^
+||vliao365.com^
+||hgjxp.cn^
+||whpfl.cn^
+||ct4s.top^
+||mnver.xyz^
+||bbzerk.cn^
+||oisafnik.space^
+||mumnxwvn.ink^
+||deeplearning.red^
+||gjeonh.cn^
+||gwzqbnh.cn^
+||neokbu.cn^
+||vwocvgr.cn^
+||zkqfrti.cn^
+##a[href*=".9377s.com/"]
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16711,6 +16734,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+cupfox.app###page-wrap > div:nth-child(3)
+2345.com##.cmp-game-new
+2345.com###kz
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18762,7 +18788,7 @@ xizi.com##.baner1
 hxnews.com##.banner-90
 csdn.net##.banner-ad-box
 cnool.net##.banner-ad001
-cupfox.app,zuoyesou.com##.banner-box
+zuoyesou.com##.banner-box
 bilibili.com##.banner-card
 iwan.baidu.com##.banner-container
 baidu.com##.banner-cover
@@ -23154,6 +23180,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
+/templates/frontend/airav/js/*.js$image
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 ##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
