@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rLkww+UmHf1Iu8+x2IiBUA
-! Version: 202208192221
+! Checksum: vffBR6MpphGv695hHYOm9g
+! Version: 202208202221
 ! Title: EasyList China
-! Last modified: 19 Aug 2022 22:21 UTC
+! Last modified: 20 Aug 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1761,6 +1761,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href*=".5250.cn"]
+##a[href*=".9377s.com/"]
 ##a[href*=".bj-lingan.com/"]
 ##a[href*=".blueyoko.com/"]
 ##a[href*=".buscandolaidea.com/"]
@@ -1807,6 +1808,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/kk80.cc"]
 ##img[src*=".hecan123.top"]
 ||001adafg.xyz^
+||004fsdljasd.xyz^
 ||04jhgyt.com^
 ||0577.la^
 ||06fgej.com^
@@ -1893,6 +1895,8 @@ ubmcmm.baidustatic.com
 ||666759.xyz^
 ||666762.xyz^
 ||666763.xyz^
+||666764.xyz^
+||666765.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -1958,6 +1962,7 @@ ubmcmm.baidustatic.com
 ||badmniop.top^
 ||baishui.me^
 ||bbt114.cn^
+||bbzerk.cn^
 ||bdzkrl.cn^
 ||bengbaly.fun^
 ||beolit.cn^
@@ -2022,6 +2027,8 @@ ubmcmm.baidustatic.com
 ||cruiseeagle.hk^
 ||csfphpn.cn^
 ||csztzc.com^
+||ct4s.top^
+||ctijbeb.cn^
 ||ctlmufv.cn^
 ||ctlweb.site^
 ||culiglsm.space^
@@ -2037,6 +2044,7 @@ ubmcmm.baidustatic.com
 ||danaoren.shop^
 ||dawangde.me^
 ||dcfh7vk.cn^
+||deeplearning.red^
 ||dengbalt.fun^
 ||dfsvhv88.com^
 ||dhrfnyw.xyz^
@@ -2090,6 +2098,7 @@ ubmcmm.baidustatic.com
 ||fhfgg.com^
 ||fhsiqk.xyz^
 ||fjlpyz.cn^
+||flsfzr.cn^
 ||fmzxing.pw^
 ||freebuy.top^
 ||fuigixk.cn^
@@ -2119,8 +2128,11 @@ ubmcmm.baidustatic.com
 ||gfvip09at.com^
 ||ggkkl.top^
 ||ghhtt.top^
+||girklr.cn^
 ||gitwnd.cn^
+||gjeonh.cn^
 ||gkenql.cn^
+||gkiyvbk.cn^
 ||globalso.biz^
 ||gnaunbiu.rest^
 ||gnbunbiv.rest^
@@ -2154,6 +2166,7 @@ ubmcmm.baidustatic.com
 ||guojinfeng123.top^
 ||gvofl.com^
 ||gwmrb.cn^
+||gwzqbnh.cn^
 ||gxzhshop.com^
 ||gylbh.cn^
 ||gytty.top^
@@ -2170,6 +2183,7 @@ ubmcmm.baidustatic.com
 ||herky.com.cn^
 ||hfwzbp.cn^
 ||hfzq1600.com^
+||hgjxp.cn^
 ||hgkzl.cn^
 ||hhnlhl.cn^
 ||hhyyt.top^
@@ -2222,7 +2236,9 @@ ubmcmm.baidustatic.com
 ||iongsoni.uno^
 ||iorlsblj.cyou^
 ||iotewq.xyz^
+||ioxjce.xyz^
 ||ishoutu.net^
+||it5s.top^
 ||itbwq.xyz^
 ||itnxxa.xyz^
 ||iuliglsh.space^
@@ -2314,6 +2330,7 @@ ubmcmm.baidustatic.com
 ||lingke02.xyz^
 ||lingke03.top^
 ||lingke05.top^
+||lisafnil.space^
 ||liutt.online^
 ||liuxiangxiang.top^
 ||liuzhen.love^
@@ -2331,6 +2348,7 @@ ubmcmm.baidustatic.com
 ||luotuoma.center^
 ||lvjoe.pw^
 ||lwfcipd.cn^
+||lwtlock.cn^
 ||lyggt.top^
 ||ma3s.top^
 ||maaijun.top^
@@ -2362,6 +2380,7 @@ ubmcmm.baidustatic.com
 ||mmrrk.top^
 ||mnbvbrow.xyz^
 ||mnuy56.site^
+||mnver.xyz^
 ||mnvrwq.xyz^
 ||mongsonv.uno^
 ||morlsbli.cyou^
@@ -2376,6 +2395,7 @@ ubmcmm.baidustatic.com
 ||mttty.top^
 ||mudcxq.cn^
 ||muliglsn.space^
+||mumnxwvn.ink^
 ||musan.love^
 ||mxlwmp.cn^
 ||mxowrwb.cn^
@@ -2391,6 +2411,7 @@ ubmcmm.baidustatic.com
 ||n6579.com^
 ||ncoeqz.today^
 ||neno.ink^
+||neokbu.cn^
 ||neornad.cn^
 ||nfhtech.com^
 ||nfpplus.com^
@@ -2411,6 +2432,7 @@ ubmcmm.baidustatic.com
 ||ntsibo.com^
 ||nttrr.top^
 ||ntyrt.top^
+||numnxwvv.ink^
 ||nuslzkb.cn^
 ||nvqhbij.cn^
 ||nvzffl.cn^
@@ -2422,6 +2444,7 @@ ubmcmm.baidustatic.com
 ||ofooe.cn^
 ||ogcyshr.cn^
 ||oghdnp.cn^
+||oisafnik.space^
 ||oiuqwppcsdf.com^
 ||oizn.club^
 ||ojgtbs.cn^
@@ -2463,6 +2486,7 @@ ubmcmm.baidustatic.com
 ||pnirrb.cn^
 ||pnrqz.xyz^
 ||pnslejs.cn^
+||polflq.cn^
 ||pongsone.uno^
 ||porlsbll.cyou^
 ||ppcwzry.cn^
@@ -2474,10 +2498,13 @@ ubmcmm.baidustatic.com
 ||pvzdrx.cn^
 ||pwqtkap.cn^
 ||pxfeiws.cn^
+||pygone.top^
 ||pymby.top^
+||pyrrtep.cn^
 ||pzcrwml.cn^
 ||pznqjhh.life^
 ||qbc1.cn^
+||qbgrmsk.cn^
 ||qcyunnan.cn^
 ||qdxsodq.cn^
 ||qfgall.cn^
@@ -2491,6 +2518,7 @@ ubmcmm.baidustatic.com
 ||qingtian.love^
 ||qinhang.pro^
 ||qiqqh.cn^
+||qisafniy.space^
 ||qiutian.buzz^
 ||qj86.cn^
 ||qjxys.cn^
@@ -2592,10 +2620,12 @@ ubmcmm.baidustatic.com
 ||sy2s.top^
 ||syb.hk^
 ||sym.zone^
+||syr66.com.cn^
 ||taiheian.top^
 ||taipingyang.hk^
 ||tangxiaodou.top^
 ||tanyp.xyz^
+||taoxiehui.cn^
 ||tdtxkvj.cn^
 ||teoopx.cn^
 ||tertqm.cn^
@@ -2603,12 +2633,14 @@ ubmcmm.baidustatic.com
 ||tianmenshan.top^
 ||tianning.xyz^
 ||tierzf.xyz^
+||tisafnii.space^
 ||tkngckh.cn^
 ||tmrhoe2.com^
 ||tongsone.uno^
 ||topnfj.com^
 ||topnfq.com^
 ||topnfw.com^
+||trdzgpx.cn^
 ||trznrug.cn^
 ||tt14q0p2.cn^
 ||ttwwy.top^
@@ -2630,6 +2662,7 @@ ubmcmm.baidustatic.com
 ||u0067.com^
 ||u0071.com^
 ||u0075.com^
+||u0078.com^
 ||u0081.com^
 ||u0083.com^
 ||u5ree6.com^
@@ -2666,11 +2699,13 @@ ubmcmm.baidustatic.com
 ||vflzdrv.cn^
 ||vgrovkb.cn^
 ||vhlret.cn^
+||visualtravel.info^
 ||viswcnb.cn^
 ||viuspbkmn.bar^
 ||vivachina.co^
 ||vkoehsx.cn^
 ||vkygseu.cn^
+||vliao365.com^
 ||vofiamb.cn^
 ||voihkjd.cn^
 ||vongsond.uno^
@@ -2682,6 +2717,7 @@ ubmcmm.baidustatic.com
 ||vuliglsf.space^
 ||vumnxwvf.ink^
 ||vvpingtai.com^
+||vwocvgr.cn^
 ||wangduoduo.pw^
 ||wangjunyan.xyz^
 ||wanyi.pw^
@@ -2692,6 +2728,7 @@ ubmcmm.baidustatic.com
 ||wephone.club^
 ||wfkspcs.cn^
 ||whoican.love^
+||whpfl.cn^
 ||wisafnie.space^
 ||wiuspckmn.bar^
 ||wlhcb.cn^
@@ -2709,6 +2746,7 @@ ubmcmm.baidustatic.com
 ||wqprtyg.cn^
 ||wqyloitd.cn^
 ||wslits.cn^
+||wsthcgl.cn^
 ||wsuxjqr.cn^
 ||wsyqkmk.cn^
 ||wtd57s7j.cn^
@@ -2793,6 +2831,7 @@ ubmcmm.baidustatic.com
 ||ynyyczx.cn^
 ||yoqrbof.cn^
 ||youthlaw.name^
+||yrqwnc.cn^
 ||yrrcc.top^
 ||yswphit.cn^
 ||yuanan.love^
@@ -2824,6 +2863,7 @@ ubmcmm.baidustatic.com
 ||ziyuanyinhang.wang^
 ||zjgjzzy.online^
 ||zkgvsoo.cn^
+||zkqfrti.cn^
 ||zlgame.top^
 ||zlreqxe.xyz^
 ||zorlsbln.cyou^
@@ -2843,25 +2883,6 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
-||qisafniy.space^
-||gkiyvbk.cn^
-||pyrrtep.cn^
-||666764.xyz^
-||vliao365.com^
-||hgjxp.cn^
-||whpfl.cn^
-||ct4s.top^
-||mnver.xyz^
-||bbzerk.cn^
-||oisafnik.space^
-||mumnxwvn.ink^
-||deeplearning.red^
-||gjeonh.cn^
-||gwzqbnh.cn^
-||neokbu.cn^
-||vwocvgr.cn^
-||zkqfrti.cn^
-##a[href*=".9377s.com/"]
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14384,9 +14405,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-cupfox.app###page-wrap > div:nth-child(3)
-2345.com##.cmp-game-new
-2345.com###kz
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15168,6 +15186,7 @@ mzyz.com###idTransformView2
 pp.ua###id_ad_image
 nownews.com###idle-layer
 my0511.com###idxtelecom
+cccpan.com,ys168.com,ysepan.com###idzdy1
 tingroom.com###ifram_563
 hao.360.cn###iguess
 qq.com###image_ad
@@ -15241,6 +15260,7 @@ pcstore.com.tw###keyad-right
 baidu.com###knowledge-answer
 csdn.net###kp_box_476
 csdn.net###kp_box_58
+2345.com###kz
 axios-js.com###lagou-vip
 hao.360.com###large2small
 csdn.net###layerd
@@ -15400,6 +15420,7 @@ lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
 manhua.weibo.com###p-nav-fix + .p-area.w980
 gujiufzw.com###page-list > ul > .top
+cupfox.app###page-wrap > div:nth-child(3)
 image.baidu.com###pageLayoutTipWindow
 xizi.com###pageRight-loop
 rising.cn###pageflip
@@ -15847,7 +15868,6 @@ weather.com.cn###ytc
 eastday.com###yxxf_area
 iqiyi.com###zbsp
 weather.com.cn###zdl
-cccpan.com,ys168.com,ysepan.com###zdy_wz0
 gzmama.com###zone_banner_1_new
 gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
@@ -16698,6 +16718,7 @@ chaomi.cc##.cm-ads
 so.com##.cmclk
 image.so.com##.cmitem
 2345.com##.cmoe-nxh-dx
+2345.com##.cmp-game-new
 bbs.xmfish.com##.cmp_v
 91.com,hao123.com##.cn_banner
 hao123.com##.cn_tips
@@ -17980,7 +18001,6 @@ fortunechina.com##.pinglunmask
 fortunechina.com##.pinglunwindow
 baike.baidu.com##.pinzhuanWrap
 so.com##.placeholder-default
-live.bilibili.com##.plat-section-outter-box[style="height:180px;min-width:1280px"]
 chinaz.com##.plate-layout
 baofeng.com##.play-ads
 silisili.in##.play_ad
@@ -20837,11 +20857,11 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
-/templates/frontend/airav/js/*.js$image
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 ##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
+/templates/frontend/airav/js/*.gif$image
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
