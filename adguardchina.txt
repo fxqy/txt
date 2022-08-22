@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: bKCeURpJhlrQa5WXl060DA
+! Checksum: iAI2dDsU8XAtfcOAlX1p8g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.64.88
-! TimeUpdated: 2022-08-21T16:30:59+00:00
+! Version: 2.0.65.0
+! TimeUpdated: 2022-08-22T18:31:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1089,6 +1089,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||guangzhoubingqing.com/88888.jpg
+||18comic.vip/templates/frontend/airav/js/92_81c7.js
+dmxq1.com##.content > div[id] > a[id][target="_blank"] > img
+||t2.picb.cc^$image,domain=dmxq1.com
+||t2.picb.cc/2022/08/07/6rpPj1.jpg
+||t2.picb.cc/2022/08/07/6rpRKd.jpg
 price.com.hk###ad-inhouse-top
 yazhouse8.com##.banners
 hkcards.com###ad-slot-01
@@ -2131,7 +2137,7 @@ boylove.cc##.reader-home-swiper
 emome.net##.source_advertising
 18comic.*##.top-a2db
 18comic.*##.modal-body > ul.pop-list
-18comic.*##.bot-per
+18comic.*##body .bot-per
 ||ad.digitimes.com.tw/*_bigbutton.jpg
 ||alicdn2.mangafunc.fun^*/ads/
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -4266,6 +4272,7 @@ ubmcmm.baidustatic.com
 ||666764.xyz^
 ||666765.xyz^
 ||666767.xyz^
+||666769.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -4294,6 +4301,7 @@ ubmcmm.baidustatic.com
 ||ahfy.me^
 ||ahh6.cn^
 ||aihkjz.cn^
+||aimtxb.cn^
 ||aizhigu.tv^
 ||ajxukah.cn^
 ||ajzs.xyz^
@@ -4396,6 +4404,7 @@ ubmcmm.baidustatic.com
 ||congsons.uno^
 ||corlsblt.cyou^
 ||cosyroom.biz^
+||cqcvjzf.cn^
 ||cqdalqx.cn^
 ||cruiseeagle.hk^
 ||csfphpn.cn^
@@ -4426,6 +4435,7 @@ ubmcmm.baidustatic.com
 ||dkxobcs.cn^
 ||dl66d.com^
 ||dokawd.cn^
+||dongdong.world^
 ||dongsonn.uno^
 ||dongtian.buzz^
 ||doremi.ink^
@@ -4550,6 +4560,7 @@ ubmcmm.baidustatic.com
 ||h56hg7.site^
 ||hbtyk.top^
 ||hcbmq.cn^
+||hcegdxb.cn^
 ||hdgzta.com^
 ||healthcare.ink^
 ||hecan123.top^
@@ -4752,6 +4763,7 @@ ubmcmm.baidustatic.com
 ||mgtcw.top^
 ||miatip.cn^
 ||mifeng.buzz^
+||misafnix.space^
 ||miuspzkmn.bar^
 ||miytdie.cn^
 ||mkqdj.cn^
@@ -4773,6 +4785,7 @@ ubmcmm.baidustatic.com
 ||mtsoytt.cn^
 ||mttty.top^
 ||mudcxq.cn^
+||mukjozy.cn^
 ||muliglsn.space^
 ||mumnxwvn.ink^
 ||musan.love^
@@ -4822,6 +4835,7 @@ ubmcmm.baidustatic.com
 ||obnpazq.cn^
 ||ofooe.cn^
 ||ogcyshr.cn^
+||ogeyut.cn^
 ||oghdnp.cn^
 ||oisafnik.space^
 ||oiuqwppcsdf.com^
@@ -4833,10 +4847,12 @@ ubmcmm.baidustatic.com
 ||olwsx.com^
 ||onekeyedu.com^
 ||oorlsblk.cyou^
+||op7s.top^
 ||opxnwz.shop^
 ||oqfdan.cn^
 ||orientalocean.mobi^
 ||oslixj.cn^
+||otjedg.xyz^
 ||otneq.today^
 ||otownx.xyz^
 ||ouliglsu.space^
@@ -4854,6 +4870,7 @@ ubmcmm.baidustatic.com
 ||pbhdwm.cn^
 ||pcprgck.cn^
 ||pdtqjd.cn^
+||peigbv.cn^
 ||pfpmmxa.xyz^
 ||pfskzj.cn^
 ||pgl7.cn^
@@ -4865,6 +4882,7 @@ ubmcmm.baidustatic.com
 ||pnirrb.cn^
 ||pnrqz.xyz^
 ||pnslejs.cn^
+||poereawer.top^
 ||polflq.cn^
 ||pongsone.uno^
 ||porlsbll.cyou^
@@ -4992,6 +5010,7 @@ ubmcmm.baidustatic.com
 ||sttrr.top^
 ||sueed.love^
 ||suliglsr.space^
+||sumnxwvr.ink^
 ||supanchor.co^
 ||supernfq.com^
 ||svlzckw.cn^
@@ -5052,6 +5071,7 @@ ubmcmm.baidustatic.com
 ||uengbalc.fun^
 ||ugkmihh.cn^
 ||uhyhdrh.cn^
+||uibtxv.cn^
 ||uisafnit.space^
 ||uiuspakmn.bar^
 ||um5xcgngmart.xyz^
@@ -5067,6 +5087,7 @@ ubmcmm.baidustatic.com
 ||uu2e.com^
 ||uu99k.com^
 ||uwdspsh.cn^
+||uxngqd.cn^
 ||uyzdcun.cn^
 ||v34ffs.site^
 ||vbutjg.com^
@@ -5105,6 +5126,7 @@ ubmcmm.baidustatic.com
 ||wangjunyan.xyz^
 ||wanyi.pw^
 ||wchh.online^
+||wctcudh.cn^
 ||weicang.me^
 ||weicun.xyz^
 ||weimeiwangluo.site^
@@ -5251,6 +5273,7 @@ ubmcmm.baidustatic.com
 ||zlgame.top^
 ||zlmbnh.cn^
 ||zlreqxe.xyz^
+||zlujomk.cn^
 ||zorlsbln.cyou^
 ||zoujitea.hk^
 ||zovgdpj.cn^
@@ -13386,6 +13409,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdgfa.ifeng.com^
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
+||cdn.haokongbu1.com^*.js
 ||cdn.imvkan.com^
 ||cdn.shdsp.net/ad
 ||cdn.wo.cc/wo.js
@@ -22597,8 +22621,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
+@@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
-@@_cpm_ads_$domain=52xkdy.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
@@ -23230,14 +23254,12 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
-/media/users/*.js$image
-/templates/frontend/airav/js/*$image
-://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
+||18comic.*/media/users/
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
