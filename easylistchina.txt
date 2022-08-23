@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OpYYWTHGRSSGMoGLN1yZpQ
-! Version: 202208231041
+! Checksum: wqlUK932q8H+7gB9PRrOLg
+! Version: 202208232221
 ! Title: EasyList China
-! Last modified: 23 Aug 2022 10:41 UTC
+! Last modified: 23 Aug 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2935,6 +2935,10 @@ ubmcmm.baidustatic.com
 ||ywbmed.cn^
 ||ylc.ink^
 ||orysogsik.uno^
+||clzw.cyou^
+##a[href*=".topnfb.com/"]
+##a[href*=".ieeod0.com/"]
+||745c.cn^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14460,6 +14464,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.abstergo
 btnull.org###ly
 litu100.xyz##.push-bottom
 litu100.xyz##.push-top
@@ -20925,7 +20930,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
-||18comic.*/media/users/
+||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: zsNW9EwelU2WubzX6JI7Rg
+! Checksum: lGrJLu2Rmaht23e8bRTeJQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.65.4
-! TimeUpdated: 2022-08-23T06:31:02+00:00
+! Version: 2.0.65.10
+! TimeUpdated: 2022-08-23T18:31:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -368,6 +368,11 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127739
+dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##.popup-tips
+dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##body > .shortcuts-mobile-overlay
+dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com#$#body .player-rm > a[target="_blank"] { display: block !important; position: absolute !important; left: -3000px !important; }
+dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com#$#body a[href*=".umtrack.com/"] { display: block !important; position: absolute !important; left: -3000px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127451
 hkcards.com#@##ad-slot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124442
@@ -1089,6 +1094,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+mcbbs.net##img[width="462"][height="78"]
+appledaily.com.tw##.THISISANADHERE
+dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com###player_pic
 ||guangzhoubingqing.com/88888.jpg
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 dmxq1.com##.content > div[id] > a[id][target="_blank"] > img
@@ -2220,7 +2228,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26318
 ! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
 !---------------------------------------------------------------------------!
-!------ White list. Fixing filtration errors (false-positive)---------------!
+!-------------- Fixing filtration errors (false-positive) ------------------!
 !---------------------------------------------------------------------------!
 !
 ! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
@@ -5306,6 +5314,11 @@ ubmcmm.baidustatic.com
 ||8910.la^
 ||ywbmed.cn^
 ||ylc.ink^
+||orysogsik.uno^
+||clzw.cyou^
+##a[href*=".topnfb.com/"]
+##a[href*=".ieeod0.com/"]
+||745c.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16820,6 +16833,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+3dmgame.com##.abstergo
 btnull.org###ly
 litu100.xyz##.push-bottom
 litu100.xyz##.push-top
@@ -23278,7 +23292,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
-||18comic.*/media/users/
+||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
