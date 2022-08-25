@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4IU+xrguReFRnI0CswftxA
-! Version: 202208242221
+! Checksum: 5xnY5OWisyIB4VTR+5ZqRQ
+! Version: 202208252221
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2022 22:21 UTC
+! Last modified: 25 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2430,6 +2430,7 @@
 /imp?imp_key=
 /imp?reqid=
 /imp?sid=
+/imp_-_pixel.
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
@@ -2650,7 +2651,8 @@
 /kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
-/koko-analytics/*$domain=~kokoanalytics.com
+/koko-analytics-
+/koko-analytics/*/script.js
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -5313,6 +5315,7 @@
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
 /yandex-metrika.js
+/YandexMetric.
 /yastat.js
 /ybn_pixel/*
 /yell-analytics-
@@ -6595,6 +6598,7 @@ _mongo_stats/
 ||cityadstrack.com^$third-party
 ||clarity.ms^$third-party
 ||claritytag.com^$third-party
+||clarium.io^$third-party
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
 ||clearbitjs.com^$third-party
@@ -8812,6 +8816,9 @@ _mongo_stats/
 $ping,third-party
 ! https://www.opensubtitles.org/
 $third-party,xmlhttprequest,domain=opensubtitles.org
+! Oracle
+||addthis.com^$third-party
+||addthiscdn.com^$domain=~addthis.com
 ! revprotect
 ||pphwrevr.com^$third-party
 ||protectcrev.com^$third-party
@@ -14795,6 +14802,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockeronstape.me/stat/
 ||adblockeronstreamtape.me/stat/
 ||adblockeronstreamtape.xyz/stat/
 ||adblockstreamtape.art/stat/
@@ -15002,6 +15010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
+||darkreader.org/elements/stats.js
 ||data.guide.photobucket.com^
 ||data.webullfintech.com/event/
 ||data.younow.com^
@@ -15407,6 +15416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||optimize-stats.voxmedia.com^
 ||optimizely.com/js/geo.js
 ||oracle.com/visitorinfo/
+||oracleimg.com^*/metrics/
 ||outbound.io/v2/identify
 ||outbound.io/v2/track
 ||overstock.com/analytics/
@@ -25743,7 +25753,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wstats.gameblog.fr^
 ||wt.oscaro.com^
 ||yandex.fr/clck/click
-! Indian
+||zone-telechargement.al/analytics/
 ! nextinpact
 ||edmi.nextinpact.com^
 ||nextinpact.com/bundles/mtm
@@ -25752,12 +25762,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||zam.nextinpact.com^
-||zone-telechargement.al/analytics/
 ! Arabic
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ||tracking.alarabiya.net^
-! Bulgarian
+! Bosnian
+||insight.olx.ba^
 ! Chinese
 ||104.com.tw/log/
 ||17173.com/ping.js
@@ -26926,6 +26936,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
+@@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
@@ -27449,6 +27460,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
+@@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
