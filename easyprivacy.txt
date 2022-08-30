@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CEq9CLmOVgn/T07RCp+Qgw
-! Version: 202208292221
+! Checksum: hWwJG9rZNiPZ8dtFL3SlAw
+! Version: 202208302221
 ! Title: EasyPrivacy
-! Last modified: 29 Aug 2022 22:21 UTC
+! Last modified: 30 Aug 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6417,6 +6417,7 @@ _mongo_stats/
 ||awfonts.com^$script,third-party
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
+||axept.io^$third-party
 ||axf8.net^$third-party
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
@@ -10666,6 +10667,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t4ft.de^$third-party
 ||tda.io^$third-party
 ||technical-service.net^$third-party
+||tedo-stats.de^$third-party
 ||tisoomi-services.com^$third-party
 ||tophits4u.de^$third-party
 ||toplist100.org^$third-party
@@ -14984,6 +14986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||codecademy.com/analytics/
 ||codecguide.com/stats.js
 ||collect.alipay.com^
+||collect.asics.com^
 ||collect.banggood.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
@@ -27551,6 +27554,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=sony.jp
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||type.jp/common/js/clicktag.js
+@@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
