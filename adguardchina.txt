@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Q5yzBORREvhG3JsNdQYR0A
+! Checksum: 7JDKlqmwVcVJN1adMcemSQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.65.71
-! TimeUpdated: 2022-08-30T15:31:06+00:00
+! Version: 2.0.65.80
+! TimeUpdated: 2022-08-31T16:31:02+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4195,8 +4195,10 @@ ubmcmm.baidustatic.com
 ##a[href*=".xyanovo.com/"]
 ##a[href*="/6298crsyzh.com:"]
 ##a[href*="/8616.tech"]
+##a[href*="/9716t.com"]
 ##a[href*="/akmh047.vip"]
 ##a[href*="/ihezu.run"]
+##a[href*="/kanxiuren.com/?"]
 ##a[href*="/kk80.cc"]
 ##a[href*="/tv688.cc"]
 ##a[href*="/uu5566.cn.com/"]
@@ -4211,6 +4213,7 @@ ubmcmm.baidustatic.com
 ||0577.la^
 ||06fgej.com^
 ||103.21.91.144^
+||1118cctv.ltd^
 ||1527ego.com^
 ||15h3na0.xyz^
 ||17chk.vip^
@@ -4228,6 +4231,7 @@ ubmcmm.baidustatic.com
 ||32258228.com^
 ||354664.top^
 ||3dcn.me^
+||3ek9.cn^
 ||3fddkj.com^
 ||3xhmhct.cn^
 ||476bu131.cn^
@@ -4244,6 +4248,7 @@ ubmcmm.baidustatic.com
 ||5htftu.com^
 ||5xokfmru.cn^
 ||6399tp.com^
+||65211351892.com^
 ||666624.xyz^
 ||666625.xyz^
 ||666627.xyz^
@@ -4307,6 +4312,8 @@ ubmcmm.baidustatic.com
 ||666775.xyz^
 ||666776.xyz^
 ||666779.xyz^
+||666782.xyz^
+||666783.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||745c.cn^
@@ -4325,6 +4332,7 @@ ubmcmm.baidustatic.com
 ||91office.club^
 ||9304hhh999.vip^
 ||93533557591.com^
+||94pr.cn^
 ||998k.at^
 ||99zuowen.com^
 ||aaapvu.cn^
@@ -4339,6 +4347,7 @@ ubmcmm.baidustatic.com
 ||ahh6.cn^
 ||ahp28.site^
 ||ahp29.site^
+||ahp31.site^
 ||aihkjz.cn^
 ||aimtxb.cn^
 ||aizhigu.tv^
@@ -4398,6 +4407,7 @@ ubmcmm.baidustatic.com
 ||bobdz.com^
 ||borlsbla.cyou^
 ||bpnhgan.cn^
+||brysogsiv.uno^
 ||bsytkas.cn^
 ||btaawy.cn^
 ||bufan.space^
@@ -4411,6 +4421,7 @@ ubmcmm.baidustatic.com
 ||byznb.xyz^
 ||c60china.com^
 ||caimei.me^
+||caiyeml.pw^
 ||cattleman.cn^
 ||cccf.store^
 ||cckb.online^
@@ -4508,6 +4519,7 @@ ubmcmm.baidustatic.com
 ||enrosr.cn^
 ||eofemms.cn^
 ||eoyqzzk.cn^
+||ep6a.top^
 ||eprxasz.cn^
 ||eqj2a3bx.cn^
 ||ertdsi.cc^
@@ -4517,6 +4529,7 @@ ubmcmm.baidustatic.com
 ||eumnxwvp.ink^
 ||euqxtuj.cn^
 ||eurostatsafetyshoes.tw^
+||ewogldw.top^
 ||exeqzb.cn^
 ||exgzyg.cn^
 ||eyaldw.cn^
@@ -4581,6 +4594,7 @@ ubmcmm.baidustatic.com
 ||gjeonh.cn^
 ||gkenql.cn^
 ||gkiyvbk.cn^
+||gkspde.cn^
 ||globalso.biz^
 ||gnaunbiu.rest^
 ||gnbunbiv.rest^
@@ -4704,6 +4718,7 @@ ubmcmm.baidustatic.com
 ||iumnxwvh.ink^
 ||iusnajah.cn^
 ||iuyuwh.cn^
+||ixcgvh.cn^
 ||ixihet.cn^
 ||iyuedu.cn.com^
 ||izzcwww7.live^
@@ -4729,6 +4744,7 @@ ubmcmm.baidustatic.com
 ||jmking.cn^
 ||jphfqq.cn^
 ||jpnbhyba.xyz^
+||jqdldk.cn^
 ||jquery-cdn.cc^
 ||jrnrpma.cn^
 ||jrysogsia.uno^
@@ -4781,6 +4797,7 @@ ubmcmm.baidustatic.com
 ||kwdgudw.cn^
 ||kwjfoeq.cn^
 ||kwogldd.top^
+||kxlidd.ink^
 ||kzecc.com^
 ||l14.xyz^
 ||l45.xyz^
@@ -4819,6 +4836,7 @@ ubmcmm.baidustatic.com
 ||lpjms.cn^
 ||lptssbs.cn^
 ||lqqrvip.cn^
+||lrysogsil.uno^
 ||ltht.tech^
 ||luotuoma.center^
 ||lvjoe.pw^
@@ -4868,6 +4886,7 @@ ubmcmm.baidustatic.com
 ||mstgc.com^
 ||mthdqs.cn^
 ||mtk.pub^
+||mtlsari.cn^
 ||mtqdji.cn^
 ||mtsoytt.cn^
 ||mttty.top^
@@ -4879,6 +4898,7 @@ ubmcmm.baidustatic.com
 ||mxlwmp.cn^
 ||mxowrwb.cn^
 ||mxwgt.cn^
+||my1688.shop^
 ||mywei.love^
 ||mzwfrp.cn^
 ||n0211.com^
@@ -4971,6 +4991,7 @@ ubmcmm.baidustatic.com
 ||piilvhtu.cn^
 ||pingtaiba.asia^
 ||pjcdjtn.cn^
+||pjewriw.top^
 ||plkmd.com^
 ||pnirrb.cn^
 ||pnrqz.xyz^
@@ -4981,10 +5002,12 @@ ubmcmm.baidustatic.com
 ||porlsbll.cyou^
 ||powjk.com^
 ||ppcwzry.cn^
+||ppjipuk.cn^
 ||pqfgtp.cn^
 ||prjwqs.xyz^
 ||propsad.com^
 ||prudence.love^
+||pskzqo.cn^
 ||pstdzxu.cn^
 ||ptenwy.cn^
 ||ptnxa.xyz^
@@ -5016,6 +5039,7 @@ ubmcmm.baidustatic.com
 ||qiutian.buzz^
 ||qj86.cn^
 ||qjxys.cn^
+||qkkgish.cn^
 ||qmbnkdh.cn^
 ||qncphvc.cn^
 ||qndytvy.cn^
@@ -5053,13 +5077,16 @@ ubmcmm.baidustatic.com
 ||rongsonm.uno^
 ||rongxin.biz^
 ||rorlsblm.cyou^
+||rou3.xyz^
 ||rowemfg.com^
 ||rqkfhquz.cn^
+||rqpvevt.cn^
 ||rrkky.top^
 ||rrll.love^
 ||rrpdhal.cn^
 ||rrysogsiz.uno^
 ||rssblgb.cn^
+||ruidekatao.pw^
 ||ruliglso.space^
 ||rumnxwvo.ink^
 ||ruoci666.cn^
@@ -5112,6 +5139,7 @@ ubmcmm.baidustatic.com
 ||songsonb.uno^
 ||soshow.hk^
 ||sozdzl.cn^
+||srcaunu.cn^
 ||srurzn.cn^
 ||srysogsib.uno^
 ||ss2a.top^
@@ -5124,6 +5152,7 @@ ubmcmm.baidustatic.com
 ||supanchor.co^
 ||supernfq.com^
 ||svlzckw.cn^
+||swogldb.top^
 ||sxbexrv.cn^
 ||sxieqbu.cn^
 ||sxyzhdf.cn^
@@ -5149,6 +5178,7 @@ ubmcmm.baidustatic.com
 ||tixnd.xyz^
 ||tkngckh.cn^
 ||tmrhoe2.com^
+||tnlowlo.cn^
 ||tongsone.uno^
 ||topnfj.com^
 ||topnfq.com^
@@ -5163,6 +5193,7 @@ ubmcmm.baidustatic.com
 ||tumnxwvd.ink^
 ||tuotianxia.top^
 ||twjsx.cn^
+||twpfa.cn^
 ||twuafbj.cn^
 ||txfhfdd.cn^
 ||txie.club^
@@ -5207,6 +5238,7 @@ ubmcmm.baidustatic.com
 ||uyzdcun.cn^
 ||v34ffs.site^
 ||vbutjg.com^
+||vcawmm.com^
 ||vdresaa.top^
 ||vdzzauf.cn^
 ||veadmin.com^
@@ -5220,6 +5252,7 @@ ubmcmm.baidustatic.com
 ||vflzdrv.cn^
 ||vgrovkb.cn^
 ||vhlret.cn^
+||vi7a.top^
 ||vieldeold.xyz^
 ||visualtravel.info^
 ||viswcnb.cn^
@@ -5259,6 +5292,7 @@ ubmcmm.baidustatic.com
 ||whxva.com^
 ||wisafnie.space^
 ||wiuspckmn.bar^
+||wkfwdki.cn^
 ||wkktfuy.cn^
 ||wlhcb.cn^
 ||wlovey.asia^
@@ -5268,6 +5302,7 @@ ubmcmm.baidustatic.com
 ||wohuamanhua.com^
 ||woma.site^
 ||wongsonc.uno^
+||woodmenopsonia.com^
 ||worlsbld.cyou^
 ||woven.pw^
 ||wpqmiq.cn^
@@ -5374,6 +5409,7 @@ ubmcmm.baidustatic.com
 ||yoqrbof.cn^
 ||youkan.shop^
 ||youthlaw.name^
+||yqakcdg.cn^
 ||yrlyjc.cn^
 ||yrqwnc.cn^
 ||yrrcc.top^
@@ -5429,6 +5465,7 @@ ubmcmm.baidustatic.com
 ||zumnxwva.ink^
 ||zuoai99hair.com^
 ||zvbhei.cn^
+||zwlikv.cn^
 ||zxiaochun.site^
 ||zygaoshou888.cn^
 ||zygxy.online^
@@ -5437,22 +5474,6 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
-||gkspde.cn^
-||swogldb.top^
-||caiyeml.pw^
-||ppjipuk.cn^
-||lrysogsil.uno^
-||pjewriw.top^
-||666782.xyz^
-##a[href*="/9716t.com"]
-||vcawmm.com^
-||ep6a.top^
-||pskzqo.cn^
-||rqpvevt.cn^
-||my1688.shop^
-||mtlsari.cn^
-||65211351892.com^
-||zwlikv.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -15335,6 +15356,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||money.qz828.com^
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
+||mongoosejs.net/docs/images/lagoujika.jpeg
 ||monnsutogatya.com/himg/monst/
 ||moonbbs.com/data/attachment/portal/
 ||mop.com/js/common/watermark.js
@@ -17876,7 +17898,8 @@ wenxuecity.com###marquee
 xmfish.com###marry_laping
 yaolan.com###maryAd
 muchong.com###mask
-k7d.com,kxdao.net###masonry
+k7d.com,kxdao.net,xiaolz.cn###masonry
+xiaolz.cn###masonry2
 gzmama.com###mdvtips
 vpsmm.com###media
 hinet.net###media_ad_popup_overlay
@@ -18413,6 +18436,7 @@ eastmoney.com###zwbtextlink
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
 jyacht.com###zyc1r_05
+xiaolz.cn###zzbuluoled_sx
 china.com.cn,csdn.net,cyol.net,lenovo.com.cn,wxrb.com,yam.com##.AD
 motobuy.com.tw##.AD1
 eepw.com.cn##.AD300x200
@@ -20483,6 +20507,7 @@ sanv.org##.p_left
 actoys.net##.p_new_ad
 sina.cn##.p_newsmore
 actoys.net##.p_top_ad
+dmh8.com##.padding-0 > ul
 cssmoban.com##.page-banner
 contents.internet.apps.samsung.com##.page-bar
 qidian.com##.page-ops
@@ -21831,7 +21856,6 @@ duba.com##a[w="topad"]
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 idanmu.ee##aside > div[class="widget "]
 zhujiceping.com##aside[id^="custom_html-"]
-gaoqingw.com##b > div[style="text-align:center"]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
@@ -23167,6 +23191,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ntou.edu.tw/bin/showads.
 @@||ntu.edu.tw/modules/banner.php
 @@||ntust.edu.tw/bin/showads.
+@@||nvidia.cn^*-300x250-
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
 @@||online.unionpay.com/ads/$script
