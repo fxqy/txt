@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7JDKlqmwVcVJN1adMcemSQ
+! Checksum: O3Z0y1zrpSKa9vlp7+axUA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.65.80
-! TimeUpdated: 2022-08-31T16:31:02+00:00
+! Version: 2.0.65.89
+! TimeUpdated: 2022-09-01T16:31:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4158,6 +4158,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".buscandolaidea.com/"]
 ##a[href*=".covasco.com/"]
 ##a[href*=".dbrows.com/"]
+##a[href*=".dearcabbage.top"]
 ##a[href*=".dztjy.com/"]
 ##a[href*=".etechedge.com/"]
 ##a[href*=".glolhw.com/"]
@@ -4197,6 +4198,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/8616.tech"]
 ##a[href*="/9716t.com"]
 ##a[href*="/akmh047.vip"]
+##a[href*="/bucd.icu/"]
 ##a[href*="/ihezu.run"]
 ##a[href*="/kanxiuren.com/?"]
 ##a[href*="/kk80.cc"]
@@ -4314,6 +4316,7 @@ ubmcmm.baidustatic.com
 ||666779.xyz^
 ||666782.xyz^
 ||666783.xyz^
+||666784.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||745c.cn^
@@ -4343,8 +4346,10 @@ ubmcmm.baidustatic.com
 ||aengbalz.fun^
 ||afij001.xyz^
 ||afjk001.xyz^
+||afvmusm.cn^
 ||ahfy.me^
 ||ahh6.cn^
+||ahp1.site^
 ||ahp28.site^
 ||ahp29.site^
 ||ahp31.site^
@@ -4429,6 +4434,7 @@ ubmcmm.baidustatic.com
 ||cclw.xyz^
 ||ccpvmjh.cn^
 ||ccrgxye.cn^
+||cdjvd.com^
 ||cdweikebaba.xin^
 ||ce33m7.com^
 ||cengbalx.fun^
@@ -4637,6 +4643,7 @@ ubmcmm.baidustatic.com
 ||gznxodg.cn^
 ||h56hg7.site^
 ||hanldsw.cn^
+||hb8a.top^
 ||hbtyk.top^
 ||hcbmq.cn^
 ||hcegdxb.cn^
@@ -4857,6 +4864,7 @@ ubmcmm.baidustatic.com
 ||mdsop.com^
 ||mdszz.com^
 ||meilmei.xyz^
+||meimei.buzz^
 ||meiyouguang.top^
 ||melife.love^
 ||mengbalh.fun^
@@ -4874,11 +4882,13 @@ ubmcmm.baidustatic.com
 ||mkqdj.cn^
 ||mmrrk.top^
 ||mnbvbrow.xyz^
+||mnpool.cn^
 ||mnuy56.site^
 ||mnver.xyz^
 ||mnvqx.xyz^
 ||mnvrwq.xyz^
 ||mongsonv.uno^
+||moprujg.cn^
 ||morlsbli.cyou^
 ||mqjeut5.com^
 ||mrshw.mobi^
@@ -5023,8 +5033,10 @@ ubmcmm.baidustatic.com
 ||qbc1.cn^
 ||qbgrmsk.cn^
 ||qcyunnan.cn^
+||qdvideo.xyz^
 ||qdxsodq.cn^
 ||qfgall.cn^
+||qhrixol.cn^
 ||qianchengwenhua.xyz^
 ||qianduoduo.fit^
 ||qianyan.love^
@@ -5054,6 +5066,7 @@ ubmcmm.baidustatic.com
 ||qsdqyf.cn^
 ||qsxfsp.shop^
 ||qvbwras.cn^
+||qwogldy.top^
 ||razasot.cn^
 ||rbgfxxt.cn^
 ||rbioclv.cn^
@@ -5212,9 +5225,11 @@ ubmcmm.baidustatic.com
 ||u0081.com^
 ||u0083.com^
 ||u5ree6.com^
+||u9dytt.com^
 ||ubktmlk.cn^
 ||uekjbr.cn^
 ||uengbalc.fun^
+||ufzwoiu.cn^
 ||ugkmihh.cn^
 ||uhyhdrh.cn^
 ||uibtxv.cn^
@@ -5276,6 +5291,7 @@ ubmcmm.baidustatic.com
 ||vumnxwvf.ink^
 ||vvpingtai.com^
 ||vwocvgr.cn^
+||vxjcalk.cn^
 ||wangduoduo.pw^
 ||wangjunyan.xyz^
 ||wangzezhong.top^
@@ -5419,6 +5435,7 @@ ubmcmm.baidustatic.com
 ||yular.cn^
 ||yuliglsd.space^
 ||yumnxwvd.ink^
+||yunqiii.store^
 ||yuretb.site^
 ||yuvvddt.cn^
 ||yvajogj.cn^
@@ -16394,6 +16411,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||videojj.com/flash/bin/vjj_config.xml
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vidhub.cc/huimee/
 ||vip.luanren.com/data/*.gif
 ||vip27j.xyz/dh.js
 ||vipdage.com/wp-content/uploads/ad/
