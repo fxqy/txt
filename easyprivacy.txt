@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rM64/oMnsSCvwKasgLGBdA
-! Version: 202209042221
+! Checksum: uoTOEuF8+MfioCk8nZFu5g
+! Version: 202209052221
 ! Title: EasyPrivacy
-! Last modified: 04 Sep 2022 22:21 UTC
+! Last modified: 05 Sep 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2785,6 +2785,7 @@
 /log?type=
 /log?uuid=
 /log_agent.
+/log_amp_item_set?
 /log_beacon.
 /log_e.php?id=
 /log_event?
@@ -3894,6 +3895,7 @@
 /search-cookie.aspx?$image
 /searchIgnite.
 /searchMetric.
+/second-scroll~trackers.
 /secure-stats.
 /securetracker.
 /seed.gif?
@@ -12479,6 +12481,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jobvite.com/analytics.js
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
+||jscache.com/static/page_moniker/
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
 ||jsdelivr.net^*/fp.min.js
 ||jsrdn.com/s/1.js
@@ -12993,7 +12996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
-||run.app/data.log?
+||run.app/data.log
 ||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
@@ -15563,6 +15566,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sexu.com/api/ttrack
 ||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||sharesies.com/v1/identify
+||sharesies.com/v1/track
 ||shazam.com/services/metrics/
 ||shopeemobile.com/*/tr/
 ||shopmetric.rediff.com^
@@ -15701,6 +15706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ss.photospecialist.co.uk^
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
+||stackshare.io/analytics.
 ||stan.xing.com^
 ||stape.fun/stat/
 ||starfiles.co/analytics.php
@@ -15828,6 +15834,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tradingview.com/ping
 ||treatment.grammarly.com^
 ||tredir.go.com^
+||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
 ||trivago.com/tracking/
 ||trx3.famousfix.com^
@@ -15889,6 +15896,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wa.ui-portal.de^
 ||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
+||walmart.ca/api/bsp/logger
+||walmart.ca^*/beacon-logger
 ||walmart.com/client/api/logs
 ||walmart.com/client/api/metrics
 ||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
@@ -25793,6 +25802,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||nextinpact.com/bundles/mtm
 ||nextinpact.com/image/*=.jpg
 ||pam.nextinpact.com^
+||pwk.nextinpact.com^
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||zam.nextinpact.com^
@@ -27013,6 +27023,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
+@@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
@@ -27259,6 +27270,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
+@@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
