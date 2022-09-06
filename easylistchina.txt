@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CoTSoAe+5qqdKfy4m+gIiQ
-! Version: 202209052221
+! Checksum: qOaG2TlTX5dXpiyoVZSOyg
+! Version: 202209062221
 ! Title: EasyList China
-! Last modified: 05 Sep 2022 22:21 UTC
+! Last modified: 06 Sep 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -3185,6 +3185,23 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||666795.xyz^
+||opalaix.cn^
+||lwogldl.top^
+||sezuleg.cn^
+||kuaidou.xin^
+||ahp6.site^
+||rm4b.top^
+||dewapa.top^
+||showcoorcb.xyz^
+||naptgcg.cn^
+||tiaotiao.store^
+||nhlnfiq.cn^
+||uxlidt.ink^
+||5v9xm.com^
+||mcbzq.xyz^
+||kunlunshitou.com^
+||hpiekt.cn^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
@@ -14601,6 +14618,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cn.bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
+gmtv1.xyz##.pc_rb_float
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
