@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7fb3DzPZEGoozjyaOzWnjQ
+! Checksum: x5F5OAZ6Aje3X6tPNV1NiQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.66.46
-! TimeUpdated: 2022-09-07T18:31:07+00:00
+! Version: 2.0.66.53
+! TimeUpdated: 2022-09-08T16:31:02+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -385,7 +385,8 @@ hkcards.com#@##ad-slot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124117
 docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 ! rjno1.com
-rjno1.com##+js(set-constant, rwc20adloadok, true)
+rjno1.com#@#[id^="aswift_"]
+rjno1.com##+js(addEventListener-defuser, error, event.target.tagName)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122085
 yibian.hopto.org###no-adblock-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121515
@@ -4206,6 +4207,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".vloua.com/"]
 ##a[href*=".vpoor.net"]
 ##a[href*=".xyanovo.com/"]
+##a[href*="/3kmg.top"]
 ##a[href*="/6298crsyzh.com:"]
 ##a[href*="/8616.tech"]
 ##a[href*="/9716t.com"]
@@ -4219,6 +4221,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ybhth689.com"]
 ##a[href*="/yyh.net/"]
 ##div[onclick*=".yyav5.top"]
+##img[onclick*="/3kmg.top"]
 ##img[onclick*="/kk80.cc"]
 ##img[src*=".hecan123.top"]
 ||001adafg.xyz^
@@ -4236,6 +4239,7 @@ ubmcmm.baidustatic.com
 ||17chk.vip^
 ||1dfsdfg.com^
 ||1e4y54ve.cn^
+||1lx.co^
 ||1so8inqb.cn^
 ||2077.tech^
 ||21cnbm.com^
@@ -4349,6 +4353,7 @@ ubmcmm.baidustatic.com
 ||666794.xyz^
 ||666795.xyz^
 ||666796.xyz^
+||666797.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||745c.cn^
@@ -4395,6 +4400,7 @@ ubmcmm.baidustatic.com
 ||ahp5.site^
 ||ahp6.site^
 ||ahp7.site^
+||ahp8.site^
 ||aihkjz.cn^
 ||aimtxb.cn^
 ||aizhigu.tv^
@@ -4404,6 +4410,7 @@ ubmcmm.baidustatic.com
 ||akmh043.vip^
 ||akmh047.vip^
 ||akmh049.vip^
+||amtwcvh.cn^
 ||anppseo.cn^
 ||anshengshenghuo.fun^
 ||aongsond.uno^
@@ -4467,6 +4474,7 @@ ubmcmm.baidustatic.com
 ||bvfmdoo.cn^
 ||bwogldv.top^
 ||bwsvftq.cn^
+||bxlidv.ink^
 ||byfft.top^
 ||byqiu.xyz^
 ||byznb.xyz^
@@ -4819,6 +4827,7 @@ ubmcmm.baidustatic.com
 ||jmking.cn^
 ||jphfqq.cn^
 ||jpnbhyba.xyz^
+||jq6b.top^
 ||jqdldk.cn^
 ||jquery-cdn.cc^
 ||jrnrpma.cn^
@@ -4839,6 +4848,7 @@ ubmcmm.baidustatic.com
 ||kanshu.buzz^
 ||kaqweqrdf.com^
 ||kasdwergv.com^
+||katlacw.cn^
 ||kdsnw.today^
 ||keentech.top^
 ||kefu3254.cn^
@@ -4874,6 +4884,7 @@ ubmcmm.baidustatic.com
 ||kunlunshitou.com^
 ||kvevv.com^
 ||kvhcc.com^
+||kvrtuse.cn^
 ||kwdgudw.cn^
 ||kwjfoeq.cn^
 ||kwogldd.top^
@@ -4989,6 +5000,7 @@ ubmcmm.baidustatic.com
 ||mumnxwvn.ink^
 ||musan.love^
 ||mvusq.xyz^
+||mwogldx.top^
 ||mxdqfoo.cn^
 ||mxlwmp.cn^
 ||mxowrwb.cn^
@@ -5006,6 +5018,7 @@ ubmcmm.baidustatic.com
 ||n6579.com^
 ||naptgcg.cn^
 ||ncoeqz.today^
+||nehagex.cn^
 ||neno.ink^
 ||neokbu.cn^
 ||neornad.cn^
@@ -5018,6 +5031,7 @@ ubmcmm.baidustatic.com
 ||nfzplus.com^
 ||ngqph.cn^
 ||nhlnfiq.cn^
+||nijj990.xyz^
 ||nisafnic.space^
 ||niunai.buzz^
 ||niuspykmn.bar^
@@ -5065,6 +5079,7 @@ ubmcmm.baidustatic.com
 ||orysogsik.uno^
 ||oslixj.cn^
 ||otjedg.xyz^
+||otjkz.xyz^
 ||otneq.today^
 ||otownx.xyz^
 ||oujirkb.cn^
@@ -5169,6 +5184,7 @@ ubmcmm.baidustatic.com
 ||rengbali.fun^
 ||renxinghuan.com^
 ||repbdso.cn^
+||rfigekm.cn^
 ||rgbsl.com^
 ||rggtt.top^
 ||risafniz.space^
@@ -5224,6 +5240,7 @@ ubmcmm.baidustatic.com
 ||shouzhuanfs.com^
 ||showcoopda.xyz^
 ||showcoopdb.xyz^
+||showcoopdc.xyz^
 ||showcoorcb.xyz^
 ||shscva.cn^
 ||shuanglequ.xyz^
@@ -5282,6 +5299,7 @@ ubmcmm.baidustatic.com
 ||tangxiaodou.top^
 ||tanyp.xyz^
 ||taoxiehui.cn^
+||taozen.cn^
 ||tbtpezs.cn^
 ||tdtxkvj.cn^
 ||teoopx.cn^
@@ -22984,6 +23002,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||chaintv.xyz/homestatic/js/adjs.js
+@@||challenges.cloudflare.com/turnstile/
 @@||changyou.com^$generichide
 @@||cheshi-img.com/ad/csad_2019.js
 @@||china.com/dianbo/adv1.xml
@@ -23119,6 +23138,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
+@@||hcaptcha.com/captcha/
 @@||hdsky.net/ad/down.png
 @@||histock.tw/JScript/AD/
 @@||hk.on.cc/js/v4/oncc-adbanner.js
@@ -24865,7 +24885,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
-$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
