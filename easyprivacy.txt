@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wjNxEZZaM4Z+og1Xj0afSA
-! Version: 202209192221
+! Checksum: FPE8tEplp0CmWiEWM3rMmw
+! Version: 202209202221
 ! Title: EasyPrivacy
-! Last modified: 19 Sep 2022 22:21 UTC
+! Last modified: 20 Sep 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11807,6 +11807,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bmrg.reflected.net^
 ||bobparsons.com/image.aspx?
 ||bolt.com/v1/log?
+||booking.com/pxpixel.html
 ||botdetection.hbrsd.com^
 ||bpath.com/count.dll?
 ||branch.io^$third-party
@@ -12222,7 +12223,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.tubecup.org^
 ||events.whisk.com^
 ||events.yourcx.io^
-||eventtracker.videostrip.com^$third-party
 ||eveonline.com/redir.asp$third-party
 ||evidon.com/pub/
 ||eviesays.com/js/analytics/
@@ -14903,6 +14903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
 ||agoda.com/api/pixel/
+||agoda.net/v2/track
 ||ai.iol.io^
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
@@ -15007,6 +15008,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||binocule21c.merriam-webster.com^
 ||biomedcentral.com/track/
 ||blitz-analytics-batch-server.blitz.gg^
+||booking.com/c360/v1/track
+||booking.com/collector/
 ||booking.com/logo?
 ||booking.com/navigation_times
 ||booking.com/sendlayoutevents
@@ -15574,6 +15577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qz.com/log
 ||r.bbci.co.uk^
 ||r.my.com^
+||rakuten.com/rmsgjs/soj2.js
 ||ranker.com/api/tr?
 ||rankhit.china.com^
 ||realestate.com.au^*/p.js
@@ -30101,6 +30105,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|menshealth.com|timesprime.com|womenshealthmag.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
+@@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
