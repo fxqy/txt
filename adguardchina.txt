@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Bk6qgQBTzjU2us6bXhG4/Q
+! Checksum: ySTp0aqXvNmDF+Lf56b6bg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.67.76
-! TimeUpdated: 2022-09-20T17:17:54+00:00
+! Version: 2.0.67.85
+! TimeUpdated: 2022-09-21T18:31:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -969,6 +969,9 @@ nfmovies.com##+js(no-setTimeout-if, /document\.getElementById[\s\S]*?\.style\.di
 !--------------------------------------!
 ! SECTION: Chinese - CSS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/130277
+huaban.com#$#div[data-content-source="导航栏"] > a.modalOpenWidth { display: none !important; }
+huaban.com#$#.wrapper > div[data-content-source] > .modalOpenWidth[style*="top:"] { top: 80px !important; }
 ! https://github.com/abp-filters/abp-filters-anti-cv/issues/1124
 69xx.one,theporn.cc##+js(set-constant, is_show, false)
 69xx.one,theporn.cc#$##alert_windows { display: none !important; }
@@ -1125,7 +1128,6 @@ boylove.cc###yteggbue
 docs.cfw.lbyczf.com###推广
 docs.cfw.lbyczf.com###推广 + div.list
 myqqjd.com##aside[id^="sponsor-"]
-huaban.com##div[data-content-source="导航栏"] > a.modalOpenWidth
 ctee.com.tw##.qxd
 thecatcity.com##.article-page__ad-block
 cupfox.app##.banner-box
@@ -2354,10 +2356,6 @@ ettoday.net#@#.iframe-ad
 !#safari_cb_affinity(privacy)
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 !#safari_cb_affinity
-! https://github.com/AdguardTeam/AdguardFilters/issues/43631
-! In EasyList China there is "duba.com##.fav_box" and for some reason it's causing that after clicking on "tabs" (from .ss_tabbox class) content is flickering
-duba.com#@#.fav_box
-duba.com#$#.fav_box_wrap { visibility: hidden; height: 60px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51858
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45000
 world.huanqiu.com#@#.ad_all
@@ -4374,6 +4372,7 @@ ubmcmm.baidustatic.com
 ||69688qp.com^
 ||6dkl1vb.site^
 ||6fxo.icu^
+||6onm.fun^
 ||7080ys.top^
 ||745c.cn^
 ||777753.net^
@@ -4600,6 +4599,7 @@ ubmcmm.baidustatic.com
 ||dcfh7vk.cn^
 ||dchxxvk.cn^
 ||dczqjfo.cn^
+||ddtx.fun^
 ||deeplearning.red^
 ||dengbalt.fun^
 ||dengteng.me^
@@ -4634,7 +4634,9 @@ ubmcmm.baidustatic.com
 ||dxzky.love^
 ||dyjcydn.cloud^
 ||dzytvcx.cn^
+||ebazhaheiw.top^
 ||eblnzoq.cn^
+||eclczg.cn^
 ||ecudsc.cn^
 ||edzyhx.cn^
 ||eebuwr.cn^
@@ -4650,6 +4652,7 @@ ubmcmm.baidustatic.com
 ||enrosr.cn^
 ||eofemms.cn^
 ||eomlhif.cn^
+||eopa5tepa.icu^
 ||eoyqzzk.cn^
 ||ep6a.top^
 ||epdchc.cn^
@@ -4908,6 +4911,7 @@ ubmcmm.baidustatic.com
 ||jd6pq31f.site^
 ||jeproadylabs.com^
 ||jevlcjc.cn^
+||jfzbgzv.cn^
 ||jhkj.work^
 ||jhuvybt.cn^
 ||jiabo.shop^
@@ -4951,6 +4955,7 @@ ubmcmm.baidustatic.com
 ||katlacw.cn^
 ||kcfuzhj.cn^
 ||kd1c.top^
+||kdkwe.xyz^
 ||kdsnw.today^
 ||keentech.top^
 ||kefu3254.cn^
@@ -5173,6 +5178,7 @@ ubmcmm.baidustatic.com
 ||nvqhbij.cn^
 ||nvswnur.cn^
 ||nvzffl.cn^
+||nwadakesc.cyou^
 ||nwogldc.top^
 ||nxlidc.ink^
 ||nxyerol.cn^
@@ -5374,6 +5380,7 @@ ubmcmm.baidustatic.com
 ||ryjhrqn.cn^
 ||ryumrc.cn^
 ||s9o.co^
+||sbazhaheib.top^
 ||scardetect.cn^
 ||scktmdv.cn^
 ||sdfafds6.com^
@@ -5600,7 +5607,9 @@ ubmcmm.baidustatic.com
 ||vumnxwvf.ink^
 ||vviikig.cn^
 ||vvpingtai.com^
+||vvsbwny.cn^
 ||vwocvgr.cn^
+||vx2e.top^
 ||vxjcalk.cn^
 ||wangduoduo.pw^
 ||wangjunyan.xyz^
@@ -5616,6 +5625,7 @@ ubmcmm.baidustatic.com
 ||weimeiwangluo.site^
 ||wephone.club^
 ||wfkspcs.cn^
+||wgttjk.cn^
 ||whoican.love^
 ||whpfl.cn^
 ||whxva.com^
@@ -5714,6 +5724,7 @@ ubmcmm.baidustatic.com
 ||xujmcrc.cn^
 ||xuliglsw.space^
 ||xumnxwvw.ink^
+||xuningk.xyz^
 ||xuxjaqp.cn^
 ||xwhhuav.cn^
 ||xxrsxs.cn^
@@ -22161,6 +22172,7 @@ ditu.so.com##div[class^="index-adflag-"] + a
 ifeng.com##div[class^="middleAd"]
 msn.cn##div[class^="nativeAd-DS-card"]
 nba.hupu.com##div[class^="nba-ad"]
+sogou.com##div[class^="news-top-banner"]
 weishangshijie.cn##div[class^="news_a"]
 qq.com,sogou.com##div[class^="page-bottom-banner"]
 qq.com,sogou.com##div[class^="page-top-banner"]
@@ -24346,6 +24358,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||lv.myapks.com^
 ||lynr.com^
 ||lyz.radio366.com^
+||m.bjdcfy.net^*.js
 ||m1.100how.com^
 ||m1.27com.com^
 ||m1.51kaowang.com^
@@ -25072,8 +25085,8 @@ t66y.com##.tips
 ###toptb + div[align="center"]
 ##.it618_firstad_flex
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
-||360buyimg.com$domain=28th.cc
-||alicdn.com^$domain=28th.cc
+||360buyimg.com$domain=73thz.com
+||alicdn.com^$domain=73thz.com
 !#theporn.cc
 ###__ads_dp
 ###ad-ft
