@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2P5/DfeulN5ryvWPGSF5uA
-! Version: 202209232221
+! Checksum: iV57pxMGUi78ymeq7jDZYQ
+! Version: 202209242221
 ! Title: EasyList China
-! Last modified: 23 Sep 2022 22:21 UTC
+! Last modified: 24 Sep 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -895,6 +895,7 @@ ubmcmm.baidustatic.com
 ###imgad
 ###js-ad-map
 ###js-ysjpp
+##.article-pop-up-ad
 ###js_ads_banner_top
 ###js_ads_banner_top_slide
 ~houdask.com###kfivtwin
@@ -3478,6 +3479,20 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||egyfgsq.cn^
+||jlosuiq.cn^
+||grjasq.com^
+||poae2klya.icu^
+||rc7e.top^
+||muxing.city^
+||grjasq.com^
+||jsnoownma.fun^
+||ckerw.xyz^
+||edwad.co^
+||9js6.icu^
+||v2zn.xyz^
+||zrbn.ltd^
+||glpca.com^
 !
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -12427,7 +12442,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||henghost.com^$third-party
-||hentaicomic.org/data/game/
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -14390,7 +14404,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wmcdn.net^$domain=liyuans.com
-||wnacgs.com/data/game/
 ||woaidu.org/images/20180802/3.jpg
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
@@ -14806,6 +14819,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+8se.me##.push-top
+8se.me##.push-bottoms
+v2ex.com#?#.box:-abp-has(>.inner>div>span[style]:-abp-contains(Sponsored))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20306,6 +20322,7 @@ weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
@@ -22757,8 +22774,10 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
+||wnacgcdn.top/data/game/
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.aasdwa
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@##adsbox
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.google-ads
 wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
@@ -22775,7 +22794,6 @@ wnacg.com,wnacg.org##script + div > a > img
 ||wnacg.*/zec/
 ||wnacg.org/img/500_60
 ||wnacg.org/img/wap
-||wnacg4.com/data/game/
 !#W
 !#x
 !#Y
