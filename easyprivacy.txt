@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tKGKURx3ezhvWWJCctCcnA
-! Version: 202210142221
+! Checksum: xH0jaO8GjCdndTS/bIWXnQ
+! Version: 202210152221
 ! Title: EasyPrivacy
-! Last modified: 14 Oct 2022 22:21 UTC
+! Last modified: 15 Oct 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -879,6 +879,7 @@
 /atapixel.js
 /atatus.js
 /athena.gif?
+/athena/tracking/*
 /athenastgbeacon.
 /atlas_track.
 /atr_events_
@@ -8102,6 +8103,7 @@ _mongo_stats/
 ||reson8.com^$third-party
 ||responsetap.com^$third-party
 ||resulticks.com^$third-party
+||retargetapp.com^$third-party
 ||retargetly.com^$third-party
 ||retargettracker.com^$third-party
 ||retentionscience.com^$third-party
@@ -8238,7 +8240,6 @@ _mongo_stats/
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
-||shalltry.com^$third-party
 ||shareasale.com^$third-party
 ||sharedid.org^$third-party
 ||sharpspring.com^$third-party
@@ -14614,7 +14615,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.felmat.net^$third-party
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
-||torimochi.line-apps.com^
 ||tr.slvrbullet.com^
 ||track.span-smt.jp^
 ||track.thebase.in^
@@ -15042,6 +15042,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
 ||bdt.123rf.com^
+||beacon.dropbox.com^
 ||beacon.samsclub.com^
 ||beacon.shazam.com^
 ||beacon.shutterfly.com^
@@ -15188,7 +15189,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
+||dropbox.com/2/client_metrics
 ||dropbox.com/alternate_
+||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||drudgereport.com/204.png
@@ -29188,6 +29191,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pixel.ionos.fr^
 ||promoneuve.fr/stat/
 ||res.paruvendu.fr^
+||s5.charliehebdo.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
 ||sncf-connect.com/apm
