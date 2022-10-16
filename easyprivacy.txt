@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xH0jaO8GjCdndTS/bIWXnQ
-! Version: 202210152221
+! Checksum: /II94Fb0fQ1vLZRfRlbzMw
+! Version: 202210160151
 ! Title: EasyPrivacy
-! Last modified: 15 Oct 2022 22:21 UTC
+! Last modified: 16 Oct 2022 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30546,6 +30546,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
+@@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
