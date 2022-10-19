@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: GvXLZT5i41JsxbusWLBG2g
+! Checksum: uw9Z4uI1nyKimHwZDLCrRA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.70.9
-! TimeUpdated: 2022-10-18T17:17:43+00:00
+! Version: 2.0.70.20
+! TimeUpdated: 2022-10-19T16:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1144,6 +1144,10 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+hcomic.net##.main-container > .swiper
+hcomic.net##div[class^="horizontalBanner_"]
+hcomic.net##div[class^="multiBanner_bannerBox"]
+||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 youku.com##div[data-adext]
 gfsoso.99lb.net##center > #logo-gf ~ h7[style="color: red;"]
 gfsoso.99lb.net##center > #logo-gf ~ * h7[style="color: red;"]
@@ -4419,6 +4423,7 @@ ubmcmm.baidustatic.com
 ||9304hhh999.vip^
 ||93533557591.com^
 ||94pr.cn^
+||99520.xyz^
 ||998k.at^
 ||99zuowen.com^$third-party
 ||9as3.xyz^
@@ -4567,6 +4572,7 @@ ubmcmm.baidustatic.com
 ||byqiu.xyz^
 ||byznb.xyz^
 ||c60china.com^
+||c9tt3jj.top^
 ||caimei.me^
 ||caiyeml.pw^
 ||cattleman.cn^
@@ -4740,6 +4746,7 @@ ubmcmm.baidustatic.com
 ||elsyuulw.cam^
 ||em1g.top^
 ||emblvw.cn^
+||emgqmsn.cn^
 ||emjysmk.cn^
 ||enrosr.cn^
 ||eofemms.cn^
@@ -4802,6 +4809,7 @@ ubmcmm.baidustatic.com
 ||fhsiqk.xyz^
 ||fjlpyz.cn^
 ||flsfzr.cn^
+||fmfbyfk.cn^
 ||fmzcdvx.cn^
 ||fmzxing.pw^
 ||fomwvqu.cn^
@@ -4918,6 +4926,7 @@ ubmcmm.baidustatic.com
 ||haitan.site^
 ||hanldsw.cn^
 ||haoduofangs.com^$third-party
+||haohaopao.top^
 ||haop5wopa.icu^
 ||haruepy.cn^
 ||hb8a.top^
@@ -5044,6 +5053,7 @@ ubmcmm.baidustatic.com
 ||itrwx.xyz^
 ||ituoniao.co^
 ||ityou2tcdb.icu^
+||iu9g.top^
 ||iuliglsh.space^
 ||iumnxwvh.ink^
 ||iusnajah.cn^
@@ -5100,6 +5110,7 @@ ubmcmm.baidustatic.com
 ||jmking.cn^
 ||jmwant.co^
 ||jnmami.cn^
+||jnwq.xyz^
 ||jphfqq.cn^
 ||jpnbhyba.xyz^
 ||jq6b.top^
@@ -5238,6 +5249,7 @@ ubmcmm.baidustatic.com
 ||lptssbs.cn^
 ||lqe3.icu^
 ||lqqrvip.cn^
+||lqrvkxk.cn^
 ||lr6e.top^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
@@ -5375,6 +5387,7 @@ ubmcmm.baidustatic.com
 ||nfzplus.com^
 ||ngqph.cn^
 ||nhlnfiq.cn^
+||nihuwo.asia^
 ||niik9494.top^
 ||nijj990.xyz^
 ||nisafnic.space^
@@ -5496,6 +5509,7 @@ ubmcmm.baidustatic.com
 ||pliaoboer.top^
 ||plkmd.com^
 ||pm2b.top^
+||pmthinktank.shop^
 ||pnirrb.cn^
 ||pnrqz.xyz^
 ||pnslejs.cn^
@@ -5627,6 +5641,7 @@ ubmcmm.baidustatic.com
 ||rljjt.cn^
 ||rlojitu.xyz^
 ||rlsynmlz.fun^
+||rlsyuulz.cam^
 ||rm4b.top^
 ||rmbsmxz.cn^
 ||rmgmggg.cn^
@@ -5668,6 +5683,7 @@ ubmcmm.baidustatic.com
 ||s9o.co^
 ||salleyte.top^
 ||sbazhaheib.top^
+||sc-gov-cn.website^
 ||scardetect.cn^
 ||scktmdv.cn^
 ||sd1f.top^
@@ -5851,6 +5867,7 @@ ubmcmm.baidustatic.com
 ||u9dytt.com^
 ||ubazhaheit.top^
 ||ubktmlk.cn^
+||uc-baidu.cc^
 ||uclmad.com^
 ||udpztkb.cn^
 ||uekjbr.cn^
@@ -6029,6 +6046,7 @@ ubmcmm.baidustatic.com
 ||wydnbnni.xyz^
 ||wykw.fun^
 ||wymcloud.love^
+||wz8g.top^
 ||wzl04.xyz^
 ||wzqbte.xyz^
 ||x4c43.com^
@@ -6166,6 +6184,7 @@ ubmcmm.baidustatic.com
 ||youa2qudo.icu^
 ||youkan.shop^
 ||youthlaw.name^
+||yowbbxi.cyou^
 ||ypuicbs.cn^
 ||yqakcdg.cn^
 ||yrlyjc.cn^
@@ -6239,6 +6258,7 @@ ubmcmm.baidustatic.com
 ||zlmbnh.cn^
 ||zlreqxe.xyz^
 ||zlsynmlq.fun^
+||zlsyuulq.cam^
 ||zlujomk.cn^
 ||zmakj.xyz^
 ||zo6g.top^
@@ -18300,7 +18320,7 @@ uuu9.com###top
 gameapps.hk###top-ad-left
 gameapps.hk###top-ad-right
 hao123.com###top-anim
-tie.163.com###top-banner
+tie.163.com,uump4.net###top-banner
 hao.360.cn,hao.360.com###top-full-column-tips
 hao.360.com###top-nav
 55188.com###top-pic
@@ -18512,6 +18532,7 @@ chaicp.com##.Icp-Ad
 iyaxin.com##.Information
 baiten.cn##.JS_advertisement
 ixigua.com##.J_ad
+kq7.com##.J_appFromLen
 smzdm.com##.J_index_wall
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
@@ -23649,6 +23670,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||a.tvsou.com^
 ||a.wanzhuang.com^
 ||a.wifi33.com^
+||a.wzu.com^
 ||a.xixiyishu.com^
 ||a.xue126.com^
 ||a.xuezizhai.com^
@@ -23689,6 +23711,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||abc.rwpt.top^
 ||abc.yebaike.com^
 ||abc2022.ys137.com.cn^
+||abcd.yiq.com^
 ||abcdcfasda.gushiwen.cn^
 ||abcj.dooccn.com^
 ||abds.pingpingw.com^
@@ -23922,6 +23945,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||dyscb.cn^$third-party
 ||edu.jiukang.org^
 ||ee.shixunwang.net^
+||efgh.5lu.com^
 ||ejunshi.com^
 ||emjs.mkzhan.com^
 ||enennsa.gushiwen.cn^
