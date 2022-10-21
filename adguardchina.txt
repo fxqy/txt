@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: pOd+XTaSmaFXxmdXtz/q5Q
+! Checksum: 95ifCSaC9SmvY03JFIQw7w
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.70.32
-! TimeUpdated: 2022-10-20T17:31:06+00:00
+! Version: 2.0.70.41
+! TimeUpdated: 2022-10-21T16:31:05+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1144,6 +1144,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+mamibuy.com.tw##.content-ad-spa
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 ||158zm.com/top.js
 ||158zm.com/head.js
@@ -2562,6 +2563,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .com/rmb/dl.js
 .com/rmb/palyyoubian.js
 .com/Runtime/js/psCreat.js
+.com/sc/*?n=$script,third-party
 .com/static/js/ad.js
 .com/style/vue.js?v=
 .com/tonglan.js
@@ -4303,6 +4305,7 @@ ubmcmm.baidustatic.com
 ||5h7370j8.cn^
 ||5hte21mz.com^
 ||5htftu.com^
+||5lna.xyz^
 ||5lpt.cn^
 ||5s34y422.cn^
 ||5t15.cn^
@@ -4528,6 +4531,7 @@ ubmcmm.baidustatic.com
 ||baiduwudi929.xyz^
 ||baishui.me^
 ||bakeryembedded.com^
+||banlisgv.fun^
 ||bb-bbjsyuming.cc^
 ||bbads.vip^
 ||bbazhaheiv.top^
@@ -4574,6 +4578,7 @@ ubmcmm.baidustatic.com
 ||bxlidv.ink^
 ||byfft.top^
 ||byqiu.xyz^
+||byrprsi.cn^
 ||byznb.xyz^
 ||c60china.com^
 ||c9tt3jj.top^
@@ -4833,6 +4838,7 @@ ubmcmm.baidustatic.com
 ||fz2c.top^
 ||fz8g.top^
 ||galvanic.name^
+||gangtabli.top^
 ||gass.top^
 ||gblvwv.com^
 ||gbpofla.cn^
@@ -5034,6 +5040,7 @@ ubmcmm.baidustatic.com
 ||iirpvchv.cn^
 ||ijre.club^
 ||ikrweb.cn^
+||iktree.xyz^
 ||ikvcxz.cn^
 ||ilmwaqf.cn^
 ||img301.com^
@@ -5126,6 +5133,7 @@ ubmcmm.baidustatic.com
 ||jrnrpma.cn^
 ||jrysogsia.uno^
 ||jsl44w.xyz^
+||jsnignsa.xyz^
 ||jsnoownma.fun^
 ||jsuboyp.cn^
 ||jubudayu.com^
@@ -5142,6 +5150,7 @@ ubmcmm.baidustatic.com
 ||jy5izgies.xyz^
 ||jy7izgie.xyz^
 ||jyuyjxx.cn^
+||jz8b.top^
 ||k31bpzf.xyz^
 ||k3uihu.xyz^
 ||ka185ly.site^
@@ -5412,6 +5421,7 @@ ubmcmm.baidustatic.com
 ||nongjih.cn^
 ||nongsonx.uno^
 ||norlsbly.cyou^
+||nqcacox.cn^
 ||nrysogsic.uno^
 ||nsnoownmc.fun^
 ||nsweq.xyz^
@@ -5438,6 +5448,7 @@ ubmcmm.baidustatic.com
 ||obgbok.com^
 ||obnpazq.cn^
 ||ocxve.xyz^
+||oddyqw.com^
 ||odkxgwl.cn^
 ||oewtuho.cn^
 ||ofooe.cn^
@@ -5503,10 +5514,12 @@ ubmcmm.baidustatic.com
 ||partieseclipse.com^
 ||pbhdwm.cn^
 ||pcprgck.cn^
+||pdqwaan.cn^
 ||pdtqjd.cn^
 ||pdxubxc.cn^
 ||peigbv.cn^
 ||pejrq.xyz^
+||pfja.top^
 ||pfjfj45.xyz^
 ||pfpmmxa.xyz^
 ||pfskzj.cn^
@@ -5555,6 +5568,7 @@ ubmcmm.baidustatic.com
 ||pygone.top^
 ||pyirw.xyz^
 ||pymby.top^
+||pyntr.xyz^
 ||pyrrtep.cn^
 ||pzcrwml.cn^
 ||pznqjhh.life^
@@ -5636,6 +5650,7 @@ ubmcmm.baidustatic.com
 ||rccrb.cn^
 ||rcswbr.cn^
 ||redshks.cn^
+||reebbwi.cyou^
 ||renfs.xyz^
 ||rengbali.fun^
 ||renxinghuan.com^
@@ -5696,6 +5711,7 @@ ubmcmm.baidustatic.com
 ||rzijjeb.cn^
 ||s9o.co^
 ||salleyte.top^
+||sanlida.asia^
 ||sbazhaheib.top^
 ||sc-gov-cn.website^
 ||scardetect.cn^
@@ -5890,6 +5906,7 @@ ubmcmm.baidustatic.com
 ||uengbalc.fun^
 ||ufzwoiu.cn^
 ||ugkmihh.cn^
+||uhmtlzd.cn^
 ||uhyhdrh.cn^
 ||uibtxv.cn^
 ||uisafnit.space^
@@ -6234,6 +6251,7 @@ ubmcmm.baidustatic.com
 ||yzsbpp.top^
 ||zaiaplb.cn^
 ||zb7b.top^
+||zcrui.com^
 ||zdhfff.xyz^
 ||zdktgps.cn^
 ||zdx10.site^
@@ -6298,6 +6316,7 @@ ubmcmm.baidustatic.com
 ||zuliglsa.space^
 ||zumnxwva.ink^
 ||zuoai99hair.com^
+||zuysfr.com^
 ||zvbhei.cn^
 ||zwadakesq.cyou^
 ||zwiaaop.cyou^
@@ -16835,6 +16854,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yhdm.io/bar/
 ||yhdm.so/bar/
 ||yht7.com/web/assets/js/right.js
+||yiche.com/ssp/
 ||yidengfe.com/launches/01/yd.png
 ||yigujin.cn/faaa/
 ||yigujin.cn/img/abc/
@@ -24395,6 +24415,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||zsjxwj.com^
 ||zuowen.hydcd.com^
 ||zuqiuju.com^
+||zx.docin.com^
 ||zxw51.com^$third-party
 !#bejson.com
 bejson.com##.alert-dismissable
