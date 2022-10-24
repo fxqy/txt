@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: rFFxzZCGh2NmQaOgBTcpFg
+! Checksum: wnHjmZoapw0Hkm36sK4qQQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.70.57
-! TimeUpdated: 2022-10-23T16:31:02+00:00
+! Version: 2.0.70.66
+! TimeUpdated: 2022-10-24T17:04:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1144,6 +1144,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+v.qq.com##.player-side-ads
 mamibuy.com.tw##.content-ad-spa
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 ||158zm.com/top.js
@@ -2611,6 +2612,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .vip/js/ads/
 .vip/style/vue.js?v=
 .work/ads/
+.xn--fiqs8s:7385/
 .xyz/99x/
 .xyz/ad/
 .xyz/js/ads/
@@ -3087,7 +3089,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /uploads/setting/ad/*
 /uu114/ad/*
 /V.aspx?Bln=$script,third-party
-/variety.tc.qq.com/*.mp4?
 /videoJS/video-conrtib-ads.js
 /view/image/ngps1.gif
 /View/img/b72890.jpg
@@ -4495,6 +4496,7 @@ ubmcmm.baidustatic.com
 ||aqnpbpa.cn^
 ||arlbper.cn^
 ||artz3keya.cyou^
+||arwygug.cn^
 ||asdqwe.ltd^
 ||asf56165.xyz^
 ||asjsbew.cn^
@@ -4558,6 +4560,7 @@ ubmcmm.baidustatic.com
 ||bisafniv.space^
 ||bjqwllp.cn^
 ||blsynmlv.fun^
+||bnbvd.xyz^
 ||bnlg.fun^
 ||bob5379.com^
 ||bobdz.com^
@@ -4753,6 +4756,7 @@ ubmcmm.baidustatic.com
 ||egsxdp.cn^
 ||egyfgsq.cn^
 ||ehprnuo.cn^
+||eidccepu.cyou^
 ||eisafniw.space^
 ||eiykmtb.cn^
 ||ekwibgl.cn^
@@ -4776,6 +4780,7 @@ ubmcmm.baidustatic.com
 ||erwgj.xyz^
 ||esajfsd.cn^
 ||esiws.com^
+||esnignsw.xyz^
 ||esnoownmw.fun^
 ||etxggi.cn^
 ||euliglsp.space^
@@ -5392,6 +5397,7 @@ ubmcmm.baidustatic.com
 ||mywei.love^
 ||mzhw.xyz^
 ||mzlas.xyz^
+||mztzba.cn^
 ||mzwfrp.cn^
 ||n0211.com^
 ||n0244.com^
@@ -5431,6 +5437,7 @@ ubmcmm.baidustatic.com
 ||niunai.buzz^
 ||niuspykmn.bar^
 ||njamlya.top^
+||nkcfhm.cn^
 ||nkevca.cn^
 ||nlsynmlc.fun^
 ||nmfww.xyz^
@@ -5440,6 +5447,7 @@ ubmcmm.baidustatic.com
 ||nongsonx.uno^
 ||norlsbly.cyou^
 ||nqcacox.cn^
+||nrjzkj.cn^
 ||nrysogsic.uno^
 ||nsnoownmc.fun^
 ||nsweq.xyz^
@@ -5494,6 +5502,7 @@ ubmcmm.baidustatic.com
 ||oorlsblk.cyou^
 ||op7s.top^
 ||opalaix.cn^
+||opgge.xyz^
 ||oppu778.top^
 ||opxnwz.shop^
 ||opymgaj.cn^
@@ -5754,6 +5763,7 @@ ubmcmm.baidustatic.com
 ||sgdgh15.com^
 ||sghmvum.cn^
 ||shamodesha.com^
+||shangrongxin.cn^
 ||shaokaodaren.top^
 ||shcd.me^
 ||shenglishamo.com^
@@ -5920,6 +5930,7 @@ ubmcmm.baidustatic.com
 ||u8hdqyug.live^
 ||u8hdqyugs.xyz^
 ||u9dytt.com^
+||uanlisgt.fun^
 ||ubazhaheit.top^
 ||ubktmlk.cn^
 ||uc-baidu.cc^
@@ -6106,6 +6117,7 @@ ubmcmm.baidustatic.com
 ||wz8g.top^
 ||wzl04.xyz^
 ||wzqbte.xyz^
+||x29l.top^
 ||x4c43.com^
 ||x8kwcr3l.xyz^
 ||x99skiu.top^
@@ -6155,6 +6167,7 @@ ubmcmm.baidustatic.com
 ||xmjikcz.xyz^
 ||xmsrd.com^
 ||xn--2qu92fhtxsxexqab.xn--fiqs8s^
+||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
 ||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
 ||xn--gov-x68dy61b.club^
 ||xn--gov-x68dy61b.shop^
@@ -6278,6 +6291,7 @@ ubmcmm.baidustatic.com
 ||yywvruv.cn^
 ||yzsbpp.top^
 ||zaiaplb.cn^
+||zaihu99.ltd^
 ||zb7b.top^
 ||zcrui.com^
 ||zdhfff.xyz^
@@ -8428,7 +8442,6 @@ ubmcmm.baidustatic.com
 ||guirui-clothes.com^
 ||guixie.info^
 ||guji.store^
-||guliangli.online^
 ||guntang.me^
 ||gunvn.cn^
 ||guominziben.com^
@@ -14593,6 +14606,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||gimy.*/images/eee.png
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -14861,7 +14875,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||i-gamer.net^$domain=cartoonmad.com
 ||i-part.com.tw/js2/newShineStar
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
-||i.wuhaolin.cn^
 ||i322.com/ad_avshow/
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
 ||iabao.com/sladewap.js
@@ -15610,6 +15623,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||moedao.com/js/top.js
 ||moegirl.org.cn/insight/MoegirlInsight.
 ||moerats.com/usr/affpc/
+||molimao.top/ad*.js
 ||molimao.top/ad.js
 ||molimao.top/imp/upload/vod/*.gif
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
@@ -15765,6 +15779,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||nvsheng.com/js/gg.js
 ||nweon.com/wp-content/repo/ad/
 ||nwxs5.com/js/
+||nxflv.com/nxflv.js
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nyaa.*/static/js/ccheck.js
 ||nyahentai.pw/js/check_cat.js
@@ -16714,6 +16729,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wstx.com/api.php?mod=ad&
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
+||wuhaolin.cn/c/ls
 ||wujinzy.com/images/ok.gif
 ||wuliao.epro.sogou.com^
 ||wuyulou.com^*.php
@@ -20569,6 +20585,7 @@ ttsp.tv##.play_list_adbox
 ifeng.com##.playad
 gimy.tv##.playadbox
 senfun.net##.player-recommend
+qq.com##.player-side-ads
 league-funny.com##.player_bb
 qq.com##.player_bg_ad
 acc39.com##.player_ggw
@@ -23708,6 +23725,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||a1.99933.cn^
 ||a1.99966.cn^
 ||a1.aichagu.com^
+||a1.bajiu.cn^
 ||a1.bestopview.com^
 ||a1.bookapka.com^
 ||a1.firefoxchina.cn^
@@ -24875,7 +24893,7 @@ t66y.com##.tips
 ###video_playr_side.video_playr_sider.videoplayerside
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
-69xx.one,8mav.cc,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
+69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
 ||jsdelivr.net/gh/dashange123/
