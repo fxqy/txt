@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: wnHjmZoapw0Hkm36sK4qQQ
+! Checksum: VbQY7DlbcJuRWDMDCKv9MA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.70.66
-! TimeUpdated: 2022-10-24T17:04:39+00:00
+! Version: 2.0.70.74
+! TimeUpdated: 2022-10-25T16:31:23+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -931,6 +931,8 @@ msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32133
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34910
 goodav17.com##+js(abort-on-property-read, popunder)
+! https://github.com/AdguardTeam/AdguardFilters/issues/132934
+v-wb.youku.com##+js(set-constant, Object.prototype.adData, emptyObj)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121307
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87176
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54359
@@ -1144,6 +1146,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+meijutt.tv##.a960_index
+||meijutt.tv/js/pcjs/alltop_960_1.js
 v.qq.com##.player-side-ads
 mamibuy.com.tw##.content-ad-spa
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
@@ -4232,6 +4236,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ybhth689.com"]
 ##a[href*="/yyh.net/"]
 ##div[onclick*=".yyav5.top"]
+##div[onclick*="kiropa.com"]
 ##img[onclick*="/3kmg.top"]
 ##img[onclick*="/kk80.cc"]
 ##img[src*=".hecan123.top"]
@@ -4489,6 +4494,7 @@ ubmcmm.baidustatic.com
 ||anppseo.cn^
 ||anshengshenghuo.fun^
 ||anyany.cc^
+||aojustudy.cn^
 ||aongsond.uno^
 ||aovpnal.cn^
 ||aoxiang.fun^
@@ -4562,6 +4568,7 @@ ubmcmm.baidustatic.com
 ||blsynmlv.fun^
 ||bnbvd.xyz^
 ||bnlg.fun^
+||bnqlgdj.cn^
 ||bob5379.com^
 ||bobdz.com^
 ||borlsbla.cyou^
@@ -5017,6 +5024,7 @@ ubmcmm.baidustatic.com
 ||hust.cx^
 ||huyccuy.cn^
 ||hv740pyh.cn^
+||hvddf44.top^
 ||hwanjia.com^
 ||hwuzrko.cn^
 ||hxcrlt.cn^
@@ -5033,6 +5041,7 @@ ubmcmm.baidustatic.com
 ||i8x9.xyz^
 ||iabgqd.cn^
 ||ialmwof.cn^
+||ibgdd67.top^
 ||iceplant.hk^
 ||iczgls.cn^
 ||id08.top^
@@ -5090,6 +5099,7 @@ ubmcmm.baidustatic.com
 ||ixbccrp.cn^
 ||ixcgvh.cn^
 ||ixihet.cn^
+||ixqkgc.cn^
 ||iy20.com^
 ||iyuedu.cn.com^
 ||izzcwww7.live^
@@ -5109,6 +5119,7 @@ ubmcmm.baidustatic.com
 ||jcsppgv.cn^
 ||jd5c.top^
 ||jd6pq31f.site^
+||jdaa22.top^
 ||jeanrace.com^
 ||jennyrace.com^
 ||jeproadylabs.com^
@@ -5162,6 +5173,7 @@ ubmcmm.baidustatic.com
 ||jwoglda.top^
 ||jwtkw2w.cn^
 ||jxlida.ink^
+||jxuu.online^
 ||jy5izgies.xyz^
 ||jy7izgie.xyz^
 ||jyuyjxx.cn^
@@ -5205,6 +5217,7 @@ ubmcmm.baidustatic.com
 ||klsynmld.fun^
 ||kltnnxb.cn^
 ||kltxw.xyz^
+||klyhw.xyz^
 ||kmbikv.cn^
 ||kmfcxq.cn^
 ||kmvbre.com^
@@ -5364,6 +5377,7 @@ ubmcmm.baidustatic.com
 ||moprujg.cn^
 ||morlsbli.cyou^
 ||mqjeut5.com^
+||mrrw.xyz^
 ||mrshw.mobi^
 ||mrysogsix.uno^
 ||msjj.tech^
@@ -5470,6 +5484,7 @@ ubmcmm.baidustatic.com
 ||o2vcb5uw.site^
 ||o6rc.xyz^
 ||oaepnba.cn^
+||oanlisgk.fun^
 ||obazhaheik.top^
 ||obetxuv.cn^
 ||obgbok.com^
@@ -5739,6 +5754,7 @@ ubmcmm.baidustatic.com
 ||rzijjeb.cn^
 ||s1wq.top^
 ||s9o.co^
+||sadwqdi.cn^
 ||salleyte.top^
 ||sanlida.asia^
 ||sbazhaheib.top^
@@ -5762,6 +5778,7 @@ ubmcmm.baidustatic.com
 ||sfzztox.cn^
 ||sgdgh15.com^
 ||sghmvum.cn^
+||sgnlaigb.fun^
 ||shamodesha.com^
 ||shangrongxin.cn^
 ||shaokaodaren.top^
@@ -5846,6 +5863,7 @@ ubmcmm.baidustatic.com
 ||syr66.com.cn^
 ||sz7g.top^
 ||szlhsc.cn^
+||t06.xyz^
 ||t22g.icu^
 ||t4sb9dq7.site^
 ||taidi.info^
@@ -5937,6 +5955,7 @@ ubmcmm.baidustatic.com
 ||uclmad.com^
 ||udpztkb.cn^
 ||uekjbr.cn^
+||uekqdec.cn^
 ||uengbalc.fun^
 ||ufzwoiu.cn^
 ||ugkmihh.cn^
@@ -6095,6 +6114,7 @@ ubmcmm.baidustatic.com
 ||wqprtyg.cn^
 ||wqyloitd.cn^
 ||wslits.cn^
+||wsnignse.xyz^
 ||wsnoownme.fun^
 ||wsthcgl.cn^
 ||wsuxjqr.cn^
@@ -6128,6 +6148,7 @@ ubmcmm.baidustatic.com
 ||xcjcy.pro^
 ||xcjwq.world^
 ||xcmno.xyz^
+||xcvtg.xyz^
 ||xcvur.xyz^
 ||xcwzq.xyz^
 ||xd4a.top^
@@ -6288,6 +6309,7 @@ ubmcmm.baidustatic.com
 ||yyttm.top^
 ||yyujke.top^
 ||yyupphb.cn^
+||yywccbdy.cyou^
 ||yywvruv.cn^
 ||yzsbpp.top^
 ||zaiaplb.cn^
@@ -6342,6 +6364,7 @@ ubmcmm.baidustatic.com
 ||zoujitea.hk^
 ||zovgdpj.cn^
 ||zp1999.online^
+||zpe7z.fun^
 ||zpsh.shop^
 ||zq2h2.com^
 ||zq9a.top^
@@ -15559,7 +15582,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||meiju8.cc/js/tpcode.js
 ||meijucang.com/js/pop/
 ||meijuck.com/js/dfw.js
-||meijutt.net/js/pcjs/
+||meijutt.*/js/pcjs/
 ||meijuxz.com/template/ZQ/
 ||meipian.me^*/api_ad/
 ||meishichina.com/v3/
@@ -18035,6 +18058,7 @@ ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="yigujin."])
 apiref.com###navbarRightAd
 tgbus.com###neck_970
 40407.com###nei_fmt
+orsoon.com###new-actentry
 elecfans.com###new-adsm-berry
 cnpingpang.com###new-flash
 hc360.com###newAppBox
@@ -23352,7 +23376,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !#0
 !#17ce.com
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
-17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
@@ -23547,6 +23570,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ~hupu.com##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="display:none;"] + script + #container.container
+##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com
@@ -23752,6 +23776,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||abc.rwpt.top^
 ||abc.yebaike.com^
 ||abc2022.ys137.com.cn^
+||abcd.5lu.com^
 ||abcd.yiq.com^
 ||abcdcfasda.gushiwen.cn^
 ||abcj.dooccn.com^
@@ -23886,6 +23911,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||cc.xiaodapei.com^
 ||cc.xwscg.com^
 ||ccmeng.com^$third-party
+||cdgtw3.guapaijia.com^
 ||cdn.haocaa.com^
 ||cdn.wenzhangba.cn^
 ||cdn1.tvzhe.com^
@@ -24379,6 +24405,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||xne1ocient87zxz.360doc.cn^
 ||xue.zbyw.cn^
 ||xuexi.hydcd.com^
+||y.photoint.net^
 ||y.ruosi6.cn^
 ||y1.spreton.com^
 ||y66xvgo5i.chuimg.com^
