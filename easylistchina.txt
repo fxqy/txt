@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 76m3LANn1sBrtPsnRf2aFA
-! Version: 202210310204
+! Checksum: HhMlIhzkUhus1jsde6tAGQ
+! Version: 202210312221
 ! Title: EasyList China
-! Last modified: 31 Oct 2022 02:04 UTC
+! Last modified: 31 Oct 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -722,6 +722,7 @@ ubmcmm.baidustatic.com
 ||ssh.*.com^*!$script,third-party
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
+##.myui-extra + .noticetext
 ###ChapterView > .slide-baidu
 ###Layeraa1
 ###Layeraa2
@@ -1211,6 +1212,7 @@ ubmcmm.baidustatic.com
 ##.newstyle > a > img[src*="img.com/i/"]
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
+##.trad3
 ##.overBanner.dowloadBtn
 ##.pagead_3
 ##.pagecon + .ad1
@@ -3993,6 +3995,17 @@ ubmcmm.baidustatic.com
 ||kgnlaigd.fun^
 ||dianchao.me^
 ||javddngx.cyou^
+||xzvfd.xyz^
+||webstudy.fun^
+||xingqier.top^
+||eysgrje.cn^
+||oqshoyd.cn^
+||jieshareme.xyz^
+||vrmgwvz.cn^
+||ognlaigk.fun^
+||lpxmall.com^
+||msnignsx.xyz^
+||zt-uc-baidu.cc^
 !
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -14715,6 +14728,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jb51.net##p[style$="text-align: center; padding: 0px; margin: 20px 0px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
