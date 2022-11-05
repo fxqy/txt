@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Xyt744cO5jPWdoWEMn3M/Q
+! Checksum: fYvtVmobokVkm2FEPij8aw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.71.50
-! TimeUpdated: 2022-11-04T16:31:04+00:00
+! Version: 2.0.71.56
+! TimeUpdated: 2022-11-05T16:31:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4180,6 +4180,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 ##[class][onclick*=".ununxsxs.top"]
+##a[href$="/ky6y.com"]
 ##a[href$="ky9402.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".516624.com/"]
@@ -4802,7 +4803,6 @@ ubmcmm.baidustatic.com
 ||eblnzoq.cn^
 ||eclczg.cn^
 ||ecudsc.cn^
-||ecukwai.com^
 ||edwad.co^
 ||edzyhx.cn^
 ||ee2g.top^
@@ -4841,6 +4841,7 @@ ubmcmm.baidustatic.com
 ||erwgj.xyz^
 ||esajfsd.cn^
 ||esiws.com^
+||esjzj.cyou^
 ||esnignsw.xyz^
 ||esnoownmw.fun^
 ||etgameshop.com^
@@ -4921,6 +4922,7 @@ ubmcmm.baidustatic.com
 ||fyyqq.top^
 ||fz2c.top^
 ||fz8g.top^
+||fzckwij.cn^
 ||galvanic.name^
 ||gangtabli.top^
 ||gass.top^
@@ -5150,6 +5152,7 @@ ubmcmm.baidustatic.com
 ||iotewq.xyz^
 ||ioxjce.xyz^
 ||ipqc5ejfe.icu^
+||ir002423.cn^
 ||ishoutu.net^
 ||isroeiq.cn^
 ||iswgnn.com^
@@ -5174,6 +5177,7 @@ ubmcmm.baidustatic.com
 ||ixqkgc.cn^
 ||ixuchch.cn^
 ||iy20.com^
+||iytrn.xyz^
 ||iyuedu.cn.com^
 ||izzcwww7.live^
 ||izzcwww7.world^
@@ -5366,6 +5370,7 @@ ubmcmm.baidustatic.com
 ||lhot.xyz^
 ||lhpzz.love^
 ||lianfu.shop^
+||liangmei20221031.xyz^
 ||lianliankanms.top^
 ||liebaovip.com^
 ||ling07.icu^
@@ -5445,6 +5450,7 @@ ubmcmm.baidustatic.com
 ||merbleue.hk^
 ||meredithnice.com^
 ||meta-wx.com^
+||mgnlaigx.fun^
 ||mgtcw.top^
 ||mhsksgj.cn^
 ||miatip.cn^
@@ -5903,6 +5909,7 @@ ubmcmm.baidustatic.com
 ||sghmvum.cn^
 ||sgnlaigb.fun^
 ||shamodesha.com^
+||shangke.asia^
 ||shangrongxin.cn^
 ||shaokaodaren.top^
 ||shcd.me^
@@ -6125,6 +6132,7 @@ ubmcmm.baidustatic.com
 ||usmhimw.cn^
 ||usnignst.xyz^
 ||usnoownmt.fun^
+||utci9.cn^
 ||utijs.xyz^
 ||utll.cn^
 ||utywsi.cn^
@@ -6300,6 +6308,7 @@ ubmcmm.baidustatic.com
 ||xcjwq.world^
 ||xcmno.xyz^
 ||xcvhy.xyz^
+||xcvsw.xyz^
 ||xcvtg.xyz^
 ||xcvur.xyz^
 ||xcwzq.xyz^
@@ -24905,7 +24914,8 @@ $image,third-party,domain=258zw.com
 .xyz/*.sdk?$script,third-party
 /1.js?ssfrid=$script,third-party
 /121sdw/*$script,third-party
-/168*.xtml?$script,third-party
+/145sd*.js?$script,third-party
+/168mj*.js?$script,third-party
 /1MObaudu.$script,xmlhttprequest
 /1skwwd.
 /1xhtml?$script,third-party
