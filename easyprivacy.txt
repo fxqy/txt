@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Do8Zy+tUy5Eo+OuvekqN2w
-! Version: 202211062221
+! Checksum: o3lqcux4Z3K2Fku8f3R41g
+! Version: 202211072221
 ! Title: EasyPrivacy
-! Last modified: 06 Nov 2022 22:21 UTC
+! Last modified: 07 Nov 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6030,6 +6030,7 @@ _mongo_stats/
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||eqy.link^
+||etop.ro^
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^
@@ -6092,6 +6093,7 @@ _mongo_stats/
 ||impactradius-event.com^
 ||imrworldwide.com^
 ||imzahrwl.xyz^
+||ineed2s.ro^
 ||innerskinresearch.com^
 ||insigit.com^
 ||instantfox.co^
@@ -15735,6 +15737,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smallcapnetwork.com/zfbp/viewtracker/
 ||smallpdf.com/build/track-js.js
 ||smassets.net/assets/anonweb/anonweb-click-
+||smetrics.ralphlauren.com^
 ||snapchat.com/web/metrics
 ||solvusoft.com^*/scripts/visitor.js
 ||soundcloud.com^$ping
@@ -16285,6 +16288,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
 ||priceline.com/9aTjSd0n/init.js
+||ralphlauren.com^*/init.js
 ||realtor.com/rdc_user_check/init.js
 ||samsclub.com/px/PXsLC3j22K/init.js
 ||seekingalpha.com/xgCxM9By/init.js
@@ -30182,7 +30186,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
