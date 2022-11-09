@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: otykuCuyTdK9eQvxABSYlg
+! Checksum: teM3R4pLa/Lf/HvbHiVsxg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.71.83
-! TimeUpdated: 2022-11-08T17:31:05+00:00
+! Version: 2.0.71.90
+! TimeUpdated: 2022-11-09T16:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -811,6 +811,7 @@ nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*=
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 !
 !
+cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 mobile01.com#?#.l-articlePage:has(> .l-articlePage__author .c-authorInfo__id > a[href^="/marketstore.php?"])
 news.mydrivers.com#?#.news_info > p:has(> a[href^="https://dt.mydrivers.com/"])
 news.mydrivers.com#?#.news_info > p:has(> strong:contains(双11红包活动推荐))
@@ -896,6 +897,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/134441
+jianshu.com##+js(set-constant, NEWS_FEED, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132438
 nunuyy3.org##+js(abort-current-script, $, infoid)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131449
@@ -1150,6 +1153,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+jianshu.com##section[class][aria-label="ad360-ad"]
 ||mobile01.com/groupbuying.php
 mydrivers.com##div[class^="jdong11"]
 news.mydrivers.com##.baidu_left
@@ -2348,6 +2352,7 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 ! Good: example.org#@#.ad
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/134441
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133780
 genshin.honeyhunterworld.com#@#.a_p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130277
@@ -4193,6 +4198,18 @@ ubmcmm.baidustatic.com
 ||dinyqgv.cn^
 ||riqnhxq.cn^
 ||ygcn.ltd^
+||sqnggnsb.fun^
+||gfxjjpo.cn^
+||eqyzc.cyou^
+||kcmomkn.cn^
+||dsfhr.xyz^
+||u09.xyz^
+||516624.com^
+||i46.xyz^
+||renxingganwu.com^
+||51fa.shop^
+||iftjwuu.cn^
+||picnewsss.com^
 .8ox.cn
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -16646,6 +16663,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
+imgse.com##.ad-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -23954,7 +23973,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||xinju.cc^
 ||xitongku.cc^
 ||xne1ocient87zxz.360doc.cn^
-||xsfaya.com^$third-party
+||bchina-1.xsfaya.com^
 ||xue.zbyw.cn^
 ||xuexi.hydcd.com^
 ||y.photoint.net^

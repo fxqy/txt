@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UBttB1//vrkFEmbtjHwKDg
-! Version: 202211082221
+! Checksum: trvCHK+7/wLKH9du6NZDlA
+! Version: 202211092221
 ! Title: EasyList China
-! Last modified: 08 Nov 2022 22:21 UTC
+! Last modified: 09 Nov 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1702,6 +1702,18 @@ ubmcmm.baidustatic.com
 ||dinyqgv.cn^
 ||riqnhxq.cn^
 ||ygcn.ltd^
+||sqnggnsb.fun^
+||gfxjjpo.cn^
+||eqyzc.cyou^
+||kcmomkn.cn^
+||dsfhr.xyz^
+||u09.xyz^
+||516624.com^
+||i46.xyz^
+||renxingganwu.com^
+||51fa.shop^
+||iftjwuu.cn^
+||picnewsss.com^
 !
 .8ox.cn
 ##[class][onclick*=".ununxsxs.top"]
@@ -14166,6 +14178,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
+imgse.com##.ad-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21485,7 +21499,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||xinju.cc^
 ||xitongku.cc^
 ||xne1ocient87zxz.360doc.cn^
-||xsfaya.com^$third-party
+||bchina-1.xsfaya.com^
 ||xue.zbyw.cn^
 ||xuexi.hydcd.com^
 ||y.photoint.net^
