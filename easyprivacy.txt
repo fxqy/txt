@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WFDeqbXBWD7IDe094mcVJg
-! Version: 202211122221
+! Checksum: I8jq9v432uCMaonuRltWnQ
+! Version: 202211132221
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2022 22:21 UTC
+! Last modified: 13 Nov 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8137,6 +8137,7 @@ _mongo_stats/
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
 ||revhunter.tech^$third-party
+||revlifter.io^$third-party
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
 ||rewardtv.com^$third-party
@@ -11508,6 +11509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aan.amazon.com^$third-party
 ||accesswire.com/img.ashx
 ||activengage.com/overwatch/
+||activity.wisepops.com^
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
 ||adbr.io/log?
@@ -12063,6 +12065,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coveo.com/coveo.analytics.js/
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
+||cp.official-coupons.com^
+||cp.official-deals.co.uk^
 ||creator.zmags.com^
 ||credible.com/api/logs-fe
 ||crm-vwg.com/tracker/
@@ -13044,7 +13048,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rest.wildstar-online.com^
 ||retargeting.newsmanapp.com^
 ||reverbnation.com/widgets/trk/
-||revlifter.com/pageview
 ||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
 ||ria.ru/counter?
@@ -13505,6 +13508,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.target2sell.com^
 ||tracking.thehut.net^
 ||tracking.waterfrontmedia.com^
+||tracking.wisepops.com^
 ||tracking1.brandmentions.com^
 ||tracking2.channeladvisor.com^
 ||trackingapi.cloudapp.net^
@@ -15518,6 +15522,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
 ||mangadex.org/p.js
+||manua.ls/g/collect?
+||manua.ls/gtag
 ||mapquest.com/logger
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
@@ -15619,6 +15625,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||overstock.com/analytics/
 ||overstock.com/dlp?
 ||p.ctpost.com/article?
+||p.sfx.ms^
 ||pac.thesun.co.uk^
 ||pagesix.com/blaize/datalayer
 ||pappagallu.onefootball.com^
@@ -15967,6 +15974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||taiwanplus.com/api/video/startVideo
 ||target.nationwide.com^
 ||target.nejm.org^
+||targetimg1.com/ssx/ssx.mod.js$script,domain=target.com
 ||targeting.washpost.nile.works^
 ||td.airdroid.com^
 ||ted.dailymail.co.uk^
@@ -15989,6 +15997,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiendeo.*/_statsapi/
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
+||tiktok.com/web/report?
 ||tiktok.com/whale/
 ||tiktokv.com/monitor_browser/
 ||tilanalytics.timesinternet.in^
@@ -30572,6 +30581,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
+@@||prod.office.ch.locatee.com/internal/api/analytics/v1/systempropertys$~third-party,xmlhttprequest
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||puch-ersatzteile.at^*/google-analytics.min.js

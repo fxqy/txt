@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: v34T2FLAJGIW/Kwy/y6g4g
+! Checksum: Ef31hkJe/5Ei1Bt5oQeGWw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.72.21
-! TimeUpdated: 2022-11-12T17:31:05+00:00
+! Version: 2.0.72.28
+! TimeUpdated: 2022-11-13T16:31:07+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2531,6 +2531,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -90mh-gg.
+/static/js/a22082021.
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -4014,6 +4015,23 @@ ubmcmm.baidustatic.com
 ||xwdsp.com^
 ||ygcn.ltd^
 ||z66ggsh.top^
+||qqnggnsy.fun^
+||fiwyjar.cn^
+||zw2b9.cn^
+||ljlg.xyz^
+||epmf4.cn^
+||pyyhkn.com^
+||zdy1.xyz^
+||fvtrx.cyou^
+||venulaevavs.com^
+||sjjk.ltd^
+||usbkngf.cn^
+||qzngisyy.xyz^
+||wgdacc.com^
+||44j4oo2a.cn^
+||uav6d52c.cn^
+||9eu7c.top^
+||glovemall.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -15374,7 +15392,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||nlark.com^$domain=qfg34.com
 ||no1.168abc.net/upload/
 ||nongjitong.com/adm/
-||novipnoad.com/theme/js/55bfe0bf.
 ||nownews.com/assets/js/setAds.js
 ||nqbcf.cn/html/top
 ||nrsfh.com/neirong/
@@ -16688,6 +16705,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||novipnoad.com/theme/js/helper.
+/\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
