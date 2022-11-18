@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ld2xTGHuhymLMvq6je2a5g
+! Checksum: IuVuyMbOU5hPzJsj/GQB/A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.72.70
-! TimeUpdated: 2022-11-17T16:31:02+00:00
+! Version: 2.0.72.77
+! TimeUpdated: 2022-11-18T16:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,6 +75,10 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||qlogo.cn^
+||baiducdnimages.com^
+||528791725.com^
+||8499223.com^
 ||sx.fakjkwp.cn^
 ||yu.dlxxjsh.top^
 ||zs.rzijjeb.cn^
@@ -1117,6 +1121,10 @@ apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in specific.txt)
 !
 !
+! Ads on many porn sites
+/960x60.
+/template/chiav/img/*.png
+/template/chiav/img/*.mp4
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35526
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
@@ -3034,7 +3042,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /qiuyi-gg-wrapper-
 /qpxl.js
 /qqlive/conf/playerlottery/*
-/r/*?_r=$object,third-party
+/r/*?_r=$object,subdocument,third-party
 /r/t1/*$subdocument,third-party
 /red2/ad/*
 /remix_banner.gif
@@ -4096,6 +4104,33 @@ ubmcmm.baidustatic.com
 ||zdy1.xyz^
 ||ziedwr.com^
 ||zw2b9.cn^
+||bqnggnsv.fun^
+||yijfdsu.cn^
+||pjjlbjd.cn^
+||zjws.xyz^
+||q88j2.top^
+||iuerxw.xyz^
+||qdc7y9x.xyz^
+||9795x.com^
+||bzngisyv.xyz^
+||hbcl.ltd^
+||049uing.com^
+||1106yh.com^
+||dsfsdft4324.xyz^
+||dvaimso.cn^
+||txnwq.xyz^
+||s4ls9.top^
+||wfhuzaj.cn^
+||kmjbwejnr.xyz^
+||ijkqwopm.xyz^
+||jknmsdpo.xyz^
+||kjanfwss.xyz^
+||qzos9ou.xyz^
+||5ilss.top^
+||027dir.com^
+||qvyzdox.cn^
+||nijnqwem.xyz^
+||uyjhbawd.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -16761,6 +16796,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+bilibili.com##A[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
+bilibili.com##A[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -21385,7 +21422,7 @@ acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 159i.com##a[href^="//159i.com/tz/"]
-jandan.net##a[href^="//api.jandan.net/money.php?"]
+jandan.net##A[href*="/money.php?"]
 bigear.cn##a[href^="/?module=dantian&"]
 77222.cn##a[href^="/aa/"]
 x6d.com,xiaodao0.com##a[href^="/ad."]

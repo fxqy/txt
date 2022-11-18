@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aYdxG+YmEYZUc/M74P9Wsw
-! Version: 202211172221
+! Checksum: rDTtqFMzaoUcnbOlFX2EoA
+! Version: 202211182221
 ! Title: EasyList China
-! Last modified: 17 Nov 2022 22:21 UTC
+! Last modified: 18 Nov 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -513,7 +513,7 @@
 /qiuyi-gg-wrapper-
 /qpxl.js
 /qqlive/conf/playerlottery/*
-/r/*?_r=$object,third-party
+/r/*?_r=$object,subdocument,third-party
 /r/t1/*$subdocument,third-party
 /red2/ad/*
 /remix_banner.gif
@@ -1578,6 +1578,33 @@ ubmcmm.baidustatic.com
 ||zdy1.xyz^
 ||ziedwr.com^
 ||zw2b9.cn^
+||bqnggnsv.fun^
+||yijfdsu.cn^
+||pjjlbjd.cn^
+||zjws.xyz^
+||q88j2.top^
+||iuerxw.xyz^
+||qdc7y9x.xyz^
+||9795x.com^
+||bzngisyv.xyz^
+||hbcl.ltd^
+||049uing.com^
+||1106yh.com^
+||dsfsdft4324.xyz^
+||dvaimso.cn^
+||txnwq.xyz^
+||s4ls9.top^
+||wfhuzaj.cn^
+||kmjbwejnr.xyz^
+||ijkqwopm.xyz^
+||jknmsdpo.xyz^
+||kjanfwss.xyz^
+||qzos9ou.xyz^
+||5ilss.top^
+||027dir.com^
+||qvyzdox.cn^
+||nijnqwem.xyz^
+||uyjhbawd.xyz^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -14254,6 +14281,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com##A[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
+bilibili.com##A[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18878,7 +18907,7 @@ acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 159i.com##a[href^="//159i.com/tz/"]
-jandan.net##a[href^="//api.jandan.net/money.php?"]
+jandan.net##A[href*="/money.php?"]
 bigear.cn##a[href^="/?module=dantian&"]
 77222.cn##a[href^="/aa/"]
 x6d.com,xiaodao0.com##a[href^="/ad."]
