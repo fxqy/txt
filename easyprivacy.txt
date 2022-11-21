@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MET6FNg5qiIku2TBDnW9Pw
-! Version: 202211202221
+! Checksum: ugsTIyPX8ybyj5626yrbvQ
+! Version: 202211212221
 ! Title: EasyPrivacy
-! Last modified: 20 Nov 2022 22:21 UTC
+! Last modified: 21 Nov 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1013,6 +1013,7 @@
 /beacon/user-data
 /beacon/v1/batch?
 /beacon/vtn_loader.gif?
+/beacon?cust=
 /beacon_async.
 /beacon_img?
 /beaconconfigs/*
@@ -6528,6 +6529,7 @@ _mongo_stats/
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
 ||axf8.net^$third-party
+||axiom.co^$third-party
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
 ||azointel.com^$third-party
@@ -15182,8 +15184,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.ghostery.com/v1.js
 ||console-telemetry.oci.oraclecloud.com^
 ||consumer.org.nz/session/ping/
-||content22.citi.eu^$script
-||content22.online.citi.com^$script
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -15956,6 +15956,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamtape.cc/stat/
 ||streamtape.com/stat/
 ||streamtapeadblock.art/stat/
+||streamtapeadblockuser.art/stat/
 ||streamtapeadblockuser.homes/stat/
 ||streamtapeadblockuser.monster/stat/
 ||streamtapeadblockuser.xyz/stat/
@@ -16261,7 +16262,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citi.com^*/fp.js
 ||citibank.com.ph/tmx/js/
 ||content22.bmoharris.com^
+||content22.citi.eu^$script
 ||content22.citibank.com.sg^$script
+||contents2.00110.citi.com^
 ||customer.homedepot.com^$script
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -16355,6 +16358,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
 ||stockx.com/16uD0kOF/init.js
+||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||therealreal.com/ev56mY37/init.js
@@ -30453,7 +30457,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
+@@||get.geojs.io/v1/ip/geo.json$domain=shop.critrole.com
 @@||getflywheel.com/addons/google-analytics/$~third-party
+@@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||glenat.com^*/static/analytics.js$script,~third-party
@@ -31129,7 +31135,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|nihontsushin.com
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|makitani.net|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|zakzak.co.jp|zozo.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|makitani.net|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nicovideo.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|zakzak.co.jp|zozo.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
