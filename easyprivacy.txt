@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GbyJelw66Vl254s7ccJikA
-! Version: 202211232221
+! Checksum: zi7cp5hM7WLbYXCk7dNeug
+! Version: 202211242221
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2022 22:21 UTC
+! Last modified: 24 Nov 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13246,6 +13246,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.smartclip.net^
 ||stats.topofblogs.com^
 ||stats.twistage.com^
+||stats.uscreen.io^
 ||stats.varrando.com^
 ||stats.viddler.com^
 ||stats.vliplatform.com^
@@ -13665,6 +13666,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
+||web-tracker.smsbump.com^
 ||web1.51.la^
 ||webcare.byside.com^
 ||webedia.fr/js/gs.js
@@ -31266,6 +31268,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/ortc.js$domain=social.economico.pt
 @@||dodge.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=dodge.com.br
 @@||fiat.com.br^*/analytics.min.js$~third-party
+@@||google-analytics.com/analytics.js$domain=tuasaude.com
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|odia.ig.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
