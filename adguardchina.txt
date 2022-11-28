@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: wTjh8zCzFuip/soTiXzqKg
+! Checksum: HoQqWfz9/eY2Y0Ksro+Kgg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.73.63
-! TimeUpdated: 2022-11-27T17:02:56+00:00
+! Version: 2.0.73.72
+! TimeUpdated: 2022-11-28T17:03:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,6 +75,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||99886aaa.com^
 ||528791725.com^
 ||8499223.com^
 ||sx.fakjkwp.cn^
@@ -1177,6 +1178,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+tw.nextapple.com##[id^="lrec"]
+tw.nextapple.com##[class^="na-ad-"]
 ||thisav.com/player/video-js-banner/
 wuyong.fun##.content-area .adsbygoogle
 hamivideo.hinet.net###overlays-ad
@@ -3165,6 +3168,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /vtdd/*$script
 /vtdt/*$script
 /wap/js/gg/*
+/wap88ysw/jk/toubu.js
 /wap_advpic/*
 /wdzj_banners.js
 /web8/ad/*
@@ -3789,6 +3793,7 @@ ubmcmm.baidustatic.com
 ##.playtop.col-pd
 ##.plc > .a_p
 ##.pop[style="right: 10px;"]
+##.popup + .shortcuts-m-overlay
 ##.privilege-promote
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
@@ -4002,6 +4007,7 @@ ubmcmm.baidustatic.com
 ||23.234.217.11^
 ||23.234.217.12^
 ##a[href$="/tv826.com"]
+##a[href*=".ax10a.com/"]
 ##a[href*=".bet365.gdn"]
 ##a[href*="/industrialproductsfind.com"]
 ##a[href*="/ksbz1017.com"]
@@ -4029,6 +4035,7 @@ ubmcmm.baidustatic.com
 ||4vml0.cn^
 ||516624.com^
 ||51fa.shop^
+||51xuex.com.cn^
 ||5ilss.top^
 ||5pe6.fun^
 ||65688qp.com^
@@ -4039,6 +4046,8 @@ ubmcmm.baidustatic.com
 ||86o0h.top^
 ||897263tqs.com^
 ||9795x.com^
+||99886aaa.com^
+||99997aaa.com^
 ||9eu7c.top^
 ||aiedwhb.cn^
 ||aiupiyd.cn^
@@ -4058,7 +4067,9 @@ ubmcmm.baidustatic.com
 ||ceu5.icu^
 ||chengduda.top^
 ||clvkg.xyz^
+||clw99.mobi^
 ||csgw.xyz^
+||csiteadmin.com^
 ||cvbdw.xyz^
 ||cvcddno.cn^
 ||cvemhco.cn^
@@ -4101,6 +4112,7 @@ ubmcmm.baidustatic.com
 ||hqqpw.mobi^
 ||hxapafn.cn^
 ||i46.xyz^
+||i7x3.fun^
 ||iatf16949.pw^
 ||iddhui.com^
 ||ifautzg.cn^
@@ -4171,6 +4183,7 @@ ubmcmm.baidustatic.com
 ||nypswiu.cn^
 ||nzvpewi.cn^
 ||oapsmnk.cyou^
+||ocive.xyz^
 ||odfykc.cn^
 ||oicvvnm.cn^
 ||oivgqnt.cn^
@@ -4195,6 +4208,7 @@ ubmcmm.baidustatic.com
 ||qiangqi.shop^
 ||qicewar.cn^
 ||qmpkoiv.cn^
+||qptnew.com^
 ||qq2ux.top^
 ||qqnggnsy.fun^
 ||querulous-type.com^
@@ -4208,6 +4222,7 @@ ubmcmm.baidustatic.com
 ||rgfqcly.cn^
 ||ribffmg.cn^
 ||riqnhxq.cn^
+||rlllwby.cn^
 ||rmm7ss.top^
 ||rqnggnsz.fun^
 ||rss9f.top^
@@ -4226,6 +4241,7 @@ ubmcmm.baidustatic.com
 ||sm3nq.cn^
 ||sqnggnsb.fun^
 ||szngisyb.xyz^
+||szzb.xyz^
 ||t34kk9.top^
 ||tfaftemail.com^
 ||tffytdo.cn^
@@ -4257,6 +4273,7 @@ ubmcmm.baidustatic.com
 ||vqdjcy.com^
 ||vqjxlie.cn^
 ||wapsmne.cyou^
+||weeuqek.cn^
 ||weilin.xin^
 ||wfhuzaj.cn^
 ||wganilgle.cyou^
@@ -4273,7 +4290,9 @@ ubmcmm.baidustatic.com
 ||xafc.xyz^
 ||xdaigua.cn^
 ||xf2pf.top^
+||xgvfkge.cn^
 ||xhsrw.xyz^
+||xianzhice.com^
 ||xiaohui.ink^
 ||xinzhanggui.wang^
 ||xlhnkpw.cn^
@@ -4284,6 +4303,7 @@ ubmcmm.baidustatic.com
 ||ycyipha.cn^
 ||yfue99.xyz^
 ||ygcn.ltd^
+||ygwdai.cn^
 ||yihehe.xyz^
 ||yijfdsu.cn^
 ||ynyikk.com^
@@ -16604,6 +16624,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
 ||wowad.wow-classic.com^
+||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
@@ -20729,8 +20750,6 @@ baidu.com,bdimg.com##.shield-agent-tb-feed
 hao.rising.cn##.shop-site
 teepr.com##.shop-widget
 qiushibaike.com##.shopwindow
-dianyingim.com,dyxs11.com##.shortcuts-m-overlay
-dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 ilxdh.com##.show-container
 pixabay.com##.show-gtty-item
 miercn.com##.show-img-box
