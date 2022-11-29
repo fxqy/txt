@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0cc4mVPXC/4XfJtRgeluLg
-! Version: 202211282221
+! Checksum: VE8pNQPE9INEO+vp7dXu+Q
+! Version: 202211292221
 ! Title: EasyPrivacy
-! Last modified: 28 Nov 2022 22:21 UTC
+! Last modified: 29 Nov 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6769,7 +6769,6 @@ _mongo_stats/
 ||cnzz.com^$third-party
 ||cobaltgroup.com^$third-party
 ||codata.ru^$third-party
-||coefficy.com^$third-party
 ||cogmatch.net^$third-party
 ||cognativex.com^$third-party
 ||cognitivematch.com^$third-party
@@ -8337,6 +8336,7 @@ _mongo_stats/
 ||slingpic.com^$third-party
 ||smadex.com^$third-party
 ||smallseotools.com^$third-party
+||smart-data-systems.com^$third-party
 ||smart-digital-solutions.com^$third-party
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
@@ -11812,6 +11812,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc.marfeelcache.com^
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
+||bc0a.com/be_ixf_js_sdk.js
 ||bdg.com/event?
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
@@ -12014,6 +12015,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.trvdp.com^
 ||cnzz.com/stat.
 ||cod.bitrec.com^
+||coefficy.com/ip/
 ||coherentpath.com/tracker/
 ||collect-ap2.attraqt.io^
 ||collect-eu.attraqt.io^
@@ -12138,6 +12140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||datadog-service.mvfglobal.com^
 ||daxab.com/logger/
 ||daylogs.com/counter/
+||dcinfos-cache.abtasty.com^
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -12707,6 +12710,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||makantime.tv/analytics.js
 ||mandrillapp.com/track/
 ||maptrackpro.com/track/
+||marketcat.co/pixel/
 ||marketingautomation.services/client/ss.js
 ||marketingautomation.services/koi
 ||marketo.com/gw1/
@@ -12819,6 +12823,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||needle.com/pageupdate?
 ||neocounter.neoworx-blog-tools.net^
 ||neon-lab.com/neonbctracker.js
+||net-tracker.notolytix.com^$third-party
 ||netalpaca.com/beacon
 ||netbiscuits.net^*/analytics/
 ||netdna-ssl.com/tracker/
@@ -13233,6 +13238,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.inergizedigitalmedia.com^
 ||stats.itweb.co.za^
 ||stats.kaltura.com^
+||stats.ksearchnet.com^
 ||stats.lotlinx.com^
 ||stats.mituyu.com^
 ||stats.mpthemes.net^
@@ -30134,6 +30140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||geo.emol.cl^
 ||gruporeforma.com/clickGrupoReforma.js
 ||hits.antena3.com^
+||matt.mercadolibre.
 ||mercadolibre.com/tracks^
 ||pixel.europapress.net^
 ||rvv.emol.com^
