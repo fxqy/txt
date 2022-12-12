@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: K13s6SyuHCWlJ3f6kOeeGA
+! Checksum: IFBBRoohUfDDCJaRTcRL5Q
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.74.95
-! TimeUpdated: 2022-12-11T15:31:10+00:00
+! Version: 2.0.75.3
+! TimeUpdated: 2022-12-12T15:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3602,6 +3602,7 @@ ubmcmm.baidustatic.com
 ##.ad_thread
 ##.adbox-bg.adscounter
 ##.add-gg
+##.addddddwarp
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-after-content
 ##.ads-after-header
@@ -3873,6 +3874,7 @@ ubmcmm.baidustatic.com
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-item-ads
+##.video_details > .banner
 ##.w100b > .m_adv
 ##.wbalist_thumb[style*="/upload/site/"]
 ##.wemziguanggao
@@ -3985,6 +3987,7 @@ ubmcmm.baidustatic.com
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
 ##div#xinxi
+##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="ps_"][value="20"]
@@ -4056,6 +4059,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/wns8499608.xyz"]
 ##a[href*="/yyds101.com"]
 ##a[href="https://xq97.com"]
+##div[onclick*="ky0222.cn"]
 ##div[onclick*="ky165.cn"]
 ||027dir.com^
 ||02asdf.com^
@@ -4067,6 +4071,7 @@ ubmcmm.baidustatic.com
 ||058tyfg.com^
 ||064ioio.com^
 ||065yuyu.com^
+||076lvo.xyz^
 ||0ftyz.top^
 ||0smg.top^
 ||1106yh.com^
@@ -4087,6 +4092,7 @@ ubmcmm.baidustatic.com
 ||678tktp.com^
 ||6u4j.icu^
 ||79zxcv.com^
+||7x1u.icu^
 ||828239sam.com^
 ||82ip.top^
 ||86o0h.top^
@@ -4095,6 +4101,7 @@ ubmcmm.baidustatic.com
 ||8q2h.icu^
 ||91pk.love^
 ||9795x.com^
+||99885aaa.com^
 ||99886aaa.com^
 ||99997aaa.com^
 ||9eu7c.top^
@@ -4161,6 +4168,7 @@ ubmcmm.baidustatic.com
 ||eidphap.cn^
 ||emfrig.xyz^
 ||enzagpt.cn^
+||eoqygep.cn^
 ||epfmfqh.cn^
 ||epmf4.cn^
 ||eqnggnsw.fun^
@@ -4182,8 +4190,10 @@ ubmcmm.baidustatic.com
 ||fwrpq.cyou^
 ||fypcy.cyou^
 ||fztimyc.cn^
+||gctd.xyz^
 ||gcxp.xyz^
 ||gdugga.com^
+||gdxinya.com^
 ||gfqfjau.cn^
 ||gfxjjpo.cn^
 ||ggsdogn.cn^
@@ -4199,6 +4209,7 @@ ubmcmm.baidustatic.com
 ||gscohm.xyz^
 ||guanggao1257.com^
 ||guanhoulz.com^
+||gxniihk.cn^
 ||gyhyhyq.website^
 ||gzzb.xyz^
 ||h12h.fun^
@@ -4290,6 +4301,7 @@ ubmcmm.baidustatic.com
 ||lpaysfr.cn^
 ||lqnggnsl.fun^
 ||lrkporm.cn^
+||lsbebm.xyz^
 ||luotuoma.xin^
 ||lwhqa.xyz^
 ||lxrhw.xyz^
@@ -4303,6 +4315,7 @@ ubmcmm.baidustatic.com
 ||mrzhao.life^
 ||myproteincn.com^
 ||n0633.com^
+||necmdow.cn^
 ||nhtieoo.cn^
 ||nijnqwem.xyz^
 ||ningsiy.xin^
@@ -4441,6 +4454,7 @@ ubmcmm.baidustatic.com
 ||tian-ting.ink^
 ||tinymarket.store^
 ||toijr.xyz^
+||topboo.xyz^
 ||toskmisway.com^
 ||tptp001.buzz^
 ||tpvdcqw.cn^
@@ -4490,6 +4504,7 @@ ubmcmm.baidustatic.com
 ||wotmvdc.cn^
 ||wpozwh.com^
 ||wqnggnse.fun^
+||wvggzak.cn^
 ||wxumevd.cn^
 ||wyplmjufd.live^
 ||wyqaafplm.live^
@@ -4498,6 +4513,7 @@ ubmcmm.baidustatic.com
 ||xafc.xyz^
 ||xdaigua.cn^
 ||xf2pf.top^
+||xfwxhyd.cn^
 ||xgvfkge.cn^
 ||xhsrw.xyz^
 ||xianzhice.com^
@@ -4505,6 +4521,7 @@ ubmcmm.baidustatic.com
 ||xinrern.cn^
 ||xinzhanggui.wang^
 ||xlhnkpw.cn^
+||xn--2qus9awz1a6ygowgbua.xn--fiqs8s^
 ||xpdjsd.cn^
 ||xqcjfcb.cn^
 ||xtzx.xyz^
@@ -20605,6 +20622,7 @@ booom.net,x6d.com##.tmall_tab
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
+pc841.com,zol.com.cn##.today-hot-layer
 muchong.com##.todayhot
 weather.com.cn##.tong
 gamefy.cn##.tonglan
