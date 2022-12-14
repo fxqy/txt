@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /Fm8KFKgZGTkbHFw1jDhtQ
-! Version: 202212132221
+! Checksum: 2ehsq0FOpapHL81+PC9e5w
+! Version: 202212142221
 ! Title: EasyPrivacy
-! Last modified: 13 Dec 2022 22:21 UTC
+! Last modified: 14 Dec 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5548,6 +5548,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _webiq.
+_WebVitalsReporter_
 _wiselog_
 _xiti_js-
 cgi-bin/counter
@@ -12684,6 +12685,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log-*.previewnetworks.com^
 ||log.aimtell.com^
 ||log.artipbox.net^$third-party
+||log.cookieyes.com^
 ||log.go.com^
 ||log.invodo.com^
 ||log.kibboko.com^
@@ -14845,6 +14847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inforotor.net/rotor/
 ||izhevskinfo.ru/count/
 ||karelia.info/counter/
+||kraken.rambler.ru^
 ||kvartirant.ru/counter.php?
 ||likemore-go.imgsmail.ru^$image
 ||linestudio.ru/counter/
@@ -15976,6 +15979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ss.photospecialist.co.uk^
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
+||stackoverflow.com/_/client-timings
 ||stackshare.io/analytics.
 ||stan.xing.com^
 ||stapadblockuser.info/stat/
@@ -29333,6 +29337,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
 ||compteur.developpez.com^
+||courrierinternational.com/it.hal
 ||developpez.com/public/js/track.js
 ||e.m6web.fr/events
 ||easeus.com/default/js/aff_buy_tracking.js
@@ -29898,6 +29903,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||vvvvid.it^$ping
 ||yachtingnetwork.it/stat/
 ! Japanese
+||abema-tv.com/v1/stats/
 ||amazonaws.com/ai-img/aia.js
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
@@ -30573,6 +30579,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
+@@||helidon.io/docs/v3/pages/mp/metrics/metrics.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
 @@||herokuapp.com/api/analytics$domain=madeincookware.com
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
