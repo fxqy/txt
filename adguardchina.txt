@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: aI4cDoQ+fsjA3DkLiOdP5Q
+! Checksum: or/o2n3o+Bcanf9RyOB8Ng
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.75.55
-! TimeUpdated: 2022-12-18T16:31:37+00:00
+! Version: 2.0.75.65
+! TimeUpdated: 2022-12-19T17:31:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -459,7 +459,7 @@ moeci.com##+js(no-setTimeout-if, _0x)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120433
 koyi.pub#@#.main_ad
 @@||koyi.pub/wp-content/plugins/fuzqing-ad-plus/assets/js/*.js
-koyi.pub##+js(set-constant, fuzqingAdPlus, emptyObj)
+koyi.pub##+js(set-constant, fuzqingAdPlus, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120000
 pincong.rocks##+js(no-setInterval-if, Ad Block)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117369
@@ -979,14 +979,14 @@ msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34910
 goodav17.com##+js(abort-on-property-read, popunder)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132934
-v-wb.youku.com##+js(set-constant, Object.prototype.adData, emptyObj)
+v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121307
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87176
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54359
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26318
 ! https://forum.adguard.com/index.php?threads/youku-com-v-qq-com.30749/
 youku.com##+js(nano-setTimeout-booster, r--, , 0.02)
-m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, emptyObj)
+m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109897
 iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87232
@@ -3105,6 +3105,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /resource/common/tongzhuo/game_info.json
 /runtime/ad/*
 /runtime/hu/*.js
+/Runtime/Js/300_300.js
 /Runtime/Js/90_m.js
 /Runtime/Js/960_90.js
 /Runtime/js/banner_
@@ -4122,6 +4123,7 @@ ubmcmm.baidustatic.com
 ||6u4j.icu^
 ||79zxcv.com^
 ||7x1u.icu^
+||81cdn.cn^
 ||828239sam.com^
 ||82ip.top^
 ||86o0h.top^
@@ -4150,6 +4152,7 @@ ubmcmm.baidustatic.com
 ||b53.xyz^
 ||b6c4.top^
 ||baiduhaoba.com^
+||batiao20221209.xyz^
 ||bdhcpll.cn^
 ||bendan.shop^
 ||benditao.biz^
@@ -4197,6 +4200,7 @@ ubmcmm.baidustatic.com
 ||dbmcmhh.cn^
 ||dbwmpqd.cn^
 ||dfkd.xyz^
+||dfncojkle.xyz^
 ||dharkyu.cn^
 ||diejs.com^
 ||dinyqgv.cn^
@@ -4230,6 +4234,7 @@ ubmcmm.baidustatic.com
 ||fkjdz.cyou^
 ||fknrtpp.cn^
 ||folgsl.xyz^
+||fqsokh.xyz^
 ||fsdnp.cyou^
 ||ftdmfxq.cn^
 ||fvtrx.cyou^
@@ -4278,6 +4283,7 @@ ubmcmm.baidustatic.com
 ||huilianji.com^
 ||huineihan.com^
 ||hxapafn.cn^
+||hztv.xyz^
 ||i46.xyz^
 ||i7x3.fun^
 ||iatf16949.pw^
@@ -4331,6 +4337,7 @@ ubmcmm.baidustatic.com
 ||koojsc.cn^
 ||kptygka.cn^
 ||kq7k.icu^
+||krp3g.top^
 ||kuanzhan.biz^
 ||kufmbwm.cn^
 ||kvbgoc.com^
@@ -4342,6 +4349,7 @@ ubmcmm.baidustatic.com
 ||kydb.xyz^
 ||kyrj.xyz^
 ||kyzx.xyz^
+||kzehh.com^
 ||kzezz.com^
 ||kzngisyd.xyz^
 ||lambda.center^
@@ -4363,6 +4371,7 @@ ubmcmm.baidustatic.com
 ||lqnggnsl.fun^
 ||lrkporm.cn^
 ||lsbebm.xyz^
+||lubao-food.mobi^
 ||luotuoma.xin^
 ||lwcsytn.cn^
 ||lwhqa.xyz^
@@ -4378,12 +4387,14 @@ ubmcmm.baidustatic.com
 ||mrhboe.xyz^
 ||mrzhao.life^
 ||myproteincn.com^
+||mziwkyr.cn^
 ||n0633.com^
 ||necmdow.cn^
 ||nhtieoo.cn^
 ||nijnqwem.xyz^
 ||ningsiy.xin^
 ||nisihu.com.cn^
+||nkelyhz.cn^
 ||nmidhnz.cn^
 ||npmeingm7.shop^
 ||nqnggnsc.fun^
@@ -4513,6 +4524,7 @@ ubmcmm.baidustatic.com
 ||skfjd1.com^
 ||skfjd1.xyz^
 ||sm3nq.cn^
+||smtlm967.com^
 ||somaliainc.com^
 ||sqnggnsb.fun^
 ||summer5188.com^
@@ -4635,6 +4647,7 @@ ubmcmm.baidustatic.com
 ||zahrvfbd.xyz^
 ||zbpx.xyz^
 ||zdy1.xyz^
+||zenknho.cn^
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgzlw.biz^
@@ -4650,6 +4663,7 @@ ubmcmm.baidustatic.com
 ||zvxwvny.cn^
 ||zw2b9.cn^
 ||zzngisyq.xyz^
+||zzwzsic.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -14221,6 +14235,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||giaoji.com/Runtime/Js/
 ||gimy.*/images/eee*.png
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
@@ -20086,6 +20101,7 @@ mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 dyhjw.com##.nn_link
 zztt24.com##.no-mask
+prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
 jbaaza.com##.notice-img
@@ -22646,6 +22662,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hkjc.com/bannerad/
 @@||hopto.org/js/prebid-ads.
+@@||hopto.org^$generichide
 @@||huhupan.com/e/extend/down/$generichide
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js

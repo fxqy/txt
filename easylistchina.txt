@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /WofCzkKWjRSO/7gxsKrMQ
-! Version: 202212182221
+! Checksum: 7xxGPWunWfdRobyidFODkg
+! Version: 202212192221
 ! Title: EasyList China
-! Last modified: 18 Dec 2022 22:21 UTC
+! Last modified: 19 Dec 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -528,6 +528,7 @@
 /resource/common/tongzhuo/game_info.json
 /runtime/ad/*
 /runtime/hu/*.js
+/Runtime/Js/300_300.js
 /Runtime/Js/90_m.js
 /Runtime/Js/960_90.js
 /Runtime/js/banner_
@@ -1548,6 +1549,7 @@ ubmcmm.baidustatic.com
 ||6u4j.icu^
 ||79zxcv.com^
 ||7x1u.icu^
+||81cdn.cn^
 ||828239sam.com^
 ||82ip.top^
 ||86o0h.top^
@@ -1576,6 +1578,7 @@ ubmcmm.baidustatic.com
 ||b53.xyz^
 ||b6c4.top^
 ||baiduhaoba.com^
+||batiao20221209.xyz^
 ||bdhcpll.cn^
 ||bendan.shop^
 ||benditao.biz^
@@ -1623,6 +1626,7 @@ ubmcmm.baidustatic.com
 ||dbmcmhh.cn^
 ||dbwmpqd.cn^
 ||dfkd.xyz^
+||dfncojkle.xyz^
 ||dharkyu.cn^
 ||diejs.com^
 ||dinyqgv.cn^
@@ -1656,6 +1660,7 @@ ubmcmm.baidustatic.com
 ||fkjdz.cyou^
 ||fknrtpp.cn^
 ||folgsl.xyz^
+||fqsokh.xyz^
 ||fsdnp.cyou^
 ||ftdmfxq.cn^
 ||fvtrx.cyou^
@@ -1704,6 +1709,7 @@ ubmcmm.baidustatic.com
 ||huilianji.com^
 ||huineihan.com^
 ||hxapafn.cn^
+||hztv.xyz^
 ||i46.xyz^
 ||i7x3.fun^
 ||iatf16949.pw^
@@ -1757,6 +1763,7 @@ ubmcmm.baidustatic.com
 ||koojsc.cn^
 ||kptygka.cn^
 ||kq7k.icu^
+||krp3g.top^
 ||kuanzhan.biz^
 ||kufmbwm.cn^
 ||kvbgoc.com^
@@ -1768,6 +1775,7 @@ ubmcmm.baidustatic.com
 ||kydb.xyz^
 ||kyrj.xyz^
 ||kyzx.xyz^
+||kzehh.com^
 ||kzezz.com^
 ||kzngisyd.xyz^
 ||lambda.center^
@@ -1789,6 +1797,7 @@ ubmcmm.baidustatic.com
 ||lqnggnsl.fun^
 ||lrkporm.cn^
 ||lsbebm.xyz^
+||lubao-food.mobi^
 ||luotuoma.xin^
 ||lwcsytn.cn^
 ||lwhqa.xyz^
@@ -1804,12 +1813,14 @@ ubmcmm.baidustatic.com
 ||mrhboe.xyz^
 ||mrzhao.life^
 ||myproteincn.com^
+||mziwkyr.cn^
 ||n0633.com^
 ||necmdow.cn^
 ||nhtieoo.cn^
 ||nijnqwem.xyz^
 ||ningsiy.xin^
 ||nisihu.com.cn^
+||nkelyhz.cn^
 ||nmidhnz.cn^
 ||npmeingm7.shop^
 ||nqnggnsc.fun^
@@ -1939,6 +1950,7 @@ ubmcmm.baidustatic.com
 ||skfjd1.com^
 ||skfjd1.xyz^
 ||sm3nq.cn^
+||smtlm967.com^
 ||somaliainc.com^
 ||sqnggnsb.fun^
 ||summer5188.com^
@@ -2061,6 +2073,7 @@ ubmcmm.baidustatic.com
 ||zahrvfbd.xyz^
 ||zbpx.xyz^
 ||zdy1.xyz^
+||zenknho.cn^
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgzlw.biz^
@@ -2076,6 +2089,7 @@ ubmcmm.baidustatic.com
 ||zvxwvny.cn^
 ||zw2b9.cn^
 ||zzngisyq.xyz^
+||zzwzsic.cn^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -11657,6 +11671,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||giaoji.com/Runtime/Js/
 ||gimy.*/images/eee*.png
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
@@ -17523,6 +17538,7 @@ mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 dyhjw.com##.nn_link
 zztt24.com##.no-mask
+prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
 jbaaza.com##.notice-img
@@ -20089,6 +20105,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hkjc.com/bannerad/
 @@||hopto.org/js/prebid-ads.
+@@||hopto.org^$generichide
 @@||huhupan.com/e/extend/down/$generichide
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
