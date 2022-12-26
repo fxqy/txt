@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a2OrZqWpIOIrrz4iKJ/Jzw
-! Version: 202212252221
+! Checksum: +AFNqZYqCwG8b/81CMXRXA
+! Version: 202212262221
 ! Title: EasyList China
-! Last modified: 25 Dec 2022 22:21 UTC
+! Last modified: 26 Dec 2022 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2183,6 +2183,16 @@ ubmcmm.baidustatic.com
 ||bnsdk.top^
 ||8499683.com^
 ||vouninked.com^
+||njxjrar.cn^
+||klgzjaw.cn^
+||hqoqbs.xyz^
+||monzexn.cn^
+||kxgo.xyz^
+||runn.fun^
+##A[href*="/ky0666.cn"]
+||abgxxc.com^
+||vqhifd.xyz^
+||cja-1223.cc^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -14204,6 +14214,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+speedtest.cn##.index-advertising
+speedtest.cn##.speed-bottom-ads
 yocoolnet.in###mobile_inplayer
 52av.one##.message + center
 szxx.com.cn###A1
@@ -19488,7 +19500,7 @@ ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
 lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 yyrtv.com##li[class*="baidu"]
-pianmm.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
+pianmax.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
 so.com##li[data-cpc_query]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
@@ -20911,7 +20923,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||at*.doubanio.com^
 ||b.kouke5.com^
 ||b.unjs.com^
-||b1.027art.com^
+||static.rongkao.com^
 ||b1.51scw.net^
 ||b1.91jucai.com^
 ||b1.b2b168.com^
