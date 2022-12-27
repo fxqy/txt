@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ijufX0cj6nLk5zNg++WYRg
-! Version: 202212262221
+! Checksum: z8ha0ifR0y3SuANkUVjxww
+! Version: 202212272221
 ! Title: EasyPrivacy
-! Last modified: 26 Dec 2022 22:21 UTC
+! Last modified: 27 Dec 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9415,6 +9415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
+||chubbycreature.com^
 ||chunkycactus.com^
 ||circlelevel.com^
 ||clamcelery.com^
@@ -11113,6 +11114,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||team-rec.jp^$third-party
 ||tgknt.com^$third-party
 ||thench.net^$third-party
+||thesmilingpencils.com^$third-party
 ||trackfeed.com^$third-party
 ||ukw.jp^$third-party
 ||uncn.jp^$third-party
@@ -14300,6 +14302,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Croatian
 ||tracking.vid4u.org^
 ! Czech
+||a.centrum.cz^
 ||bisko.mall.tv^
 ||bnr.alza.cz^
 ||counter.cnw.cz^
@@ -14310,6 +14313,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||i.imedia.cz^
 ||log.cpex.cz^
 ||log.idnes.cz^
+||mer.stdout.cz^
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||r2b2.cz/events.php?
@@ -14479,6 +14483,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
 ||future-shop.jp/rview.gif?
+||hatmiso.net^$third-party
 ||ip2c.landscape.co.jp^
 ||ipcheck.blogsys.jp^
 ||jal.co.jp/common_rn/img/rtam.gif
@@ -14537,6 +14542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.felmat.net^$third-party
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
+||tr.c-tag.net^
 ||tr.slvrbullet.com^
 ||track.span-smt.jp^
 ||track.thebase.in^
@@ -29097,6 +29103,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tgw.gmx.ch^
 ||tgw.gmx.net^
 ||tgw.web.de^
+||tracer.autoscout24.ch^
 ||track.dws.de^
 ||track.express.de^
 ||track.noz.de^
@@ -30496,6 +30503,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
 @@||moengage.com/webpush/$script,domain=olx.com.lb
+@@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
@@ -31132,6 +31140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=sony.jp
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
+@@||townwork.net/js/AppMeasurement.js$~third-party
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||type.jp/common/js/clicktag.js
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
