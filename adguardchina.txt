@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: FoMK2hbICNC1rvdqH+KdDA
+! Checksum: 8i70WVN/fqzQGyyRlqLOig
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.76.32
-! TimeUpdated: 2022-12-27T16:31:47+00:00
+! Version: 2.0.76.40
+! TimeUpdated: 2022-12-28T17:03:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1206,6 +1206,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+sysin.org##img[src^="/img/promotion"]
+360.cn##.fangcloud
 fsylr.com##.plus_r
 9uu.com##.relate-container
 9uu.com##.gao-bg
@@ -4086,6 +4088,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".hgty411.bet"]
 ##a[href*="/51236.cc"]
 ##a[href*="/84992020.xyz"]
+##a[href*="/84992323.xyz"]
 ##a[href*="/b6314.com:"]
 ##a[href*="/industrialproductsfind.com"]
 ##a[href*="/kk5377.com:"]
@@ -4184,6 +4187,7 @@ ubmcmm.baidustatic.com
 ||auwehnw.cn^
 ||b4jy.top^
 ||b53.xyz^
+||b62.xyz^
 ||b6c4.top^
 ||baiduhaoba.com^
 ||batiao20221209.xyz^
@@ -4205,6 +4209,7 @@ ubmcmm.baidustatic.com
 ||bqge.xyz^
 ||bqgw.xyz^
 ||bqnggnsv.fun^
+||brmzopt.cn^
 ||bvpaovs.cn^
 ||bvwxfok.cn^
 ||bzngisyv.xyz^
@@ -4250,7 +4255,9 @@ ubmcmm.baidustatic.com
 ||diejs.com^
 ||dinyqgv.cn^
 ||diygnmo.cn^
+||dklkxb.xyz^
 ||dktoo.site^
+||dongya.org^
 ||dpqtdkf.cn^
 ||dsfhr.xyz^
 ||dsfsdft4324.xyz^
@@ -4261,6 +4268,7 @@ ubmcmm.baidustatic.com
 ||eganilglw.cyou^
 ||egrnmic.cn^
 ||eidphap.cn^
+||ejjek.top^
 ||ekhnbwe.cn^
 ||emfrig.xyz^
 ||enzagpt.cn^
@@ -4415,6 +4423,7 @@ ubmcmm.baidustatic.com
 ||kptygka.cn^
 ||kq7k.icu^
 ||krp3g.top^
+||krqole.xyz^
 ||kuanzhan.biz^
 ||kufmbwm.cn^
 ||kvbgoc.com^
@@ -4496,6 +4505,7 @@ ubmcmm.baidustatic.com
 ||nzvpewi.cn^
 ||oapsmnk.cyou^
 ||ocive.xyz^
+||ocyakni.cn^
 ||odfykc.cn^
 ||odghlwo.cn^
 ||oehhq.xyz^
@@ -4505,6 +4515,7 @@ ubmcmm.baidustatic.com
 ||oivgqnt.cn^
 ||ok-11-cai.cc^
 ||omtend.com^
+||ooeogk.xyz^
 ||oqnggnsk.fun^
 ||othoj.xyz^
 ||ouphff.cn^
@@ -4599,6 +4610,7 @@ ubmcmm.baidustatic.com
 ||rss9f.top^
 ||rtmtgf.xyz^
 ||rtnigaz.cyou^
+||rtzhao.site^
 ||runn.fun^
 ||ruohe.fun^
 ||rvyjbwr.cn^
@@ -4745,6 +4757,7 @@ ubmcmm.baidustatic.com
 ||xtzx.xyz^
 ||xuaihua.work^
 ||xwdsp.com^
+||xxvkwuk.cn^
 ||y88m2.top^
 ||yangliu.ink^
 ||ycyipha.cn^
@@ -17679,6 +17692,7 @@ playno1.com###m2
 playno1.com###m7
 2345.com###m_banner
 2345.com###m_banner_2
+91duba.com,iduba.com###m_hot_rec_main > div > .noLikeList
 chacuo.net###mailtooltipss
 kaka12345.cc###main
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
@@ -19814,6 +19828,7 @@ mamecn.com##.jjMain_bg
 soyunpan.com##.jmwb
 hahamx.cn##.joke-list-anecdote
 qq.com##.jpBanner
+91duba.com,iduba.com##.jq_notice
 juqingba.cn##.jqright1
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show

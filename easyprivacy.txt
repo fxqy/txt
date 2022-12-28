@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z8ha0ifR0y3SuANkUVjxww
-! Version: 202212272221
+! Checksum: QY/vx9+1vQMoaMcdoEzMwg
+! Version: 202212282215
 ! Title: EasyPrivacy
-! Last modified: 27 Dec 2022 22:21 UTC
+! Last modified: 28 Dec 2022 22:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7542,6 +7542,7 @@ _mongo_stats/
 ||linksnappy.com^$third-party
 ||linksynergy.com^$third-party
 ||linkxchanger.com^$third-party
+||listenlayer.com^$third-party
 ||listrakbi.com^$third-party
 ||litix.io^$third-party
 ||livecount.fr^$third-party
@@ -8349,6 +8350,7 @@ _mongo_stats/
 ||spylog.ru^$third-party
 ||spywords.com^$third-party
 ||sqate.io^$third-party
+||squeezely.tech^$third-party
 ||squidanalytics.com^$third-party
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
@@ -9541,6 +9543,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dolldetail.com^
 ||donkeyleaf.com^
 ||doorbrazil.com^
+||doubtdrawer.com^
 ||doubtfulrainstorm.com^
 ||downtowndirection.com^
 ||dq95d35.com^$third-party
@@ -12413,6 +12416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hubspot.com/cs/loader-v2.js
 ||hubspot.com/tracking/
 ||hubspot.com/usage-logging/
+||hushforms.com/visitorid?
 ||hypercomments.com/widget/*/analytics.html
 ||i.compendium.com^
 ||i.s-microsoft.com/wedcs/ms.js
@@ -13140,6 +13144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.big-boards.com^
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
+||stats.callnowbutton.com^
 ||stats.cmcigroup.com^
 ||stats.curds.io^
 ||stats.datahjaelp.net^
@@ -14696,6 +14701,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imgsmail.ru/gstat?
 ||infopolit.com/counter/
 ||inforotor.net/rotor/
+||ip.up66.ru^
 ||izhevskinfo.ru/count/
 ||karelia.info/counter/
 ||kraken.rambler.ru^
