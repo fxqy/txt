@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vCW3hU/5vgqri+KJiqCeRA
-! Version: 202212292221
+! Checksum: RDJa/N3/f6RGX+OamgDKIA
+! Version: 202212302221
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2022 22:21 UTC
+! Last modified: 30 Dec 2022 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15402,6 +15402,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kloth.net/images/pixel.gif
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
+||komoot.*/api/t/event
 ||kompass.com/logAdvertisements
 ||l.ctrl.blog^
 ||l.usaa.com/e/v1/
@@ -29197,6 +29198,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||events-logs.doctolib.com^
 ||franceculture.fr/static/js/xtcore-
 ||franceinter.fr/vendor/track.js
+||forecast.huffingtonpost.fr^
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
 ||hits.porn.fr^
@@ -30356,6 +30358,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||decision.taplytics.com^$domain=royalbank.com
+@@||delta.com/dlhome/ruxitagentjs$~third-party
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
 @@||devclass.com/wp-content/plugins/google-analytics-for-wordpress/$script,~third-party
