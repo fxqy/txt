@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kQvZ8eGraH7sXG4kdlI9qA
-! Version: 202301112221
+! Checksum: gIbFqKdUokbJxBcDu6eizQ
+! Version: 202301122221
 ! Title: EasyPrivacy
-! Last modified: 11 Jan 2023 22:21 UTC
+! Last modified: 12 Jan 2023 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1896,6 +1896,7 @@
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
+/events/view-form-open
 /events/view?
 /events?data=
 /events?rpId=
@@ -2531,7 +2532,6 @@
 /insights-collector.
 /insights-emitter.
 /insights-emitter/*
-/insights/events/*
 /InsightTrk/*
 /insightXe.js
 /insitemetrics/*
@@ -3601,6 +3601,7 @@
 /prodtracker?
 /production/analytics.
 /profile_tracker.
+/prolist/impression-log
 /promo/impression?
 /promo_tracking.
 /promo_tracking/*
@@ -12892,6 +12893,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pix.spot.im^
 ||pixel-a.basis.net^
 ||pixel.ampry.com^
+||pixel.archipro.co.nz^
 ||pixel.blivenyc.com^
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
@@ -15956,6 +15958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.wayfair.co.uk^
 ||t.wayfair.com^
 ||t.y8.com^
+||t.zulily.com^
 ||t2.hulu.com^
 ||tagger.ope.scmp.com^
 ||tags.aljazeera.com^
