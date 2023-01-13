@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iWoMPJcrfS0nzt7oQcxFQQ
-! Version: 202301122221
+! Checksum: bqssFcrHMLiVhVhncSL4Gw
+! Version: 202301132221
 ! Title: EasyList China
-! Last modified: 12 Jan 2023 22:21 UTC
+! Last modified: 13 Jan 2023 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1494,13 +1494,16 @@ ubmcmm.baidustatic.com
 ||045zxnm.com^
 ||0s6s0.top^
 ||100ytrf.com^
+||1134555.com^
 ||2aqr.net^
+||37tek.fun^
 ||3p8801.co^
 ||401aww.com^
 ||51gpiao.cn^
 ||51xl.xyz^$third-party
 ||595tuchuang.com^
 ||5r562.cn^
+||78dfvv.com^
 ||81xs.xyz^
 ||8ccrv.xyz^
 ||ahwiaw.xyz^
@@ -1510,6 +1513,7 @@ ubmcmm.baidustatic.com
 ||bfdaawe.top^
 ||bgjjwl.cn^
 ||bkisss.com^
+||bqg16.cc^
 ||cerfbup.xyz^
 ||creawww.top^
 ||cuwuqo.xyz^
@@ -1518,7 +1522,9 @@ ubmcmm.baidustatic.com
 ||dgozp.com^
 ||doublechen.online^
 ||dxgyl.xyz^
+||ebzqyow.cn^
 ||ewmvim.xyz^
+||fangyaomin.site^
 ||felzfr.xyz^
 ||ffdcpvv.cn^
 ||frpns.com^
@@ -1531,6 +1537,7 @@ ubmcmm.baidustatic.com
 ||hhaobcj.cn^
 ||hibaby.ren^
 ||htbdvx.xyz^
+||hualu.live^
 ||huifuhuo.com^
 ||huihemou.com^
 ||huishij.net^
@@ -1544,15 +1551,19 @@ ubmcmm.baidustatic.com
 ||ikbgika.cn^
 ||ionqv.cn^
 ||irygym.xyz^
+||ituxzez.cn^
+||jfmfmgj.cn^
 ||juyqiolna.cyou^
 ||jwgihca.cn^
 ||kb5ke.xyz^
 ||kbbqwhf.cn^
+||keysmw.xyz^
 ||kwivb.cn^
 ||leeleo.top^$third-party
 ||leiwo.xyz^
 ||looktt.xyz^
 ||maccms10.cn^
+||mbepa.xyz^
 ||mdi5k.cn^
 ||mfaec.cn^
 ||mgowec.xyz^
@@ -1575,6 +1586,7 @@ ubmcmm.baidustatic.com
 ||ps123.online^
 ||qiegoa.xyz^
 ||qingfengxq.com^
+||qvfkiwf.cn^
 ||qycfqk.xyz^
 ||rdoybkd.cn^
 ||renzhongjiaoyu.xyz^
@@ -1631,6 +1643,7 @@ ubmcmm.baidustatic.com
 ||yuqingby.fun^
 ||yzgid.cn^
 ||zeipw.xyz^
+||ztwrnpd.cn^
 ||ztxstudy.club^
 ||zunnnh.xyz^
 !
@@ -14451,7 +14464,7 @@ javhope.com###havhope
 chaidu.com,kdslife.com###hb
 macd.cn###hbad
 coolaler.com###hd
-jrfz.xyz###hd + .wp
+jrlt1.xyz###hd + .wp
 gdmm.com###hd > .wp > .module
 hackhw.com,ithome.com###hd_float
 ithome.com###hd_float1
@@ -18016,6 +18029,7 @@ cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 tui18.com##.wp[style^="width:"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 99a21.com##.wrap-head-spots
+939394.xyz##.wrap.mb8.mt5 + div[class]:not(.outer)
 123.com.cn##.wraper_ad
 5yfz.com##.wrapper > p
 image.baidu.com##.wrapper_dot_box.dot_black
@@ -18343,7 +18357,7 @@ szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
-jrfz.xyz##a[href^="ad."]
+jrlt1.xyz##a[href^="ad."]
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
@@ -18437,6 +18451,7 @@ house365.com##a[style*="1200px;"]
 hdzone.org##a[style*="fixed"]
 huaren.tv##a[style*="height:"]
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href^="show-"]
+939394.xyz##a[style="display: block;"]
 wandhi.com##a[style="display: inline-block;position: relative"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 houdao.com##a[style^="background:url"]
