@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vYm0YL8oxvzrPw8qcDBfQw
-! Version: 202301132221
+! Checksum: jDJBmBmpCh12PpZkXE1ydQ
+! Version: 202301142221
 ! Title: EasyPrivacy
-! Last modified: 13 Jan 2023 22:21 UTC
+! Last modified: 14 Jan 2023 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -273,6 +273,7 @@
 /?sentry_version=
 /?swift-performance-tracking
 /@adshield/*
+/_/api/v2/analytics/?
 /_/lite/performance/*
 /_/oh-noes$~third-party,xmlhttprequest
 /__analytics/*
@@ -815,7 +816,6 @@
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v1/track/*
-/api/v2/analytics
 /api/v2/collector
 /api/v2/jsonlogger
 /api/v3/getPageVisits
@@ -6014,6 +6014,7 @@ _mongo_stats/
 ||altopd.com^
 ||analys.live^
 ||analysis.fi^
+||anonstat.pw^
 ||apeagle.io^
 ||apenterprise.io^
 ||apxl.io^
@@ -6096,7 +6097,9 @@ _mongo_stats/
 ||fpavx.net^
 ||fpaxu.net^
 ||fpcdn.io^
+||fpnpmcdn.net^
 ||fptls.com^
+||fptls2.com^
 ||fpxau.net^
 ||fzlnk.com^
 ||g10300385420.co^
@@ -11826,6 +11829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bzpics.com/jslib/st.js?
 ||c-date.com/pixel/
 ||c.amazinglybrilliant.com.au^
+||c.bazo.io^
 ||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
@@ -12832,6 +12836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ooyala.com^*/report?log
 ||open.delivery.net^
 ||openxcdn.net^$third-party
+||optimeeze.appspot.com^
 ||optimizely.appspot.com^$third-party
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -12844,6 +12849,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||outbrain.com^*/widgetStatistics.js
 ||p.delivery.net^$third-party
 ||p.placed.com^
+||p.typekit.net^
 ||p.yotpo.com^
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
@@ -13406,6 +13412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.wayin.com^
 ||track.yfret.com^
 ||track.yieldsoftware.com^
+||tracker-dot-optimeeze.appspot.com^
 ||tracker.affiliate.iqoption.com^
 ||tracker.affirm.com^
 ||tracker.arc.io^
@@ -14364,7 +14371,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||r2b2.cz/events.php?
-||sdn.cz/*/loader.js
 ||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.kununu.cz^$third-party
@@ -14659,6 +14665,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.ulixes.pl^
 ||statystyki.panelek.com^
 ||tracking.novem.pl^
+||trc.gpcdn.pl^
 ||wymiana.org/stat/
 ! Portuguese
 ||analytics-coletor-site.ojc.com.br^
@@ -15192,6 +15199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
 ||dotesports.com/sp.js
+||dp.coinbase.com^
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
@@ -15666,6 +15674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
 ||privacypolicies.com/track/
+||prod-events.nykaa.com^
 ||pulsar.ebay.com^
 ||pulse.delta.com^
 ||pumpkin.abine.com^
@@ -15930,6 +15939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamta.site/stat/
 ||streamtape.cc/stat/
 ||streamtape.com/stat/
+||streamtape.to/stat/
 ||streamtapeadblock.art/stat/
 ||streamtapeadblockuser.art/stat/
 ||streamtapeadblockuser.homes/stat/
@@ -16162,6 +16172,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yeptube.com/collect
 ||yimg.com/aaq/wf/wf-darla-
 ||yoox.it/storage/rd/yorb/
+||you.com/api/recordEvent
 ||youjizzlive.com/api/metrics
 ||youmaker.com/g/test
 ||youtube-nocookie.com/api/stats/delayplay?
@@ -16350,6 +16361,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||skechers.com/dL6GOSf9/init.js
 ||snipesusa.com/6XNN2xkk/init.js
 ||stockx.com/16uD0kOF/init.js
+||streeteasy.com/cZdhF737/init.js
 ||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
@@ -30598,6 +30610,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
+@@||mycourses.pearson.com/shared/static/*/component/ga.min.js$~third-party
 @@||mywebar.com/js/tracking_worker.js$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||new.abb.com/ruxitagentjs_$~third-party
