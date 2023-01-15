@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: fQ5yKeIQ3ldQr+KjZhVAGw
+! Checksum: uAZpm3SSkdmZaeTfwA7PRg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.77.92
-! TimeUpdated: 2023-01-14T16:31:08+00:00
+! Version: 2.0.77.99
+! TimeUpdated: 2023-01-15T17:31:12+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4115,6 +4115,7 @@ ubmcmm.baidustatic.com
 ||bgjjwl.cn^
 ||bkisss.com^
 ||bqg16.cc^
+||bqrkubs.cn^
 ||cerfbup.xyz^
 ||creawww.top^
 ||cuwuqo.xyz^
@@ -4131,6 +4132,7 @@ ubmcmm.baidustatic.com
 ||fds-1230.cc^
 ||felzfr.xyz^
 ||ffdcpvv.cn^
+||forestwo1f.ltd^
 ||frpns.com^
 ||fujbjb.xyz^
 ||fyfvaxi.cn^
@@ -4153,6 +4155,7 @@ ubmcmm.baidustatic.com
 ||hzcp.fun^
 ||igusoft.com^
 ||ikbgika.cn^
+||inkuae.com^
 ||ionqv.cn^
 ||irygym.xyz^
 ||ituxzez.cn^
@@ -4163,6 +4166,7 @@ ubmcmm.baidustatic.com
 ||jwgihca.cn^
 ||kb5ke.xyz^
 ||kbbqwhf.cn^
+||keoap.xyz^
 ||keysmw.xyz^
 ||koatkm.xyz^
 ||kwivb.cn^
@@ -4170,6 +4174,7 @@ ubmcmm.baidustatic.com
 ||laxnlqn.cn^
 ||leeleo.top^$third-party
 ||leiwo.xyz^
+||lmxzlb.xyz^
 ||loispp.com^
 ||looktt.xyz^
 ||maccms10.cn^
@@ -4179,6 +4184,7 @@ ubmcmm.baidustatic.com
 ||mffdn.xyz^
 ||mgowec.xyz^
 ||mmtcw.cn^
+||mohretsu.com^
 ||mqquas.xyz^
 ||mvbtp.xyz^
 ||mzwzo.cn^
@@ -4213,6 +4219,7 @@ ubmcmm.baidustatic.com
 ||sige20221230.xyz^
 ||slowbeat.fun^
 ||soqikbe.cn^
+||sycrgc.xyz^
 ||tfbulkidn.com^
 ||tg0qu.top^
 ||timothy.wang^
@@ -4241,6 +4248,7 @@ ubmcmm.baidustatic.com
 ||vcinwqw.cn^
 ||vec4o.fun^
 ||wdasa.top^
+||wdmdejd.cn^
 ||wjl58.icu^
 ||wpiwoo.xyz^
 ||wuge20230104.live^
@@ -4256,6 +4264,7 @@ ubmcmm.baidustatic.com
 ||xtpez.xyz^
 ||yanjiusuo.cc^
 ||yemueii.cn^
+||yhsfsdv03.com^
 ||yhzzzs02.com^
 ||yretx.cn^
 ||ysgekq.xyz^
@@ -4263,6 +4272,7 @@ ubmcmm.baidustatic.com
 ||yuqingby.fun^
 ||yzgid.cn^
 ||zeipw.xyz^
+||zmdtcw.cn^
 ||ztwrnpd.cn^
 ||ztxstudy.club^
 ||zunnnh.xyz^
@@ -19666,6 +19676,7 @@ v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 html-js.com##.module[style="padding:0;"]
+moegirl.org.cn##.moe-card[region="oversea"]
 javdb002.com##.moj-content
 followme.cn##.money-box
 boce.com##.money_box
