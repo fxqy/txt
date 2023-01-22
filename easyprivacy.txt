@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dg5B5Sgtv8O3u/VEpBN9vg
-! Version: 202301212221
+! Checksum: 1gqC1CQJNcyEPh8Vo6Fueg
+! Version: 202301222221
 ! Title: EasyPrivacy
-! Last modified: 21 Jan 2023 22:21 UTC
+! Last modified: 22 Jan 2023 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6189,6 +6189,7 @@ _mongo_stats/
 ||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
+||optistats.ovh^
 ||ostrichesica.com^
 ||p-analytics.life^
 ||p2r14.com^
@@ -6415,7 +6416,7 @@ _mongo_stats/
 ||adtarget.me^$third-party
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
-||adtrackers.net^$third-party
+||adtrackers.net^$~script,third-party
 ||adultblogtoplist.com^$third-party
 ||adunity.com^$third-party
 ||advalo.com^$third-party
@@ -8200,6 +8201,7 @@ _mongo_stats/
 ||san-spr-01.net^$third-party
 ||sapha.com^$third-party
 ||sas15k01.com^$third-party
+||say.ac^$third-party
 ||sayutracking.co.uk^$third-party
 ||sbbanalytics.com^$third-party
 ||scaledb.com^$third-party
@@ -11495,6 +11497,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||activity.wisepops.com^
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
+||ad.mail.ru/*.gif?rnd=$third-party
 ||adbr.io/log?
 ||addthis.com/at/
 ||addthis.com/live/
@@ -14717,7 +14720,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 |https://a.pr-cy.ru^$third-party
 ||1l-hit.mail.ru^
 ||7host.ru/tr/*?r=$third-party
-||ad.mail.ru^$image
+||ad.mail.ru^$image,~third-party
 ||agates.ru/counters/
 ||all-top.ru/cgi-bin/topcount.cgi?
 ||anycent.com/analytics/
@@ -31174,7 +31177,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$script,xmlhttprequest,domain=friday.kodansha.co.jp|tv-tokyo.co.jp
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
@@ -31194,7 +31197,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
 @@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
