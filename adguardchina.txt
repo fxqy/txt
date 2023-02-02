@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: fdqDe4Qq5wNrxwl2VPx+aw
+! Checksum: mwdGv1N7kbWjUjYmQUzvAg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.79.35
-! TimeUpdated: 2023-02-01T16:31:26+00:00
+! Version: 2.0.79.45
+! TimeUpdated: 2023-02-02T16:31:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -413,6 +413,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141742
+520cc.cc##+js(set-constant, all520dddaaa2022ccc, true)
+520cc.cc##+js(set-constant, ad_id_for_555, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138700
 manwa.me#@#.ad-area
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
@@ -949,6 +952,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/141713
+movieffm.net##+js(abort-on-property-write, __aaZoneid)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141657
 axutongxue.net##+js(abort-on-property-write, roll)
 axutongxue.net##+js(no-setTimeout-if, getCookie("ad"))
@@ -1217,6 +1222,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+tt776.com##iframe[src="/app/ad.html"]
+9s102.xyz###main > .container-fluid.mb-3 > .row > .col-sm .alert
+9s102.xyz##.jsv > .container-fluid.mb-0 > .row > .col-sm > a[target="_blank"]
 ||asserts.avple.tv/file/avple-asserts/ad.js
 avple.tv##.MuiSkeleton-root
 mozhatu.com##a[target="_blank"] > img[alt="ad"]
@@ -4014,6 +4022,7 @@ ubmcmm.baidustatic.com
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
+##a[href*="?register="] > img[width="100%"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
@@ -4146,6 +4155,7 @@ ubmcmm.baidustatic.com
 ||595tuchuang.com^
 ||5r562.cn^
 ||78dfvv.com^
+||7d108.cn^
 ||7nekc.icu^
 ||81xs.xyz^
 ||8499136.com^
@@ -4259,6 +4269,7 @@ ubmcmm.baidustatic.com
 ||icyrwy.xyz^
 ||idkqtaa.cn^
 ||igusoft.com^
+||ijvzmua.cn^
 ||ikbgika.cn^
 ||ikbhgj.cn^
 ||imassg.xyz^
@@ -4303,6 +4314,7 @@ ubmcmm.baidustatic.com
 ||leiwo.xyz^
 ||lgugsnp.cn^
 ||liuye.club^
+||llvphz.xyz^
 ||lmxzlb.xyz^
 ||loispp.com^
 ||looktt.xyz^
@@ -4324,6 +4336,7 @@ ubmcmm.baidustatic.com
 ||mohretsu.com^
 ||monts.cyou^
 ||moons.cyou^
+||mprjoat.cn^
 ||mpymea.xyz^
 ||mqquas.xyz^
 ||mryshl.com^
@@ -4363,6 +4376,7 @@ ubmcmm.baidustatic.com
 ||ps123.online^
 ||qanduan.com^
 ||qbd1.site^
+||qbd2.site^
 ||qdutmef.cn^
 ||qgazysq.cn^
 ||qgermm.xyz^
@@ -4402,11 +4416,13 @@ ubmcmm.baidustatic.com
 ||soulsoul.xyz^
 ||srnov.top^
 ||ssjiancai.com^
+||sxakca.xyz^
 ||sycrgc.xyz^
 ||t3p58.com^
 ||tfbulkidn.com^
 ||tg0qu.top^
 ||tgryfh.xyz^
+||thraerqol.com^
 ||tianmel.xyz^
 ||timothy.wang^
 ||tjxafmo.cn^
@@ -4440,6 +4456,7 @@ ubmcmm.baidustatic.com
 ||vec4o.fun^
 ||vfsdgjrr.xyz^
 ||viope.cyou^
+||waterfairy.xyz^
 ||wbqosw.xyz^
 ||wdasa.top^
 ||wdmdejd.cn^
@@ -4447,12 +4464,14 @@ ubmcmm.baidustatic.com
 ||wjl58.icu^
 ||wpiwoo.xyz^
 ||wschao.xyz^
+||wuepo.cn^
 ||wuge20230104.live^
 ||wujiupic.com^
 ||wwnyubs.cn^
 ||wzkxke.xyz^
 ||wzrdbwf.cn^
 ||x3a88d.cn^
+||x3zy2.icu^
 ||xbptvaq.cn^
 ||xh33g.net^
 ||xhjxkgc.cn^
@@ -4493,6 +4512,7 @@ ubmcmm.baidustatic.com
 ||z82v0.icu^
 ||zawqwpajq.club^
 ||zax01.com^
+||zdreo.cyou^
 ||zdrvtmj.cn^
 ||zeipw.xyz^
 ||zfykvns.cn^
@@ -21853,7 +21873,7 @@ typecho.wiki##span[style="height: 17px;margin-left: 10px;background: #000;border
 xinmin.cn##span[style^="position:fixed;right"]
 xinmin.cn##span[style^="position:fixed;right"] + a
 159i.com##style + div[align="center"]
-axutongxue.com##style + div[id]
+axutongxue.com,axutongxue.net##style + div[id]
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 bbs.fobshanghai.com##table[cellpadding="4"][style="background: #D6E0EF"]
