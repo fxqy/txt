@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7GEfMSRC+ToX/PcBCZJ3GQ
-! Version: 202302032221
+! Checksum: u9ikoJAxdXtuY/oy/WJ02g
+! Version: 202302042221
 ! Title: EasyPrivacy
-! Last modified: 03 Feb 2023 22:21 UTC
+! Last modified: 04 Feb 2023 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6284,6 +6284,7 @@ _mongo_stats/
 ||videoplayerhub.com^
 ||vkanalytics.net^
 ||vpdcp.com^
+||vstats.me^
 ||wct-2.com^
 ||widgetbe.com^
 ||wknd.ai^
@@ -8965,6 +8966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushowl.com^$third-party
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
+||pushwize.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
 ||reprocautious.com^$third-party
@@ -11460,6 +11462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||100widgets.com^$third-party
 ||105app.com/report/?
 ||1558334541.rsc.cdn77.org^
+||1worldsync.com/log?
 ||216.18.176.4/logger/
 ||360buyimg.com/jdf/1.0.0/unit/log/
 ||3p-geo.yahoo.com^
@@ -12417,6 +12420,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
 ||helloextend.com/tracking
+||helloretail.com/serve/collect/
 ||heraldandtimeslabs.com/sugar.js
 ||heroku.com/?callback=getip$third-party
 ||heyflow.co/pixel/
@@ -14658,6 +14662,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trc.gpcdn.pl^
 ||wymiana.org/stat/
 ! Portuguese
+||ad-tracker-api.luizalabs.com^
 ||analytics-coletor-site.ojc.com.br^
 ||analytics.spun.com.br^
 ||api.nobeta.com.br^
@@ -15704,6 +15709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reverbnation.com/api/user/app_events
 ||rfk.biglots.com^
 ||rfk.dsw.com/api/init/1/init.js
+||ring.staticmoly.me^
 ||risextube.com/t/
 ||roblox.com/report
 ||roblox.com/www/e.png?
@@ -29710,6 +29716,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||walla.co.il/impression/
 ! Hungarian
 ||events.ingatlan.com^
+||metrics.bankmonitor.hu^
 ||otthonterkep.hu/c.js
 ||outal.origo.hu^
 ||rtl.hu/_stat/
@@ -30649,6 +30656,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||prod.office.ch.locatee.com/internal/api/analytics/v1/systempropertys$~third-party,xmlhttprequest
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
+@@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||puch-ersatzteile.at^*/google-analytics.min.js
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
