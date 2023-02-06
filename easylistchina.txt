@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wAoLFgWumhvG35qUC5p5GQ
-! Version: 202302052221
+! Checksum: H6E2xXuFqEq1APELRjlyxA
+! Version: 202302062221
 ! Title: EasyList China
-! Last modified: 05 Feb 2023 22:21 UTC
+! Last modified: 06 Feb 2023 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1966,6 +1966,16 @@ ubmcmm.baidustatic.com
 ||ztxstudy.club^
 ||zunnnh.xyz^
 ||zxtkfvm.cn^
+||bzdntl.xyz^
+||jcvty.cyou^
+##a[href*=".app003.cc"]
+##a[href*="/bli2a.com/"]
+||g2qb.top^
+||zhiwan.club^
+||darzkrx.cn^
+||o87mnf.xyz^
+||rsmdlk.cn^
+||dvrnszf.cn^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -19514,6 +19524,7 @@ jd.com#@#.adwords
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
 xchina.co#@#.banner_ad
+xchina.fun#@#.banner_ad
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
@@ -22013,7 +22024,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/sensorsdata.$domain=fenbi.com|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
