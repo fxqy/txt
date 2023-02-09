@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 1lkjaLy5hNhcgW2wxP3blg
+! Checksum: cCYCdH8XtTztyBqjJECFQg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.79.99
-! TimeUpdated: 2023-02-08T16:31:17+00:00
+! Version: 2.0.80.5
+! TimeUpdated: 2023-02-09T17:03:13+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -506,7 +506,7 @@ yodu.org#$#body[style] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107446
 linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com
+linovelib.com##+js(abort-current-script, document.createElement, b.onerror)
 ! https://github.com/uBlockOrigin/uAssets/issues/10953
 tingfm.com##+js(no-setTimeout-if, adblock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102824
@@ -4138,9 +4138,12 @@ ubmcmm.baidustatic.com
 ##a[href*="/bli2a.com/"]
 ##a[href*="/hhybd.wiki"]
 ##a[href*="/k023055.com"]
+##a[href*="/ky0777.cn"]
 ##a[href*="/ky53362.com"]
+##a[href*="/sm033v.tv"]
 ##a[href*="/sm27z.net"]
 ##a[href*="/x7458.cc"]
+##div[onclick*="/ky0777.cn"]
 ||045zxnm.com^
 ||0s6s0.top^
 ||100ytrf.com^
@@ -4148,6 +4151,7 @@ ubmcmm.baidustatic.com
 ||1129555.com^
 ||1134555.com^
 ||1190555.com^
+||2982a.com^
 ||2aqr.net^
 ||2pwja.cn^
 ||3633a.com^
@@ -4175,6 +4179,7 @@ ubmcmm.baidustatic.com
 ||8ccrv.xyz^
 ||94188.xyz^
 ||98dvu.fun^
+||9bph.top^
 ||9cgms.xyz^
 ||aaaesme.cn^
 ||afdplay.xyz^
@@ -4187,11 +4192,14 @@ ubmcmm.baidustatic.com
 ||aqtcw.cn^
 ||arejug.xyz^
 ||aswtai.xyz^
+||atuhi.cyou^
 ||banhui.xyz^
 ||bavxxf.xyz^
 ||bfdaawe.top^
+||bgcnhux.cn^
 ||bgjjwl.cn^
 ||bharalhallahs.com^
+||bhpprfk.cn^
 ||bjdqxt.com^
 ||bkisss.com^
 ||bomut.cyou^
@@ -4229,6 +4237,7 @@ ubmcmm.baidustatic.com
 ||doublechen.online^
 ||doubleclicks.biz^
 ||dreanrh.cn^
+||dvbuxcl.cn^
 ||dvrnszf.cn^
 ||dxgyl.xyz^
 ||dxwyt3p.cn^
@@ -4248,6 +4257,7 @@ ubmcmm.baidustatic.com
 ||fdtrjz.xyz^
 ||felzfr.xyz^
 ||ffdcpvv.cn^
+||fnkio.cyou^
 ||forestwo1f.ltd^
 ||fqla.top^
 ||frpns.com^
@@ -4280,6 +4290,8 @@ ubmcmm.baidustatic.com
 ||hfjsbf.xyz^
 ||hhaobcj.cn^
 ||hibaby.ren^
+||hiqrnyn.cn^
+||hndhas.com^
 ||hnrjign.cn^
 ||hppmy.cn^
 ||hspffjx.cn^
@@ -4290,6 +4302,7 @@ ubmcmm.baidustatic.com
 ||huijixian.com^
 ||huijizhen.com^
 ||huishij.net^
+||huisifa.com^
 ||huitoukao.com^
 ||huiyanzhi.com^
 ||huiyelu.com^
@@ -4329,6 +4342,7 @@ ubmcmm.baidustatic.com
 ||jwghphm.cn^
 ||jwgihca.cn^
 ||jzzuwdn.cn^
+||k34jj.xyz^
 ||kb5ke.xyz^
 ||kbbqwhf.cn^
 ||keoap.xyz^
@@ -4336,6 +4350,7 @@ ubmcmm.baidustatic.com
 ||kingsun.online^
 ||kiymowg.cn^
 ||kmzayrt.cn^
+||knr1.xyz^
 ||knyjes.xyz^
 ||koatkm.xyz^
 ||korydwf.cn^
@@ -4343,6 +4358,7 @@ ubmcmm.baidustatic.com
 ||kscly.com^
 ||ktbelts.cn^
 ||kwivb.cn^
+||kzeqq.com^
 ||kzwwamf.cn^
 ||laafrce.cn^
 ||laxnlqn.cn^
@@ -4361,6 +4377,7 @@ ubmcmm.baidustatic.com
 ||lpncqju.cn^
 ||lw0mp.fun^
 ||lwpxhr.xyz^
+||lymtreg.cn^
 ||maccms10.cn^
 ||mbepa.xyz^
 ||mbqwwa.cn^
@@ -4392,8 +4409,10 @@ ubmcmm.baidustatic.com
 ||nonabh.xyz^
 ||nouivjv.cn^
 ||nqxvevk.cn^
+||nuiekka.cn^
 ||nuyqiolnc.cyou^
 ||nwrazu.cn^
+||nxxyjn.com^
 ||nykoubk.cn^
 ||nypyzx.xyz^
 ||o87mnf.xyz^
@@ -4410,6 +4429,7 @@ ubmcmm.baidustatic.com
 ||pafcpd.xyz^
 ||paongfh.cn^
 ||paradisemall.net^
+||payoneok.com^
 ||pddbtn.xyz^
 ||pic123.top^
 ||pj0z5.cn^
@@ -4441,6 +4461,7 @@ ubmcmm.baidustatic.com
 ||qycfqk.xyz^
 ||qzeqjvo.cn^
 ||rayss.host^
+||rdjnjz.xyz^
 ||rdoybkd.cn^
 ||rebunb.xyz^
 ||renzhongjiaoyu.xyz^
@@ -4463,9 +4484,12 @@ ubmcmm.baidustatic.com
 ||scbt.asia^
 ||scfh9.cn^
 ||scsdcsdcs.top^
+||sdfxv57.com^
+||seaflame.xyz^
 ||shguy.cyou^
 ||shhaiya.com^
 ||shidaiheima.ltd^
+||shikongbb.com^
 ||sige20221230.xyz^
 ||siuscs.xyz^
 ||sixarwr.cn^
@@ -4476,6 +4500,7 @@ ubmcmm.baidustatic.com
 ||ssjiancai.com^
 ||sxakca.xyz^
 ||sycrgc.xyz^
+||sygmtz.com^
 ||t3p58.com^
 ||tanghao.club^
 ||tfbulkidn.com^
@@ -4555,12 +4580,14 @@ ubmcmm.baidustatic.com
 ||xrewo.xyz^
 ||xryjyfb.cn^
 ||xtpez.xyz^
+||xxp123.live^
 ||xxsmcps.com^
 ||xyblm.xyz^
 ||xyyejhm.cn^
 ||xznrtl.xyz^
 ||yang17.xyz^
 ||yanjiusuo.cc^
+||ybfljs.com^
 ||yc444.cn^
 ||yemueii.cn^
 ||yffjqvq.cn^
@@ -4570,6 +4597,7 @@ ubmcmm.baidustatic.com
 ||yhtuchuang.com^
 ||yhzzzs02.com^
 ||yinming.online^
+||ypoiea.xyz^
 ||yqgpic.xyz^
 ||yretx.cn^
 ||yruvnmn.cn^
@@ -4601,17 +4629,6 @@ ubmcmm.baidustatic.com
 ||ztxstudy.club^
 ||zunnnh.xyz^
 ||zxtkfvm.cn^
-||sygmtz.com^
-||9bph.top^
-||knr1.xyz^
-||shikongbb.com^
-||sdfxv57.com^
-||2982a.com^
-##a[href*="/sm033v.tv"]
-||hiqrnyn.cn^
-||xxp123.live^
-##a[href*="/ky0777.cn"]
-##div[onclick*="/ky0777.cn"]
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -11464,7 +11481,6 @@ ubmcmm.baidustatic.com
 ||zzyl.mobi^
 ||zzyytt.top^
 ||zzzhuoxiaqu.online^
-||dlads.cn^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
 ||3alian.net^$third-party
@@ -11494,6 +11510,7 @@ ubmcmm.baidustatic.com
 ||d3t3z4teexdk2r.cloudfront.net^
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||dingbu.bj.bcebos.com^
+||dlads.cn^$third-party
 ||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||drmcmm.baidu.com^
@@ -11537,6 +11554,7 @@ ubmcmm.baidustatic.com
 ||re.taotaosou.com^
 ||show.kc.taotaosou.com^
 ||spcode.baidu.com^
+||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||static-cn.plista.com^
 ||sums.suning.com^$third-party
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
@@ -14999,7 +15017,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pg-ad-b1.nosdn.127.net^
-||rltdxt.com/files/h5/
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
@@ -15263,6 +15280,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js
 ||rkxy.com.cn/js/text_
+||rltdxt.com/files/h5/
 ||rouman5.com/a2/*.gif
 ||rouman5.com/cps/*.gif
 ||rouman5.com/hlw.jpg
@@ -22165,7 +22183,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
-@@||rltdxt.com/files/h5/app.js
 @@||photopea.com/ads.js
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||piccool.com/2home/phpAdsNew/
@@ -22202,6 +22219,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||renfei.net^$generichide
 @@||right.com.cn/forum/*300*250$image
+@@||rltdxt.com/files/h5/app.js
 @@||rmdown.com/ads.js
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
