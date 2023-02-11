@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ABWto+BpKlQHMSivaKjcDA
+! Checksum: wEJ/jW0Ed20weqFtSOPFIg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.80.16
-! TimeUpdated: 2023-02-10T17:03:11+00:00
+! Version: 2.0.80.24
+! TimeUpdated: 2023-02-11T17:02:48+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3371,6 +3371,7 @@ ubmcmm.baidustatic.com
 ###aaheadtop
 ###aatop.top_box
 ###aatop[class^="top_box"]
+###ad > #h2_player_prevideo
 ###ad > .pre-img
 ###ad-SNSSplashAd
 ###ad1[onclick="window.open(this.url)"]
@@ -4141,12 +4142,15 @@ ubmcmm.baidustatic.com
 ##a[href*="/ky0001.vip"]
 ##a[href*="/ky0777.cn"]
 ##a[href*="/ky53362.com"]
+##a[href*="/sm003r.tv"]
 ##a[href*="/sm033v.tv"]
 ##a[href*="/sm27z.net"]
 ##a[href*="/x7458.cc"]
+##a[href*="/x9658.cc"]
 ##div[onclick*="/ky0777.cn"]
 ||045zxnm.com^
 ||0s6s0.top^
+||0vkkf.cn^
 ||100ytrf.com^
 ||109218er.xyz^
 ||1129555.com^
@@ -4193,6 +4197,7 @@ ubmcmm.baidustatic.com
 ||aqtcw.cn^
 ||aqylmil.cn^
 ||arejug.xyz^
+||asoeasy.cn^
 ||aswtai.xyz^
 ||atuhi.cyou^
 ||banhui.xyz^
@@ -4202,6 +4207,7 @@ ubmcmm.baidustatic.com
 ||bgjjwl.cn^
 ||bharalhallahs.com^
 ||bhpprfk.cn^
+||bitu.fun^
 ||bjdqxt.com^
 ||bkisss.com^
 ||bomut.cyou^
@@ -4249,6 +4255,7 @@ ubmcmm.baidustatic.com
 ||ebzqyow.cn^
 ||ekdbfu.cn^
 ||elsmom.xyz^
+||etkht.cn^
 ||evunmc.xyz^
 ||ewmvim.xyz^
 ||fangyaomin.site^
@@ -4430,6 +4437,7 @@ ubmcmm.baidustatic.com
 ||opeem.cyou^
 ||oronwg.xyz^
 ||oulibf.xin^
+||owihyg.xyz^
 ||oyqjp.cn^
 ||pafcpd.xyz^
 ||paongfh.cn^
@@ -4617,9 +4625,11 @@ ubmcmm.baidustatic.com
 ||yunwu.red^
 ||yupphsl.cn^
 ||yuqingby.fun^
+||yurti.cyou^
 ||yuske2.xyz^
 ||yyepa.cyou^
 ||yzgid.cn^
+||z4a.net^
 ||z82v0.icu^
 ||zawqwpajq.club^
 ||zax01.com^
@@ -4629,6 +4639,8 @@ ubmcmm.baidustatic.com
 ||zeipw.xyz^
 ||zfykvns.cn^
 ||zhiwan.club^
+||zkdmdf.xyz^
+||zktqzyz.cn^
 ||zlfthh.xyz^
 ||zmdtcw.cn^
 ||znktkt.cn^
@@ -15594,6 +15606,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szjjzs.com/js/piao.js
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
+||szxljdsb.com/tl
 ||szyepu8.com/data/AADDimg/
 ||szyhqj.com/js/
 ||t.cn/RkHfjHk|
@@ -24025,6 +24038,7 @@ eastday.com#@##leftShare
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
+zhihu.com#@#.FollowButton
 hotjob.cn#@#.SOCIAL
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 storm.mg#@#.btn_fb
