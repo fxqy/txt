@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OnI/UblmN9Lq6AOk9CM9FQ
-! Version: 202302112221
+! Checksum: zA0maxQf98D4VJbKML+h0A
+! Version: 202302122220
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2023 22:21 UTC
+! Last modified: 12 Feb 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9866,6 +9866,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||materialisticfan.com^
 ||materialisticmark.com^
 ||materialmoon.com^$third-party
+||measlymiddle.com^
 ||measurecaption.com^
 ||meatydime.com^
 ||medusasailor.com^
@@ -30585,6 +30586,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||locoloader.com/assets/js/ga.min.js$script,~third-party
 @@||logging.apache.org^$~third-party
+@@||logistics.costco.com/innovel-services/api/tracking/$~third-party
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||logo.clearbit.com^$image,third-party
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
