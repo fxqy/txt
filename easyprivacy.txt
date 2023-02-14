@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qKMT9Yb/5yj1MVMnLZfppg
-! Version: 202302132220
+! Checksum: aUnWp2KcSpfkcRve0jyEXA
+! Version: 202302142220
 ! Title: EasyPrivacy
-! Last modified: 13 Feb 2023 22:20 UTC
+! Last modified: 14 Feb 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14161,6 +14161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.woopic.com/tools/pdb.min.js
 ||caast.tv/v1/record.gif?
 ||calcul-pagerank.fr/client/$third-party
+||capping.sirius.press^
 ||cdn-files.prsmedia.fr^*/xiti/
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cloudfront.net^$script,domain=gentside.com
@@ -15207,7 +15208,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||digg.com/library/tracker.js
 ||digital.flytedesk.com/js/head.js
-||discord.com/api/*/science
 ||discover-metrics.cloud.seek.com.au^
 ||discover.com/QaiuqHH6L7OpQ2dSZzdDRhs6/
 ||discoveryplus.com/events/
@@ -29324,6 +29324,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||lemonde.fr/bucket/*/tagistan.
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
+||lepoint.fr/img-l/$image
 ||liberation.fr/newsite/js/cmp/
 ||logstash-3.radio-canada.ca^
 ||ma-petite-recette.fr/visites
@@ -29349,6 +29350,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sncf-connect.com/bff/api/v1/t/events
 ||space-blogs.net/include/counter/
 ||stat.ouedkniss.com^
+||stats.bouyguestelecom.fr^
 ||stats.sexemodel.com^
 ||stats.zone-annuaire.
 ||stats.zone-telechargement.
@@ -31041,6 +31043,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||baidu.com^*/track.gif$image,domain=jump2.bdimg.com
+@@||epson.com.cn/common/new/js/tracking_code.js$~third-party
 @@||g.csdnimg.cn^*/trackad.js$script,domain=csdn.net
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
@@ -31109,7 +31112,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
-@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
+@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
