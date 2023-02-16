@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Jv16HvD0617WOv3ldcxzfQ
-! Version: 202302152220
+! Checksum: tH+LOp/bIgEywih2ZxdsVw
+! Version: 202302162220
 ! Title: EasyPrivacy
-! Last modified: 15 Feb 2023 22:20 UTC
+! Last modified: 16 Feb 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -963,6 +963,7 @@
 /banner-tracker.
 /banner.stats?
 /banners-stat.
+/base/es5/bundle.js
 /base/es6/bundle.js
 /basesdc.js
 /basicMetricsTracking.
@@ -6177,6 +6178,7 @@ _mongo_stats/
 ||mediapxv.com^
 ||micpn.com^
 ||mitour.de^
+||ml-sys.xyz^
 ||mm-api.agency^
 ||monu.delivery^
 ||mors22.com^
@@ -7449,7 +7451,7 @@ _mongo_stats/
 ||ipinyou.com.cn^$third-party
 ||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
-||iplogger.org^$third-party
+||iplogger.org^$third-party,domain=~iplogger.com
 ||ipmeta.io^$third-party
 ||ipnoid.com^$third-party
 ||ippen.space^$third-party
@@ -13234,6 +13236,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.zotabox.com^
 ||statsadv.dadapro.com^$third-party
 ||statsapi.screen9.com^
+||statscollector-1.agora.io^
+||statscollector.sd-rtn.com^
 ||statsd.zmags.com^
 ||statt-collect.herokuapp.com^
 ||stg-data-collector.playbuzz.com^
@@ -13996,6 +14000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ablida.net^$third-party
 ||adc-srv.net/retargeting.php
 ||adm24.de/hp_counter/$third-party
+||advantage.digitalsunray.com^
 ||aftonbladet.se/trafikfonden/
 ||agitos.de/content/track?
 ||analytics.audionow.de^
@@ -15252,6 +15257,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ekg.riotgames.com^
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
+||engine.traceparts.com^
 ||enlightenment.secureshoppingbasket.com^
 ||eproof.drudgereport.com^
 ||equirodi.*/addstat.php
@@ -16054,6 +16060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toyota.com/analytics/
 ||tr.clickstay.com^
 ||tr.www.cloudflare.com^
+||traceparts.com/logs
 ||track-visit.monday.com^
 ||track.dictionary.com^
 ||track.kueez.com^
@@ -29303,6 +29310,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||email.nautiljon.com/oo/$image
 ||events-logs.doctolib.com^
 ||forecast.huffingtonpost.fr^
+||forecast.lemonde.fr^
 ||franceculture.fr/static/js/xtcore-
 ||franceinter.fr/vendor/track.js
 ||fsm.lapresse.ca^
