@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 06bCsEFUMlAiUqGvcU7JVw
+! Checksum: 2dJB5kFUPXVhQtkrdX1hGw
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.80.90
-! TimeUpdated: 2023-02-20T16:31:32+00:00
+! Version: 2.0.80.95
+! TimeUpdated: 2023-02-21T16:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4208,6 +4208,7 @@ newduba.cn###jq_youxi
 ||81xs.xyz^
 ||8499136.com^
 ||8881img.com^
+||8886i.top^
 ||8961a.com^
 ||8ccrv.xyz^
 ||94188.xyz^
@@ -4263,6 +4264,7 @@ newduba.cn###jq_youxi
 ||ccemqe.cn^
 ||ccgjmzv.cn^
 ||cerfbup.xyz^
+||chumeng.link^
 ||ciaeue.xyz^
 ||cifzuqopdpzi.com^
 ||creawww.top^
@@ -4321,6 +4323,7 @@ newduba.cn###jq_youxi
 ||felzfr.xyz^
 ||fewsvuh.cn^
 ||ffdcpvv.cn^
+||fn9u.fun^
 ||fnkio.cyou^
 ||forestwo1f.ltd^
 ||fqla.top^
@@ -4353,6 +4356,8 @@ newduba.cn###jq_youxi
 ||gvqrclx.cn^
 ||gxkoci.xyz^
 ||gzqgaq.xyz^
+||h2n3c.top^
+||haejkmm.cn^
 ||handukeji.top^
 ||handuwangluo.top^
 ||handuwl.top^
@@ -4418,6 +4423,7 @@ newduba.cn###jq_youxi
 ||jike001.top^
 ||jinkens.fun^
 ||jishiben.info^
+||jiutou20230210.live^
 ||jjfopb.xyz^
 ||jkxvvv.xyz^
 ||jmqmbsn.cn^
@@ -4445,6 +4451,7 @@ newduba.cn###jq_youxi
 ||koatkm.xyz^
 ||korydwf.cn^
 ||kqwip.cyou^
+||ksccqu.xyz^
 ||kscly.com^
 ||ktbelts.cn^
 ||kwivb.cn^
@@ -4530,6 +4537,7 @@ newduba.cn###jq_youxi
 ||ofgysy.xyz^
 ||ogkfuw.xyz^
 ||ohmpyq.xyz^
+||okmwfq.xyz^
 ||omhoa.com^
 ||oocie.cn^
 ||opeci.cyou^
@@ -4649,6 +4657,7 @@ newduba.cn###jq_youxi
 ||thraerqol.com^
 ||tianmel.xyz^
 ||timothy.wang^
+||tioew.cyou^
 ||tjxafmo.cn^
 ||travescorylus.com^
 ||ttzhongbao.com^
@@ -4688,6 +4697,7 @@ newduba.cn###jq_youxi
 ||vec4o.fun^
 ||vewdk.cyou^
 ||vfsdgjrr.xyz^
+||vgxhvt.xyz^
 ||vilki.cn^
 ||viope.cyou^
 ||vokmhydy.xyz^
@@ -4729,6 +4739,7 @@ newduba.cn###jq_youxi
 ||xibpbov.cn^
 ||xingyou70.asia^
 ||xinllz.xyz^
+||xinnianqinggan.xyz^
 ||xjpphoto.com^
 ||xjpsrb.xyz^
 ||xkhall.xyz^
@@ -24348,6 +24359,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||jiayuan.com^*/pv.js
 @@||jpush.cn^$domain=jiguang.cn
 @@||kfcorder.com.tw/web/Script/Analytics.js
+@@||ksapisrv.com/rest/wd/common/log/collect/
 @@||lesports.com/pc/??*/click_statistics/
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||lobi.co/1/track/event/
