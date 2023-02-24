@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4X1SV10fGSQA/Fkgdn84FQ
-! Version: 202302232220
+! Checksum: 0oWlLKK0BczpQBKJV08ypA
+! Version: 202302242220
 ! Title: EasyList China
-! Last modified: 23 Feb 2023 22:20 UTC
+! Last modified: 24 Feb 2023 22:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2232,6 +2232,19 @@ newduba.cn###jq_youxi
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
+||swicgq.xyz^
+||zchkz.cn^
+||qunaw.cyou^
+||o0pvw.cn^
+||lkdhlp.xyz^
+||hgsly.buzz^
+||okwg.top^
+||sfsxl.xyz^
+||d7i.cn^
+||1kanz.cn^
+||niumeng.xyz^
+||sdfg68.com^
+||prplads.com^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
