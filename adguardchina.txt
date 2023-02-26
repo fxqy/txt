@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: TD6bftPNTY41olpWvnVrzw
+! Checksum: mM/mo8TAgoYY7Y7IVtyrNQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.81.26
-! TimeUpdated: 2023-02-25T16:31:09+00:00
+! Version: 2.0.81.32
+! TimeUpdated: 2023-02-26T16:31:09+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4132,6 +4132,7 @@ newduba.cn###jq_youxi
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 ||121.204.246.13^
+||154.7.80.158^
 ||194.59.220.161^
 ||23.234.217.11^
 ||23.234.217.12^
@@ -4140,6 +4141,7 @@ newduba.cn###jq_youxi
 ##a[href*=".app003.cc"]
 ##a[href*=".cvezsacxz.com/"]
 ##a[href*=".impactyu.com/"]
+##a[href*="/178heiliao.com/"]
 ##a[href*="/265201.com:"]
 ##a[href*="/296256.com:"]
 ##a[href*="/2996m.com:"]
@@ -4181,6 +4183,9 @@ newduba.cn###jq_youxi
 ||1134555.com^
 ||1170555.com^
 ||1190555.com^
+||1201555.com^
+||1258999.com^
+||1338999.com^
 ||1368999.com^
 ||188aaa.us^
 ||199aaa.us^
@@ -4191,6 +4196,7 @@ newduba.cn###jq_youxi
 ||2hfby.top^
 ||2pwja.cn^
 ||2r6.cn^
+||328888.xyz^
 ||3633a.com^
 ||375772rug.com^
 ||37tek.fun^
@@ -4220,6 +4226,7 @@ newduba.cn###jq_youxi
 ||8499136.com^
 ||8499223.com^
 ||8499234.com^
+||8499258.com^
 ||8881img.com^
 ||8886i.top^
 ||8961a.com^
@@ -4268,6 +4275,7 @@ newduba.cn###jq_youxi
 ||bitu.fun^
 ||bjdqxt.com^
 ||bkisss.com^
+||bojebd.xyz^
 ||bomut.cyou^
 ||boodi.cyou^
 ||bpbpxv.xyz^
@@ -4289,6 +4297,8 @@ newduba.cn###jq_youxi
 ||chumeng.link^
 ||ciaeue.xyz^
 ||cifzuqopdpzi.com^
+||cnshiw2.com^
+||coope.cyou^
 ||creawww.top^
 ||crobotb.com^
 ||ctoyb.cyou^
@@ -4403,6 +4413,7 @@ newduba.cn###jq_youxi
 ||hhaobcj.cn^
 ||hibaby.ren^
 ||hiqrnyn.cn^
+||hmpubc.xyz^
 ||hndhas.com^
 ||hnrjign.cn^
 ||hppmy.cn^
@@ -4444,7 +4455,9 @@ newduba.cn###jq_youxi
 ||inscan.cn^
 ||ionqv.cn^
 ||ipyud.cn^
+||iqmbao.xyz^
 ||irygym.xyz^
+||isdfbvkvsc.xyz^
 ||isuiguk.cn^
 ||ituxzez.cn^
 ||iugbjkqwc.xyz^
@@ -4497,12 +4510,14 @@ newduba.cn###jq_youxi
 ||larbcc.xyz^
 ||laxnlqn.cn^
 ||lbk7p.cn^
+||ldmnq.com^$third-party
 ||leeleo.top^$third-party
 ||leiersuqd.com^
 ||leiwo.xyz^
 ||lgugsnp.cn^
 ||lgxm.cool^
 ||lh54.top^
+||linkpicture.com^$third-party
 ||liutou20230203.live^
 ||liuye.club^
 ||liyiyue.xyz^
@@ -4538,6 +4553,7 @@ newduba.cn###jq_youxi
 ||mohretsu.com^
 ||monts.cyou^
 ||moons.cyou^
+||mori.ink^
 ||mprjoat.cn^
 ||mpymea.xyz^
 ||mq65.top^
@@ -4584,6 +4600,7 @@ newduba.cn###jq_youxi
 ||ogkfuw.xyz^
 ||ohmpyq.xyz^
 ||okmwfq.xyz^
+||okoy.top^
 ||okwa.top^
 ||okwg.top^
 ||omhoa.com^
@@ -4706,10 +4723,12 @@ newduba.cn###jq_youxi
 ||sygmtz.com^
 ||t3p58.com^
 ||tanghao.club^
+||tehgfn.xyz^
 ||tfbulkidn.com^
 ||tfzozf.xyz^
 ||tg0qu.top^
 ||tgryfh.xyz^
+||theads.xyz^
 ||thlnbzi.cn^
 ||thpte.cn^
 ||thraerqol.com^
@@ -4721,6 +4740,7 @@ newduba.cn###jq_youxi
 ||ttzhongbao.com^
 ||tuape.xyz^
 ||tuffhf.xyz^
+||tupo.link^
 ||tuyqiolni.cyou^
 ||tvxqdp.xyz^
 ||twn2e.cn^
@@ -4778,6 +4798,7 @@ newduba.cn###jq_youxi
 ||whrgsmi.cn^
 ||wjl58.icu^
 ||wooledswards.com^
+||wp8d.xyz^
 ||wpiwoo.xyz^
 ||wqmgqm.xyz^
 ||wschao.xyz^
@@ -4799,8 +4820,10 @@ newduba.cn###jq_youxi
 ||xhjxkgc.cn^
 ||xiaohui668.club^
 ||xiaolj.xyz^
+||xiaosaguniang.xyz^
 ||xibpbov.cn^
 ||xiehao.me^
+||xihongshi.love^
 ||xingyou70.asia^
 ||xinllz.xyz^
 ||xinnianqinggan.xyz^
@@ -14411,6 +14434,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||imgs.cc/img/8Pl6FJY.gif
 ||imgs.cc^$domain=fun1shot.com
 ||imgsrc.baidu.com/tieba/pic/item/$image
+||imgtp.com/2023/02/18/KkRe64ff.png
 ||imgtuku.com/images/20*.gif
 ||imgur.com/df53F09.jpg
 ||imgur.com/oPNxy4w.gif
