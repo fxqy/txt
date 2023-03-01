@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Nq0HcLl3GSa4faGIKzqSNw
+! Checksum: IY9QU2q5Xz2j2NyEr07dMQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.81.54
-! TimeUpdated: 2023-02-28T16:31:40+00:00
+! Version: 2.0.81.64
+! TimeUpdated: 2023-03-01T16:31:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -414,6 +414,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144287
+@@/adview_*_ads_300x250.js$domain=yaociyuan.bid
+yaociyuan.bid##+js(set-constant, killads, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141600
 520cc.cc##+js(no-setTimeout-if, myModal)
 520cc.cc##+js(set-constant, all520dddaaa2022ccc, true)
@@ -1209,6 +1212,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+||zztongyun.com/static/js/sh.min.js
+fqzww.net##a[onclick="qinlintes11t2()"]
+yaociyuan.bid##.w-ad
+yaociyuan.bid##.board a[target="_blank"] > img
+yaociyuan.bid##.content a[target="_blank"] > img
+||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||520xingyun.com/images/*.gif$domain=mcpcourse.com
 netfly.tv##.tg-container
 zhongce.sina.com.cn##div[class^="side-btns-jifen"]
@@ -3289,6 +3298,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 ://rou*/_next/static/chunks/pages/home-
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
+://xingkong6688s.oss-
 :1010/openV5.js
 :10443/$script,subdocument,third-party
 :12289/o.js$script,third-party
@@ -4240,6 +4250,7 @@ newduba.cn###jq_youxi
 ||9fh6m.cn^
 ||a-ads.com^
 ||aaaesme.cn^
+||accommodatingremindauntie.com^
 ||afdplay.xyz^
 ||afx001.pw^
 ||agkacg.xyz^
@@ -4268,6 +4279,7 @@ newduba.cn###jq_youxi
 ||banhui.xyz^
 ||bavxxf.xyz^
 ||bddwm.com^
+||beatricecathy.com^
 ||bfdaawe.top^
 ||bgcnhux.cn^
 ||bgjjwl.cn^
@@ -4357,6 +4369,7 @@ newduba.cn###jq_youxi
 ||ewmvim.xyz^
 ||ewrwf.com^
 ||ezfxpuo.cn^
+||ezwxia.xyz^
 ||f9s6.top^
 ||fangfeng009.xyz^
 ||fangyaomin.site^
@@ -4396,6 +4409,7 @@ newduba.cn###jq_youxi
 ||gskbzle.cn^
 ||guangdongtaiji.com^
 ||guge.red^
+||guoandong.ltd^
 ||guode.cyou^
 ||guuds.cyou^
 ||guyu8855.club^
@@ -4420,6 +4434,7 @@ newduba.cn###jq_youxi
 ||hhaobcj.cn^
 ||hibaby.ren^
 ||hiqrnyn.cn^
+||hkbzl.hk^
 ||hmpubc.xyz^
 ||hndhas.com^
 ||hnrjign.cn^
@@ -4611,8 +4626,10 @@ newduba.cn###jq_youxi
 ||ofgysy.xyz^
 ||ogkfuw.xyz^
 ||ohmpyq.xyz^
+||oiqdjksgpo.com^
 ||okew.top^
 ||okmwfq.xyz^
+||okoc.top^
 ||okod.top^
 ||okoy.top^
 ||okwa.top^
@@ -4724,6 +4741,7 @@ newduba.cn###jq_youxi
 ||shhaiya.com^
 ||shidaiheima.ltd^
 ||shikongbb.com^
+||siejp.cyou^
 ||sige20221230.xyz^
 ||siuscs.xyz^
 ||sixarwr.cn^
@@ -4789,6 +4807,7 @@ newduba.cn###jq_youxi
 ||udifvi.cn^
 ||ufynxmf.cn^
 ||ukutuy.xyz^
+||uniway.cn.com^
 ||unmnkkq.cn^
 ||uowfag.xyz^
 ||uwumr.cn^
@@ -4818,7 +4837,9 @@ newduba.cn###jq_youxi
 ||wdasa.top^
 ||wdmdejd.cn^
 ||weieo.cyou^
+||weighcb.com^
 ||weiqu.cyou^
+||wfndponfd.com^
 ||whrgsmi.cn^
 ||wjl58.icu^
 ||wooledswards.com^
@@ -4858,6 +4879,7 @@ newduba.cn###jq_youxi
 ||xkjcpl.cn^
 ||xkqit.com^
 ||xmmnsl.com^
+||xnrcnz.xyz^
 ||xopew.cyou^
 ||xrewo.xyz^
 ||xryjyfb.cn^
@@ -15025,6 +15047,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||meiyouad.com/user/admin?
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
+||mestrip.com/widgets/
 ||metvb.com/js/bofangwei.js
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfav88.com/yinzi/
