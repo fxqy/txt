@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: NLnH5Ih9o/WabaBr1Mdsdg
+! Checksum: gCEc0PF6ReVOzUpyzIQ6PA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.81.96
-! TimeUpdated: 2023-03-05T16:31:20+00:00
+! Version: 2.0.82.3
+! TimeUpdated: 2023-03-06T17:03:18+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1212,6 +1212,9 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+5278.cc###leftside_banner_top
+5278.cc###rightside_banner_top
+5278.cc###list_top_ad
 ||imgs.itxueyuan.com/advPicture/
 ||video.itxueyuan.com/1672473525178992.mp4
 555hd2.com##a[href^="https://57063683.com"]
@@ -3271,6 +3274,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /xdy_yyo.php
 /xfsjgghsh_*.js
 /xgrghru981_23.js
+/xianbao_theme/script/intelligence.
 /xianbao_theme/ziyuan/1111/hongbao.
 /xiaoyi/360_
 /xiaoyi/960_
@@ -4175,6 +4179,7 @@ newduba.cn###jq_youxi
 ##a[href*="/ky0001.vip"]
 ##a[href*="/ky0777.cn"]
 ##a[href*="/ky53362.com"]
+##a[href*="/ky55004.com"]
 ##a[href*="/l76fh.com"]
 ##a[href*="/lm01c.com"]
 ##a[href*="/lm63m.vip"]
@@ -4335,7 +4340,9 @@ newduba.cn###jq_youxi
 ||cuwuqo.xyz^
 ||cwobgp.cn^
 ||cwpbohx.cn^
+||cxgwsu.xyz^
 ||d7i.cn^
+||dacyh.cyou^
 ||dagamemisdeed.com^
 ||damhixs.cn^
 ||darzkrx.cn^
@@ -4397,6 +4404,7 @@ newduba.cn###jq_youxi
 ||fdgem.com^
 ||fds-1230.cc^
 ||fdtrjz.xyz^
+||feixun.info^
 ||felzfr.xyz^
 ||fewsvuh.cn^
 ||ffdcpvv.cn^
@@ -4418,6 +4426,7 @@ newduba.cn###jq_youxi
 ||g8ld.fun^
 ||gadscc.xyz^
 ||gaiqgs.xyz^
+||gaoai.wang^
 ||geiaxbk.cn^
 ||gejulm1314.com^
 ||gfqsded.cn^
@@ -4482,7 +4491,9 @@ newduba.cn###jq_youxi
 ||huiyueting.com^
 ||hvhudp.xyz^
 ||hzcp.fun^
+||i-fk.cn^
 ||iaozwe.xyz^
+||iauto.wang^
 ||ibgksw.xyz^
 ||ibjkafefertt.xyz^
 ||ibjkdwsdko.com^
@@ -4519,8 +4530,10 @@ newduba.cn###jq_youxi
 ||jiape.cyou^
 ||jike001.top^
 ||jinkens.fun^
+||jipinyouwu.com^
 ||jishiben.info^
 ||jiutou20230210.live^
+||jjdk33.com^
 ||jjfopb.xyz^
 ||jkxvvv.xyz^
 ||jllfxt.xyz^
@@ -4573,6 +4586,7 @@ newduba.cn###jq_youxi
 ||lgugsnp.cn^
 ||lgxm.cool^
 ||lh54.top^
+||lijie.in^
 ||linkpicture.com^$third-party
 ||liutou20230203.live^
 ||liuye.club^
@@ -4625,6 +4639,7 @@ newduba.cn###jq_youxi
 ||n0544.com^
 ||n0644.com^
 ||nai7.xyz^
+||nbzabd.xyz^
 ||nccaer.xyz^
 ||ncrkff.xyz^
 ||ncvkzz.cn^
@@ -4637,6 +4652,7 @@ newduba.cn###jq_youxi
 ||niumeng.xyz^
 ||njslx.cn^
 ||nmtibv.xyz^
+||nnfeibao.cn^
 ||noiea.xyz^
 ||nonabh.xyz^
 ||nouivjv.cn^
@@ -4660,6 +4676,8 @@ newduba.cn###jq_youxi
 ||ohmpyq.xyz^
 ||oiqdjksgpo.com^
 ||okag.top^
+||okcf.top^
+||okcy.top^
 ||okew.top^
 ||okmwfq.xyz^
 ||okoc.top^
@@ -4701,6 +4719,7 @@ newduba.cn###jq_youxi
 ||polkmerty.xyz^
 ||porjjhu.cn^
 ||ppltxv.xyz^
+||pqjprom.cn^
 ||prplads.com^
 ||ps123.online^
 ||pwcuu.cn^
@@ -4803,6 +4822,7 @@ newduba.cn###jq_youxi
 ||t3p58.com^
 ||tanghao.club^
 ||tehgfn.xyz^
+||teowa.cyou^
 ||tfbulkidn.com^
 ||tfzozf.xyz^
 ||tg0qu.top^
@@ -4821,6 +4841,7 @@ newduba.cn###jq_youxi
 ||tuape.xyz^
 ||tuffhf.xyz^
 ||tupo.link^
+||tututu666.com^
 ||tuyqiolni.cyou^
 ||tvxqdp.xyz^
 ||twn2e.cn^
@@ -4849,6 +4870,7 @@ newduba.cn###jq_youxi
 ||udifvi.cn^
 ||ufynxmf.cn^
 ||ukutuy.xyz^
+||unevwe.xyz^
 ||uniway.cn.com^
 ||unmnkkq.cn^
 ||uowfag.xyz^
@@ -4866,6 +4888,7 @@ newduba.cn###jq_youxi
 ||vgxhvt.xyz^
 ||vilki.cn^
 ||viope.cyou^
+||vlbbxt.xyz^
 ||vokmhydy.xyz^
 ||vw66i.top^
 ||vwvjzd.xyz^
@@ -4894,8 +4917,10 @@ newduba.cn###jq_youxi
 ||wschao.xyz^
 ||wsdd11.com^
 ||wsdof.xyz^
+||wskyh.ltd^
 ||wuepo.cn^
 ||wuge20230104.live^
+||wuifbjdswsl.com^
 ||wujiupic.com^
 ||wusuliriver.com^
 ||wutou20230201.live^
@@ -4907,6 +4932,7 @@ newduba.cn###jq_youxi
 ||x800.top^
 ||xbptvaq.cn^
 ||xeiyt.cyou^
+||xfzyun.com^
 ||xh33g.net^
 ||xhjxkgc.cn^
 ||xiaohui668.club^
@@ -4993,18 +5019,6 @@ newduba.cn###jq_youxi
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
-||nnfeibao.cn^
-||gaoai.wang^
-||unevwe.xyz^
-||dacyh.cyou^
-||nbzabd.xyz^
-||okcy.top^
-||jipinyouwu.com^
-||wskyh.ltd^
-||wuifbjdswsl.com^
-||tututu666.com^
-##A[href*="/ky55004.com"]
-||xfzyun.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -8701,7 +8715,6 @@ newduba.cn###jq_youxi
 ||njamlya.top^
 ||njcengpianwang.cn^
 ||njcyfpv.cn^
-||zlclgzs.cn^
 ||njdijiani.com^
 ||njguluyu.cn^
 ||njmbgc.cn^
@@ -10982,6 +10995,7 @@ newduba.cn###jq_youxi
 ||zkczbti.cn^
 ||zkqfrti.cn^
 ||zkwsdf.com^
+||zlclgzs.cn^
 ||zlgame.top^
 ||zli.wang^
 ||zljycst.cn^
@@ -11087,17 +11101,17 @@ newduba.cn###jq_youxi
 ||zzyl.mobi^
 ||zzyytt.top^
 ||zzzhuoxiaqu.online^
-||aafuck.xyz^$third-party
-||adsage.com^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
 ||3alian.net^$third-party
 ||7xi9g1.com1.z0.glb.clouddn.com^
 ||a.youdao.com^
+||aafuck.xyz^$third-party
 ||achicih.gitee.io^$third-party
 ||adbxb.com^$third-party
 ||adm.cnzz.net^$third-party
 ||adrs.sdo.com^
+||adsage.com^$third-party
 ||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||alimama.alicdn.com^
 ||alimama.cn^$third-party,domain=~alimama.com|~foctop.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~youhuiyouhui.com.cn
