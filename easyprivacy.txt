@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: goK4+zJRDYQqKs5Ev/E4NQ
-! Version: 202303072220
+! Checksum: 5lre14UoR4orSItzAENuYQ
+! Version: 202303082220
 ! Title: EasyPrivacy
-! Last modified: 07 Mar 2023 22:20 UTC
+! Last modified: 08 Mar 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -396,6 +396,7 @@
 /admantx-
 /admantx.
 /admantx/*
+/AdmitadTagTag.js
 /admonitoring.
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.
@@ -2537,6 +2538,7 @@
 /InsightTrk/*
 /insightXe.js
 /insitemetrics/*
+/instantpage.js
 /InstantTracking.
 /instart.js
 /intellitracker.js
@@ -30410,6 +30412,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.us1.exponea.com^$script,xmlhttprequest,domain=walmartpetrx.com
+@@||app.pangolin.exchange/assets/analytics-$~third-party
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
 @@||appboycdn.com/web-sdk/$script,domain=magicseaweed.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
@@ -30780,6 +30783,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
+@@||ruralking.com^*/Creatuity_GoogleTagManager/$script,~third-party
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
