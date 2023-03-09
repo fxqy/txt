@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HLKivlvzJ7Ig6S9fzvlGqw
+! Checksum: o/p07KJVqxk2q9am3TRdcA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.82.20
-! TimeUpdated: 2023-03-08T17:02:57+00:00
+! Version: 2.0.82.31
+! TimeUpdated: 2023-03-09T17:03:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2724,6 +2724,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .com/tonglan2.js
 .com/topjs/
 .com/uploads/*-860x250.gif
+.com/vh1/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -2772,6 +2773,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .xyz/ad/
 .xyz/js/ads/
 .xyz/upload/ad/
+.xyz/vh1/$script,third-party
 .zone/ads/
 /0mbjs/2800av*.js
 /104_150/1360_1|
@@ -4236,6 +4238,7 @@ newduba.cn###jq_youxi
 ||4jffu.cn^
 ||51gpiao.cn^
 ||51xl.xyz^$third-party
+||552aaa.us^
 ||553aaa.us^
 ||5851a.com^
 ||587tuchuang.com^
@@ -4247,6 +4250,7 @@ newduba.cn###jq_youxi
 ||5takaitu.xyz^
 ||65oml.cn^
 ||6888i.top^
+||688aaa.us^
 ||78dfvv.com^
 ||7d108.cn^
 ||7nekc.icu^
@@ -4292,6 +4296,7 @@ newduba.cn###jq_youxi
 ||allicinarenig.com^
 ||anaxialaphonia.com^
 ||aol32.cn^
+||aowdk.cyou^
 ||aqtcw.cn^
 ||aqylmil.cn^
 ||arejug.xyz^
@@ -4329,6 +4334,7 @@ newduba.cn###jq_youxi
 ||bridalplums.com^
 ||brkxgfs.cn^
 ||bs7li.cn^
+||btc440.top^
 ||butaeit.cn^
 ||buttn.cyou^
 ||byj123.cn^
@@ -4344,8 +4350,10 @@ newduba.cn###jq_youxi
 ||ciaeue.xyz^
 ||cifzuqopdpzi.com^
 ||cj-sys.club^
+||cnredg.xyz^
 ||cnshiw2.com^
 ||coope.cyou^
+||cqcimec.xyz^
 ||creawww.top^
 ||crobotb.com^
 ||ctoyb.cyou^
@@ -4381,6 +4389,7 @@ newduba.cn###jq_youxi
 ||doracms.cn^
 ||doublechen.online^
 ||doubleclicks.biz^
+||dpxynh.xyz^
 ||dqzirj.xyz^
 ||dreanrh.cn^
 ||dsfd67.com^
@@ -4515,6 +4524,7 @@ newduba.cn###jq_youxi
 ||ibgksw.xyz^
 ||ibjkafefertt.xyz^
 ||ibjkdwsdko.com^
+||ibjknmqw.com^
 ||ibqswjdkpo.com^
 ||icentos.info^
 ||icyrwy.xyz^
@@ -4550,6 +4560,7 @@ newduba.cn###jq_youxi
 ||jinkens.fun^
 ||jipinyouwu.com^
 ||jishiben.info^
+||jiudashi.shop^
 ||jiutou20230210.live^
 ||jjdk33.com^
 ||jjfopb.xyz^
@@ -4571,6 +4582,7 @@ newduba.cn###jq_youxi
 ||katynplum.ltd^
 ||kb5ke.xyz^
 ||kbbqwhf.cn^
+||kbctii.xyz^
 ||kcedmk.xyz^
 ||keoap.xyz^
 ||keshidianhua.xyz^
@@ -4622,6 +4634,7 @@ newduba.cn###jq_youxi
 ||ltwfd.xyz^
 ||lw0mp.fun^
 ||lwpxhr.xyz^
+||lwz.hk^
 ||lymtreg.cn^
 ||m6ku1.cn^
 ||maccms10.cn^
@@ -4704,6 +4717,7 @@ newduba.cn###jq_youxi
 ||okoc.top^
 ||okod.top^
 ||okoy.top^
+||okpoiione.com^
 ||okwa.top^
 ||okwg.top^
 ||omegabest.cn^
@@ -4712,6 +4726,7 @@ newduba.cn###jq_youxi
 ||opeci.cyou^
 ||opeem.cyou^
 ||opikervop.xyz^
+||oqeohuc.cn^
 ||oqxep.cn^
 ||oronwg.xyz^
 ||osalwqv.cn^
@@ -4738,6 +4753,7 @@ newduba.cn###jq_youxi
 ||plyuwqq.cn^
 ||poeid.cyou^
 ||pojjtt.xyz^
+||polkkqm.com^
 ||polkmerty.xyz^
 ||porjjhu.cn^
 ||ppltxv.xyz^
@@ -4762,6 +4778,7 @@ newduba.cn###jq_youxi
 ||qhapp.top^
 ||qheoy.cn^
 ||qianbaobbs.net^
+||qiapuyyds.com^
 ||qiegoa.xyz^
 ||qingfengxq.com^
 ||qingganlan.ltd^
@@ -4834,6 +4851,7 @@ newduba.cn###jq_youxi
 ||slowbeat.fun^
 ||smgbka.xyz^
 ||soqikbe.cn^
+||souche.com^$third-party
 ||soulsoul.xyz^
 ||srnov.top^
 ||ssjiancai.com^
@@ -4962,6 +4980,7 @@ newduba.cn###jq_youxi
 ||xeiyt.cyou^
 ||xfzyun.com^
 ||xh33g.net^
+||xhi8.xyz^
 ||xhjxkgc.cn^
 ||xiaohui668.club^
 ||xiaolj.xyz^
@@ -5048,6 +5067,7 @@ newduba.cn###jq_youxi
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
+||zzxmcp.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -22250,6 +22270,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||1.idc100.com^
 ||1.isanxia.com^
 ||1.jeasyui.net^
+||1.jiaopei.com^
 ||1.jiqie.cn^
 ||1.jushtong.com^
 ||1.kuaidiwo.cn^
@@ -23305,6 +23326,7 @@ smjb.net##div[style*="height: 50%"]
 ||23qb.com/skin/style
 ||23qb.com/skin/xiu.js
 ||24kwx.cc^$csp=script-src 'self' * 'unsafe-inline'
+||2kxs.org/6ADyQNkC/
 ||33yq.org/static/1.
 ||360xs.com/templates/html5/js/djtop.js
 ||55shuba.com/files/article/html/
