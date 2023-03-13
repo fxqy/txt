@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: htXVX0T+citTYa9YzR6edw
-! Version: 202303122220
+! Checksum: XyCRNMn9bnpgj3utXhFtFA
+! Version: 202303132220
 ! Title: EasyList China
-! Last modified: 12 Mar 2023 22:20 UTC
+! Last modified: 13 Mar 2023 22:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2490,6 +2490,15 @@ newduba.cn###jq_youxi
 ||zxfas56.com^
 ||zxtkfvm.cn^
 ||zzxmcp.com^
+||ipkruu.xyz^
+||xthrdyi.cn^
+||heqinyyds.com^
+||bdfwzt.xyz^
+||hioek.cyou^
+||wangsf.ltd^
+||kezldfv.cn^
+||4bds.xyz^
+||drfvtgbyk.xyz^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -13271,6 +13280,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vuejs.org##.text-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
