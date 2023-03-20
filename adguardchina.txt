@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: qauFFtPRLci6oS9iEwt+EA
+! Checksum: eIl6QbFtHkLXAJdn+SgINA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.83.12
-! TimeUpdated: 2023-03-19T16:31:06+00:00
+! Version: 2.0.83.19
+! TimeUpdated: 2023-03-20T16:31:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -397,6 +397,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||kdpic.pchome.com.tw^
 ||one.fsylr.com^
 ||two.fsylr.com^
 ||ad.juksy.com^
@@ -1218,6 +1219,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 !
 !
 !
+24h.pchome.com.tw##div[id^="Block"][class="grab_box"]
+news.pchome.com.tw##div[class^="adnewlist"]
+boylove.cc###floating_page
+boylove.cc###fake_avivid_waterfall_webpush
+||boylove.cc/bookimages/img/
+||2023518.com/js/mi.js
 ||img.*.com/images/*.gif$domain=czzy01.com
 nivod4.tv##.nav-ads
 ||w3xue.com/js/pro541.js
@@ -3266,6 +3273,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
 /tisai/img/nav_980_90.gif
+/tm00738.bj.
 /tourl.html?url=
 /tt_gb/skin_js/gg.js
 /tuiguang/*$domain=~jikexiu.com|~jikexiu.vip
@@ -3753,6 +3761,7 @@ newduba.cn###jq_youxi
 ##.bannerliststyle[style^="min-height"]
 ##.bdyp-sygg-ul
 ##.below_ads
+##.bg > img[src*=".meituan.net"]
 ##.bjxhf
 ##.bm.a_c
 ##.bn728-100
@@ -4295,6 +4304,8 @@ newduba.cn###jq_youxi
 ||8499223.com^
 ||8499234.com^
 ||8499258.com^
+||8861200.com^
+||8861201.com^
 ||8861202.com^
 ||8881img.com^
 ||8886i.top^
@@ -4350,6 +4361,8 @@ newduba.cn###jq_youxi
 ||atnnf.xyz^
 ||atuhi.cyou^
 ||avgsco.xyz^
+||avkw.cn^
+||baidujsvbj.com^
 ||banhui.xyz^
 ||bavxxf.xyz^
 ||bddwm.com^
@@ -4438,6 +4451,7 @@ newduba.cn###jq_youxi
 ||dhl4.xyz^
 ||diqizu.xyz^
 ||diwok.cyou^
+||dmqi.ltd^
 ||doracms.cn^
 ||doublechen.online^
 ||doubleclicks.biz^
@@ -4484,6 +4498,7 @@ newduba.cn###jq_youxi
 ||fcgphtr.cn^
 ||fdbskb.cn^
 ||fdgem.com^
+||fdhvczd.cn^
 ||fds-1230.cc^
 ||fdtrjz.xyz^
 ||feixun.info^
@@ -4509,6 +4524,7 @@ newduba.cn###jq_youxi
 ||fyfvaxi.cn^
 ||fyzbvwb.cn^
 ||fzbkgni.cn^
+||fzf1.top^
 ||g2qb.top^
 ||g8ld.fun^
 ||gadscc.xyz^
@@ -4559,6 +4575,7 @@ newduba.cn###jq_youxi
 ||hibaby.ren^
 ||hioek.cyou^
 ||hiqrnyn.cn^
+||hitubt.xyz^
 ||hkbzl.hk^
 ||hladalliance.com^
 ||hlggimg.com^
@@ -4710,6 +4727,7 @@ newduba.cn###jq_youxi
 ||lgugsnp.cn^
 ||lgxm.cool^
 ||lh54.top^
+||lianyi.wang^
 ||lijie.in^
 ||linkpicture.com^$third-party
 ||liutou20230203.live^
@@ -4733,6 +4751,7 @@ newduba.cn###jq_youxi
 ||lzzzjx.xyz^
 ||m6ku1.cn^
 ||maccms10.cn^
+||malong.plus^
 ||mbepa.xyz^
 ||mbqwwa.cn^
 ||mdcxyo.xyz^
@@ -4831,6 +4850,7 @@ newduba.cn###jq_youxi
 ||oroqikj.cn^
 ||osalwqv.cn^
 ||oulibf.xin^
+||ouypyu.xyz^
 ||owihyg.xyz^
 ||oyqjp.cn^
 ||p23jac.top^
@@ -4939,6 +4959,7 @@ newduba.cn###jq_youxi
 ||salangane.asia^
 ||sange20221226.xyz^
 ||sangoo.top^$third-party
+||sanqian.pro^
 ||santou20230127.live^
 ||sc4mh.cn^
 ||scbt.asia^
@@ -5007,6 +5028,7 @@ newduba.cn###jq_youxi
 ||traktalent.com^
 ||travescorylus.com^
 ||tsck.online^
+||tt-baidu.xyz^
 ||ttdydd.xyz^
 ||ttzhongbao.com^
 ||tuape.xyz^
