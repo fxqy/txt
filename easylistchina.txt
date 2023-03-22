@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O2iuevIDh8ykMFfpOAbF5Q
-! Version: 202303212220
+! Checksum: fVX9YhuXYbfx/0KBcpNppA
+! Version: 202303222220
 ! Title: EasyList China
-! Last modified: 21 Mar 2023 22:20 UTC
+! Last modified: 22 Mar 2023 22:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18,6 +18,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/bg5t4h.oss-
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -1443,7 +1444,7 @@ newduba.cn###jq_youxi
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
-##a[href="/iebhgeiruaksdjbgf/"]
+##a[href="/sdjgnijebw/"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -2605,6 +2606,26 @@ newduba.cn###jq_youxi
 ||zxtkfvm.cn^
 ||zyrwfd.xyz^
 ||zzxmcp.com^
+||dqsrnfg.cn^
+||wocoqs.xyz^
+||pcxtvr.xyz^
+||658bbb.us^
+||aguterl.cn^
+##a[href$="/lm8fj.com"]
+||haon.ltd^
+||uiiwzyv.cn^
+||shangjinxin.ltd^
+||chkaja.com^$third-party
+||umami.is^
+||rbvi.top^
+||renameking.com^
+||strced.xyz^
+||mengzhan24.com^$third-party
+||baidufkjnvbdsn.com^
+||j8jp.com^
+||dcnjc4.com^
+||lmx7.com^
+||yye2.top^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -13391,6 +13412,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+789ys.com##div[style*="important"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
