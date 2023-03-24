@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: c3ZpIO0g/fJuOWfKdGnxXw
-! Version: 202303232220
+! Checksum: yGZhBPZV329Zp91xhJcGYw
+! Version: 202303242220
 ! Title: EasyPrivacy
-! Last modified: 23 Mar 2023 22:20 UTC
+! Last modified: 24 Mar 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27,8 +27,6 @@
 &t=pageview&
 &tag=IMPRESSION&
 &visitorUuid=
--action/fingerprint?
--action/ping?
 -ad-targeting?
 -adobe-analytics.
 -adobe-analytics/
@@ -156,8 +154,6 @@
 .php?stats=
 .php?tracking=
 .pixel.archive.
-.pixel?*&event_
-.pixel?record_
 .pl?trans.gif&ref=
 .pt/n.gif?
 .redux-logger-
@@ -188,7 +184,6 @@
 /1pixel.php
 /1px.gif?
 /1px.php?
-/1x1.dyn?
 /1x1.gif?
 /1x1.png?
 /2.gif?
@@ -212,7 +207,6 @@
 /_/api/v2/analytics/?
 /_/lite/performance/*
 /_/oh-noes$~third-party,xmlhttprequest
-/__analytics/*
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
@@ -236,7 +230,6 @@
 /_visitcount?
 /a-stat.
 /a.gif?
-/a/analytics/*
 /a8c-analytics.
 /a8c-analytics/*
 /aap/stats
@@ -250,27 +243,17 @@
 /acbeacon2.
 /accessanalyzer/tracker?
 /AccessCounter/*
-/accesslog?
 /accip_script.js
 /acclog.cgi?
-/account-stats/*
 /acecounter/*
 /acecounter_
 /acounter.php?
 /act_pagetrack.
 /action/analytics
 /ActionLogger?
-/activities/logger/*
 /activity-track/?
 /activity.gif?
-/activity_log.
-/activityloggingapi/*
-/acv?camp=
-/acv?extcmp=
-/acv?utm_
-/ad-blocker-stats.
 /ad-iptracer.
-/ad/no_cookie?
 /AD/PageHits.
 /ad/statistic
 /ad_tracking.
@@ -297,7 +280,6 @@
 /adds/counter.js
 /addstats?callback=
 /adform_sync.
-/adframestats|
 /adinfo?
 /adlogger.
 /adm_tracking.js
@@ -322,7 +304,6 @@
 /AdobeAnalyticsAndTargetOverwrites.
 /AdobeAnalyticsBundle.
 /AdobeAnalyticsEvent.
-/AdobeAnalyticsSDK.
 /adobeMonitor.
 /adobevideoheartbeat.
 /adpixel.
@@ -331,7 +312,6 @@
 /adrum.
 /adrum_
 /ads/counter.
-/ads/track.
 /ads/track/*
 /ads?cookie_
 /adsct?
@@ -370,7 +350,6 @@
 /agwebtracking_
 /ahoy/events
 /ahoy/visits
-/aicon_track.
 /aimp.php?
 /AIT_Analytics.
 /ajax-hits-counter/*
@@ -395,11 +374,7 @@
 /akamai/pixy.gif
 /akamai_analytics_
 /AkamaiAnalytics.
-/alexa.aspx?site=
 /alog.min.js
-/alog/dp.
-/altpracenje.js
-/altpwk.js
 /alweb.rfk.
 /amazon-affiliate-
 /amp-access/cta/*
@@ -410,7 +385,6 @@
 /amp-analytics-
 /amp-analytics/*
 /amp-call-tracking-
-/amp-omniture-iframe?
 /amp-skimlinks-
 /amp-story-auto-analytics-
 /amp-tealium?
@@ -423,12 +397,9 @@
 /amp_pingback/*
 /ampmetrics.
 /amptrack.
-/amunglite.
 /analys/dep/*
 /analyse.js
 /analysis-logger/*
-/analysis/ga_
-/analysis/gtm_
 /analysis?t=
 /analysisTag.js
 /analytic-client.
@@ -471,7 +442,6 @@
 /analytics-post-
 /analytics-pusher/*
 /analytics-reporter/*
-/analytics-savebt?
 /analytics-scripts.
 /analytics-sdk.
 /analytics-secure.
@@ -494,7 +464,6 @@
 /analytics.do
 /analytics.gif?
 /analytics.html?
-/analytics.init.js
 /analytics.js.gz
 /analytics.js/v1/*
 /analytics.js?
@@ -574,11 +543,8 @@
 /analytics/sockjs.
 /analytics/tags
 /analytics/tagx-
-/analytics/tealium-
 /analytics/timeme.
 /analytics/timing
-/analytics/tms_
-/analytics/tools_
 /analytics/track-
 /analytics/track.
 /analytics/track/*
@@ -605,7 +571,6 @@
 /analytics?body=
 /analytics?http_referer
 /analytics?token=
-/analytics?url=
 /analytics?vv_events=
 /analytics_embed.
 /analytics_frame.
@@ -657,6 +622,7 @@
 /api/analytics/*
 /api/analytics?
 /api/analytics|
+/api/bfb_write_log
 /api/cmp_tracker
 /api/ComScorePageView
 /api/drpStats
@@ -688,7 +654,6 @@
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
-/apis/cpt.php?
 /apis/facebook_conversion
 /apis/track_view_product
 /apixel?
@@ -704,7 +669,6 @@
 /AppMeasurement2.js
 /AppMeasurement_Module_
 /AppMeasurementCustom.
-/apTracker.
 /aptrk.js
 /aqtag.
 /ard.png?
@@ -723,7 +687,6 @@
 /ArticleLog.aspx?
 /articleOmnitureTracking.
 /ArticleViewTracking/*
-/asdf/tracking-
 /asknet_tracking.
 /aslog.php?
 /aspenanalytics.
@@ -736,7 +699,6 @@
 /assets/ga.js
 /assets/smarttag-$script
 /assets/tracking-
-/assign.gif?
 /assignments/impressions
 /AssyncCSStats.aspx
 /astrack.js
@@ -779,7 +741,6 @@
 /avtstats.
 /aw-tracker.
 /awAnalytics.
-/awe/ccs.
 /awesc.php?
 /awin?awc=$image
 /awp.log
@@ -833,8 +794,6 @@
 /bcsensor.js
 /bctrackers/*
 /bdanalytics.
-/bdash_log.
-/bdg-analytics.
 /bdg.gif?
 /beacon-cookie.
 /beacon.cgi?
@@ -858,7 +817,6 @@
 /beacon/metrics
 /beacon/page?
 /beacon/perf
-/beacon/portal-lite?
 /beacon/receive
 /beacon/stats
 /beacon/timing?
@@ -897,7 +855,6 @@
 /biyfn/notify.
 /bizo.js
 /bk-coretag.js
-/bkclick?
 /BKVTrack.js
 /blank.gif?*%
 /blank.gif?*&
@@ -1390,7 +1347,6 @@
 /countercgi.
 /countercollector/*
 /counterFooterFlash.
-/counters/pages?
 /countertab.js?
 /countHits.
 /countinj.cgi?
@@ -1526,7 +1482,6 @@
 /disp_cnt.
 /dispatch.fcgi?
 /dist/analytics.
-/diva-analytics.js
 /divolte.js
 /dl_counter.
 /dla_tracker.
@@ -1946,7 +1901,6 @@
 /ga_link_tracker_
 /ga_loader.
 /ga_local.js
-/ga_measure.
 /ga_no_cookie.
 /ga_no_cookie_
 /ga_optimize.
@@ -2529,7 +2483,6 @@
 /kissmetrics.
 /kissmetrics/*
 /KISSmetricsTrackCode.
-/kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
 /koko-analytics-
@@ -4200,6 +4153,8 @@
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
+/swell-ct-ad-data
+/swell-ct-pv^
 /syn/mail_s.php?
 /sync.gif?partner_
 /sync?visitor_id=
@@ -4268,7 +4223,6 @@
 /tealiumpixel.
 /tealiumTagsData.
 /telemetry/log/*
-/tenping.cpa.
 /testImpressions/*
 /textlink.php?text
 /thbeacon/*
@@ -4331,7 +4285,6 @@
 /trace?sessionid=
 /traces.php?
 /tracing?aspect=
-/track-action/*
 /track-compiled.js
 /track-cookies.
 /track-event.
@@ -4742,7 +4695,6 @@
 /trafic.js
 /trail.gif?s=
 /trakksocial.js
-/trans/logger.js
 /trans_pixel.asp
 /transparent.gif?ray=
 /transparent1x1.
@@ -30115,7 +30067,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com/extensions/$script,domain=apple.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|hilton.com|homedepot.ca|nbarizona.com
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|marriott.com|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
@@ -30146,6 +30098,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
+@@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|cxpublic.com|marketwatch.com|wsj.com
 @@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
