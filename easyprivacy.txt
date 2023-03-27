@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rSav2ElFzhVgpHPzWN/erA
-! Version: 202303262220
+! Checksum: xcV1ShHZm9YdEg7mHLW9xw
+! Version: 202303272220
 ! Title: EasyPrivacy
-! Last modified: 26 Mar 2023 22:20 UTC
+! Last modified: 27 Mar 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5932,6 +5932,7 @@ _mongo_stats/
 ||superpointlesshamsters.com^
 ||t13.io^
 ||takingbackjuly.com^
+||targetemsecure.blob.core.windows.net^
 ||tatpek.com^
 ||test.vast^
 ||testingmetriksbre.ru^
@@ -7112,6 +7113,7 @@ _mongo_stats/
 ||iperceptions.com^$third-party
 ||ipfind.com^$third-party
 ||ipfingerprint.com^$third-party
+||ipgeolocation.io^$third-party
 ||ipgp.net^$third-party
 ||ipify.org^$third-party
 ||ipinfo.info^$third-party
@@ -10512,6 +10514,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mmtro.com^$third-party
 ||netquattro.com/stats/
 ||netvigie.com^$third-party
+||non.li^$third-party
 ||phywi.org^$third-party
 ||pingclock.net^$third-party
 ||reseau-pub.com^$third-party
@@ -11366,6 +11369,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.ziftsolutions.com^
+||analyticsehnwe.servicebus.windows.net^
 ||analyze.full-marke.com^
 ||ancestrycdn.com/tao/at/
 ||ao-freegeoip.herokuapp.com^
@@ -15414,6 +15418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.safing.io^
 ||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
+||plushd.bio/cdn-cgi/trace
 ||pm.dailykos.com^
 ||pocket-lint.com/media/pf304.js
 ||poki.com/observer/
@@ -29069,6 +29074,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
+||l.bfmtv.com^
 ||l.franceculture.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-layout/tracking-
@@ -29742,6 +29748,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.state.centrum24.pl^
 ||dot.wp.pl^$script
 ||entryhit.wp.pl^
+||euro.com.pl/log-customer-visit
 ||eventstream.dodopizza.com^
 ||ingbank.pl/mojeing/bs/xx.js
 ||interia.pl^*/hit.
@@ -30199,6 +30206,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||console.statsig.com/_next/$~third-party
 @@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
 @@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
+@@||cookielaw.org^*/OtAutoBlock.js$domain=darkreading.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
