@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j7rG293D03vc6L6GjjImDA
-! Version: 202303282220
+! Checksum: /cnx2Ln6tnuw66ZJl/bHVg
+! Version: 202303292222
 ! Title: EasyList China
-! Last modified: 28 Mar 2023 22:20 UTC
+! Last modified: 29 Mar 2023 22:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1634,6 +1634,7 @@ newduba.cn###jq_youxi
 ||2pwja.cn^
 ||2r6.cn^
 ||304p.xyz^
+||34it.ren^
 ||3633a.com^
 ||375772rug.com^
 ||37tek.fun^
@@ -1722,6 +1723,7 @@ newduba.cn###jq_youxi
 ||aliyunsupercdn.com^
 ||allicinarenig.com^
 ||anaxialaphonia.com^
+||anioz3b.cc^
 ||aoi21.cn^
 ||aol32.cn^
 ||aowdk.cyou^
@@ -1789,6 +1791,7 @@ newduba.cn###jq_youxi
 ||ccgjmzv.cn^
 ||cdn-xinghuatupian-cdn.com^
 ||cerfbup.xyz^
+||cgqmss.xyz^
 ||changyangcd.com^
 ||chkaja.com^$third-party
 ||chrislee.ltd^
@@ -1840,6 +1843,7 @@ newduba.cn###jq_youxi
 ||dfzv25.com^
 ||dgozp.com^
 ||dhl4.xyz^
+||diaocha.site^
 ||dioak.cyou^
 ||diqizu.xyz^
 ||diwok.cyou^
@@ -1936,6 +1940,7 @@ newduba.cn###jq_youxi
 ||geiaxbk.cn^
 ||gejulm1314.com^
 ||gfqsded.cn^
+||gfrzzzx.cn^
 ||ggrhsx.cn^
 ||gkustph.cn^
 ||gkwrae.xyz^
@@ -2522,6 +2527,7 @@ newduba.cn###jq_youxi
 ||vec4o.fun^
 ||vewdk.cyou^
 ||vfsdgjrr.xyz^
+||vgg5.cn^
 ||vgxhvt.xyz^
 ||vilki.cn^
 ||viope.cyou^
@@ -12760,6 +12766,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||skads.gxsky.com^$script
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
+||sl.al/gdrive/pic/*.gif
 ||slit.cn/slimages/
 ||smqzj.com/seo.js
 ||smuc.cnnfootballclub.com^
@@ -15958,7 +15965,7 @@ baidu.com##.ec_im_container
 ettoday.net##.ec_menu
 baidu.com##.ec_pc_ad
 baidu.com##.ec_sma_im
-baidu.com##.ec_wise_ad
+baidu.com,~m.baidu.com##.ec_wise_ad
 easou.com##.ecom-adTop
 baidu.com##.ecom_pingzhuan
 baidu.com##.ecomad-banner-loading
@@ -18183,7 +18190,6 @@ idanmu.ee##aside > div[class="widget "]
 zhujiceping.com##aside[id^="custom_html-"]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
-baidu.com#?#.ec_wise_ad
 baidu.com,bdimg.com#?#.l_post:-abp-has(div[class*=" fc-"])
 baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
