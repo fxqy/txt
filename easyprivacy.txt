@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MGhDPe+NIoKo5dZuv+J1Pw
-! Version: 202304072220
+! Checksum: 2pW/LfjnwoziehualIwu0g
+! Version: 202304082220
 ! Title: EasyPrivacy
-! Last modified: 07 Apr 2023 22:20 UTC
+! Last modified: 08 Apr 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6907,6 +6907,7 @@ _mongo_stats/
 ||getsmartlook.com^$third-party
 ||getstat.net^$third-party
 ||getstatistics.se^$third-party
+||getstats.org^$third-party
 ||getviously.com^$third-party
 ||gez.io^$third-party
 ||gglscr.online^$third-party
@@ -12304,6 +12305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/cloud_pl/
 ||letv.com/env/
 ||levelaccess.net/analytics/
+||libcdnjs.com/api/event
 ||licdn.com/*.gif?rnd=
 ||licensing.bitmovin.com/impression
 ||lift.acquia.com^
@@ -12374,7 +12376,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loomia.com^*/setcookie.html
 ||lore.circulate.com^
 ||lps.qantas.com^
-||lr-ingest.io/logger.min.js
 ||lsimg.net^*/vs.js
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||ltwebstatic.com^*/libs/sensors/
@@ -28948,6 +28949,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||d.rp-online.de^
+||data.sportdeutschland.tv^
 ||dein-plan.de/t.gif
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||derwesten.de/stats/
@@ -28956,6 +28958,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ens.luzernerzeitung.ch^
 ||ens.nzz.ch^
 ||ens.tagblatt.ch^
+||epimetheus.navigator.web.de^
 ||event-collector.prd.data.s.joyn.de^
 ||fc.vodafone.de^
 ||fotocommunity.de/track/
@@ -28983,6 +28986,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
+||mtb-news.de/metric/
 ||muenchener-stadtplan.com/t.gif
 ||mydirtyhobby.de/tracker
 ||navigation-timing.meinestadt.de^
@@ -28997,6 +29001,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||oxifwsabgd.nzz.ch^
 ||pi.technik3d.com^
 ||potsdamer-stadtplan.com/t.gif
+||pstt.mtb-news.de^
 ||px.derstandard.at^
 ||pxc.otto.de^
 ||rem-track.bild.de^
@@ -29005,6 +29010,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
+||sportnews.bz/pcookie?
 ||spreewaldkarte.de/t.gif
 ||sqs.quoka.de^
 ||squirrel.cividi.ch^
@@ -29016,6 +29022,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.autoscout24.ch^
 ||stats.rocketbeans.tv^
 ||steuertipps.de/scripts/tracking/
+||stol.it/pcookie?
 ||subpixel.4players.de^
 ||suche.web.de/click
 ||swmhdata.stuttgarter-nachrichten.de^
@@ -29081,7 +29088,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net^
 ||wa.web.de^
 ||walbusch.de^$ping
-||web.de/monitoring/
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
 ||wikipedia.de/tracking.js
@@ -29712,6 +29718,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||log-lb.skyperfectv.co.jp^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
+||mangaraw.to/api/v1/view/
 ||measure.ameblo.jp^
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||nhk.or.jp^*/bc.js
