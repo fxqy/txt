@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: K8TzJx0WvXl61xKdHc5FBw
-! Version: 202304122220
+! Checksum: vfOrgCxq0vMxdle4KUVzEg
+! Version: 202304132220
 ! Title: EasyPrivacy
-! Last modified: 12 Apr 2023 22:20 UTC
+! Last modified: 13 Apr 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1633,6 +1633,7 @@
 /estat.$domain=~estat.ly|~estat.stat.ee
 /estatistica.js
 /estatnativeflashtag.swf
+/eta/events?
 /etag?
 /eTagP/*
 /etarget/*
@@ -5327,6 +5328,7 @@ cgi-bin/counter
 .sendibt2.com/tr/op/$image
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
+.smtp.net/o/$image
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
@@ -5809,6 +5811,7 @@ _mongo_stats/
 ||hsleadflows.net^
 ||hubty.network^
 ||i218435.net^
+||icanhazip.com^
 ||id5-sync.com^
 ||idx.lat^
 ||impactcdn.com^
@@ -6688,7 +6691,6 @@ _mongo_stats/
 ||ecustomeropinions.com^$third-party
 ||edgeadx.net^$third-party
 ||edigitalsurvey.com^$third-party
-||educationdynamics.com^$third-party
 ||eggplant.cloud^$third-party
 ||ekmpinpoint.co.uk^$third-party
 ||ekmpinpoint.com^$third-party
@@ -9034,6 +9036,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bawdypets.com^
 ||beadbears.com^
 ||beamincrease.com^
+||beamvolcano.com^
 ||beastbeef.com^
 ||beautifulhobbies.com^
 ||bedsberry.com^
@@ -9737,6 +9740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quarterbean.com^
 ||quicksandear.com^
 ||quietknowledge.com^$third-party
+||quillkick.com^
 ||quizzicalzephyr.com^
 ||rabbitbreath.com^
 ||rabbitrifle.com^
@@ -10088,6 +10092,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thunderingrose.com^
 ||ticketaunt.com^
 ||ticklesign.com^
+||tightpowder.com^
 ||timeterritory.com^
 ||timetwig.com^
 ||tinytendency.com^
@@ -11923,6 +11928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||equalweb.com/statistics.taf
 ||erne.co/tags?
 ||errors.snackly.co^
+||et.educationdynamics.com^
 ||etahub.com^*/track?site_id
 ||etl.springbot.com^
 ||etoro.com/tradesmonitor/
@@ -12392,7 +12398,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||luminate.com/track/
 ||lycos.com/hb.js
 ||m.addthisedge.com^
-||m.stripe.com^
+||m.stripe.com^$third-party,domain=~stripe.network
 ||ma.logsss.com^
 ||magnify.net/decor/track/
 ||mail-app.com/pvtracker/
@@ -13288,7 +13294,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.com/cap?
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
-||trustcommander.net/privacy/$third-party
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
 ||try.abtasty.com^
@@ -13831,6 +13836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||onlyfree.de^*/counterservice/
 ||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
+||pixel.poptok.com^
 ||plausible.ams.to^
 ||plista.com/getuid?
 ||plista.com/iframeShowItem.php
@@ -14201,6 +14207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics2-meride-tv.akamaized.net^
 ||aruba.it/servlet/counterserver?
 ||audit.shaa.it^
+||bemail.it^*/analytics.js
 ||click.kataweb.it^
 ||cnt.iol.it^
 ||d32hwlnfiv2gyn.cloudfront.net^
@@ -14689,6 +14696,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||abcnews.com/assets/dtci/js/at.js
 ||abebooks.com/timer.gif?
 ||about.me/track?
+||abysscdn.com/cdn-cgi/trace
 ||academia.edu/record_hit
 ||accuterm.com/data/stat.js
 ||acronymfinder.com/~/tr.ashx
@@ -23258,7 +23266,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||digitalmarketing.smu.edu.sg^
 ||direct.t-mobile.com^
 ||discover.dignityhealth.org^
-||discover.interlochen.org^
 ||discover.proshipinc.com^
 ||dppublishinginc.actonservice.com^
 ||durst-group.actonservice.com^
@@ -30845,7 +30852,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
-@@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
@@ -30870,7 +30876,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|capital.fr|voici.fr
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
