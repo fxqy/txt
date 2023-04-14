@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: EISRiycJf2XPY2uhaLnQEg
+! Checksum: 0nQCuO7LFduw3+g5lrkgUA
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.85.23
-! TimeUpdated: 2023-04-13T16:31:11+00:00
+! Version: 2.0.85.28
+! TimeUpdated: 2023-04-14T17:31:13+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4241,6 +4241,7 @@ newduba.cn###jq_youxi
 ||230579.top^
 ||39nw.com^
 ||52qd.club^
+||92ph.cn^
 ||9itan.cc^
 ||aaaaa599.com^
 ||aaaaa663.com^
@@ -4250,6 +4251,7 @@ newduba.cn###jq_youxi
 ||akdhiahcjojdkck.com^
 ||alejd.xyz^
 ||almabelen.com^
+||aniauu2.cc^
 ||aniem44.cc^
 ||baitu1llbkotsfthllcjeg.com^
 ||balspaulite.com^
@@ -4261,14 +4263,17 @@ newduba.cn###jq_youxi
 ||ccohayo.xyz^
 ||cdcc3.com^
 ||ck33.top^
+||clkdus.xyz^
 ||cnmmcjn.cn^
 ||codeice.xyz^
 ||d86n.top^
 ||dcdf4.com^
 ||doccd.xyz^
+||dqazwsxd.xyz^
 ||ecav5.com^
 ||ej65.xyz^
 ||enahmy.xyz^
+||endio.xyz^
 ||excfig.xyz^
 ||falal.cn^
 ||feild.xyz^
@@ -4308,11 +4313,13 @@ newduba.cn###jq_youxi
 ||jwronx.xyz^
 ||kayzqar.cn^
 ||kingsunsky.ltd^
+||kkgytur.cn^
 ||kkylx.xyz^
 ||kucoa.xyz^
 ||kzjqraj.cn^
 ||lendc.xyz^
 ||lianxi.link^
+||linuozhiyao.xyz^
 ||lxbbs.fun^
 ||mhegew.xyz^
 ||mindopu.com^
@@ -4343,21 +4350,28 @@ newduba.cn###jq_youxi
 ||sh6ss7.top^
 ||sjalipa.cn^
 ||smailes.pro^
+||sozrrkx.xyz^
 ||tc911.vip^
 ||tianma704.ltd^
 ||tmochyf.cn^
+||tqdpqq.com^
 ||ubifyc.xyz^
+||uqelxct.cn^
 ||uqymady.cn^
+||uwhreur.cn^
 ||vel7.xyz^
 ||vnlqcod.cn^
 ||vorluic.cn^
 ||vujhaib.cn^
+||vzfizr.xyz^
 ||wangjc.ltd^
 ||wangjiayi.fun^
 ||wangyq.ltd^
+||wcdc5.com^
 ||wdygoi.xyz^
 ||web4023.top^
 ||whbn.xyz^
+||wvwl.cn^
 ||xbvmrx.xyz^
 ||xcaukve.cn^
 ||xingyang.in^
@@ -4376,6 +4390,7 @@ newduba.cn###jq_youxi
 ||zjqs.shop^
 ||znnodl.xyz^
 ||zouqiuyyds.com^
+||zoushao.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -12049,6 +12064,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com^$domain=1024pz.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
 ||alicdn.com^*_!!3361094544.
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
+||alicloud.b-cdn.net/1.js
 ||alitui.weibo.com^
 ||alixixi.com/adsview/
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg

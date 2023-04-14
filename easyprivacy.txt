@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vfOrgCxq0vMxdle4KUVzEg
-! Version: 202304132220
+! Checksum: Y6/USYHb3t1DSfNSezE1EQ
+! Version: 202304142220
 ! Title: EasyPrivacy
-! Last modified: 13 Apr 2023 22:20 UTC
+! Last modified: 14 Apr 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9844,6 +9844,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||screechingfurniture.com^
 ||screechingslip.com^$third-party
 ||screechingstove.com^
+||scribblestring.com^
 ||scrollservice.com^
 ||scrubswim.com^$third-party
 ||seashoresociety.com^
@@ -11721,6 +11722,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector-*.px-client.net^
 ||collector-api.99designs.com^
 ||collector.api.video^
+||collector.appconsent.io^$image
 ||collector.automote.co.nz^
 ||collector.clareity.net^
 ||collector.contentexchange.me^$third-party
@@ -14686,6 +14688,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||9gag.com/track/
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
+||a.tellonym.me^
 ||a10.nationalreview.com^
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^$script
@@ -15962,6 +15965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.com/client/api/logs
 ||walmart.com/client/api/metrics
 ||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
+||watchonlinehd123.sbs/cdn-cgi/trace
 ||watchsomuch.to/AD/
 ||wblt.oui.sncf^
 ||wc.yahoodns.net^$image
@@ -29628,6 +29632,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||bnamic.com/referrer/
 ||c-date.it/tracking?
 ||c-date.it^*/tracking2/tr.js
+||c.corriere.it^
 ||catalove.com/bimp/
 ||catalove.com/ntv/
 ||click.tv.repubblica.it^
