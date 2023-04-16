@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: zTrdsX4z9OVieG8Yy3imRw
+! Checksum: RS65dvd3ImE0IQu3MjUE6A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.85.36
-! TimeUpdated: 2023-04-15T16:31:10+00:00
+! Version: 2.0.85.42
+! TimeUpdated: 2023-04-16T16:31:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3302,6 +3302,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /tourl.html?url=
 /tt_gb/skin_js/gg.js
 /tuiguang/*$domain=~jikexiu.com|~jikexiu.vip
+/tuiguang366.oss-
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /uniontgm.cmb.
@@ -4236,6 +4237,7 @@ newduba.cn###jq_youxi
 ||23.234.217.12^
 ##a[href*=".bd379.vip"]
 ##a[href*=".mmrjmh.com/"]
+##a[href*=".oidmwq2v.cn"]
 ##a[href*="/st66st.cc"]
 ||08u6q.com^
 ||1136999.com^
@@ -4278,6 +4280,7 @@ newduba.cn###jq_youxi
 ||dcdf4.com^
 ||doccd.xyz^
 ||dqazwsxd.xyz^
+||dtjhtp.xyz^
 ||ecav5.com^
 ||ej65.xyz^
 ||enahmy.xyz^
@@ -4288,6 +4291,7 @@ newduba.cn###jq_youxi
 ||ffbjhl.xyz^
 ||fijipic.xyz^
 ||fionamignon.com^
+||flpnnqe.xyz^
 ||flyinsky2009.ltd^
 ||fnnzr.cn^
 ||fvzljv.xyz^
@@ -4306,6 +4310,7 @@ newduba.cn###jq_youxi
 ||huaweinnd.top^
 ||hxpmbb.xyz^
 ||hxtiojs.cn^
+||icesfeathers.fun^
 ||iepda.xyz^
 ||ijnuhb.top^
 ||imu2021.site^
@@ -4321,6 +4326,8 @@ newduba.cn###jq_youxi
 ||jwjdpab.cn^
 ||jwronx.xyz^
 ||kayzqar.cn^
+||kbabqnd.cn^
+||kfocoq.xyz^
 ||kingsunsky.ltd^
 ||kkgytur.cn^
 ||kkylx.xyz^
@@ -4329,6 +4336,7 @@ newduba.cn###jq_youxi
 ||lendc.xyz^
 ||lianxi.link^
 ||linuozhiyao.xyz^
+||lwtqqq.com^
 ||lxbbs.fun^
 ||mhegew.xyz^
 ||mindopu.com^
@@ -4346,12 +4354,14 @@ newduba.cn###jq_youxi
 ||pansclub.xyz^
 ||pbgtpjz.cn^
 ||poopd.xyz^
+||ppshop.club^
 ||prlioxb.cn^
 ||prtlth.xyz^
 ||qatuaad.cn^
 ||qingdou.ltd^
 ||qiwjiy.xyz^
 ||qqied.xyz^
+||qwrdj.xyz^
 ||rcxysoj.cn^
 ||readme.red^
 ||reffnik.cn^
@@ -4371,6 +4381,7 @@ newduba.cn###jq_youxi
 ||uqelxct.cn^
 ||uqymady.cn^
 ||uwhreur.cn^
+||v0cf.xyz^
 ||vel7.xyz^
 ||vjhjxh.xyz^
 ||vnlqcod.cn^
@@ -4403,11 +4414,13 @@ newduba.cn###jq_youxi
 ||zbvchabjbcj.com^
 ||zdkdwk.buzz^
 ||zdlnhv.xyz^
+||zhalinyyds.com^
 ||zhouduanyyds.com^
 ||zjqs.shop^
 ||znnodl.xyz^
 ||zouqiuyyds.com^
 ||zoushao.xyz^
+||zpfqolj.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -19515,6 +19528,7 @@ storm.mg##.storm_magic_placeholder
 tvsou.com##.story_ad_android
 tvsou.com##.story_ad_content_footer
 tvsou.com##.story_ad_ios
+ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
 sonimei.cn##.style01
 sonimei.cn##.style03
 guofs.com##.style2
@@ -22425,6 +22439,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||cn.bidushe.com^
 ||cn6x.com^
 ||cod.southmoney.com^
+||code.bizdirlib.com^
 ||code.ditiezu.net^
 ||cp.7y7.com^
 ||cp.jfcdns.com^
