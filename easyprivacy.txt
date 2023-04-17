@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4vNseqZmXrZxyTLb5K7uUA
-! Version: 202304162220
+! Checksum: JRHFuG8flDYATlJE9fITfg
+! Version: 202304172220
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2023 22:20 UTC
+! Last modified: 17 Apr 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9888,6 +9888,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selfishsnake.com^
 ||separateshow.com^
 ||separatesilver.com^$third-party
+||serioussuit.com^
 ||serpentshampoo.com^
 ||shaggytank.com^
 ||shakegoldfish.com^
@@ -14319,6 +14320,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ac.prism-world.jp.net^
 ||ad.daum.net^
 ||affiliate.rakuten.co.jp^$script,third-party
+||analytics-beacon.p.uliza.jp^
 ||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
 ||analytics.livesense.marketing^
@@ -14399,6 +14401,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
 ||sitest.jp/tracking/
+||smart-bdash.com/receptions/action/impression
 ||smart-bdash.com/tracking-script/
 ||snva.jp/api/bcon/basic?
 ||snva.jp/javascripts/reco/
@@ -14887,6 +14890,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bfp.capitalone.com^
 ||bhphotovideo.com/aperture/client/logs
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
+||bin.vinted.net^
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/geolocation/write?
 ||bing.com/mouselog
@@ -15765,6 +15769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stapadblockuser.art/stat/
 ||stapadblockuser.click/stat/
 ||stapadblockuser.info/stat/
+||stapadblockuser.xyz/stat/
 ||stape.fun/stat/
 ||stapewithadblock.beauty/stat/
 ||stapewithadblock.monster/stat/
