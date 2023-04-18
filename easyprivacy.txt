@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JRHFuG8flDYATlJE9fITfg
-! Version: 202304172220
+! Checksum: QdPSdIVZ18uFeUSivTvuEA
+! Version: 202304182221
 ! Title: EasyPrivacy
-! Last modified: 17 Apr 2023 22:20 UTC
+! Last modified: 18 Apr 2023 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5195,7 +5195,7 @@ _ga_code.
 _ga_tag.
 _ga_tracker.
 _gaTrack.js
-_google_analytics.
+_google_analytics.$~image
 _googleAnalytics.
 _googleAnalytics_
 _gpt_bootstrap_
@@ -5812,7 +5812,6 @@ _mongo_stats/
 ||hsleadflows.net^
 ||hubty.network^
 ||i218435.net^
-||icanhazip.com^
 ||id5-sync.com^
 ||idx.lat^
 ||impactcdn.com^
@@ -5879,6 +5878,7 @@ _mongo_stats/
 ||ostrichesica.com^
 ||p-analytics.life^
 ||p2r14.com^
+||p7cloud.net^
 ||pageid.info^
 ||pdflive.org^
 ||permutive.app^
@@ -7035,6 +7035,7 @@ _mongo_stats/
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ic-live.com^$third-party
+||icanhazip.com^$third-party
 ||iclive.com^$third-party
 ||ics0.com^$third-party
 ||icstats.nl^$third-party
@@ -29202,6 +29203,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
 ||hits.porn.fr^
+||hlms.ecologie.gouv.fr^
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
@@ -29263,6 +29265,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||unblog.fr/cu.js
 ||wawacity.*/bypass
 ||woopic.com/z.gif
+||wrhv.education.gouv.fr^
 ||wstats.gameblog.fr^
 ||wt.oscaro.com^
 ||yandex.fr/clck/click

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qU0NjFAqH1N/AwiY9nusew
-! Version: 202304172220
+! Checksum: 4gzsYtIuQWMzCoQG0IHIqQ
+! Version: 202304182221
 ! Title: EasyList China
-! Last modified: 17 Apr 2023 22:20 UTC
+! Last modified: 18 Apr 2023 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -96,7 +96,9 @@
 .com/topjs/
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
+.com/vh2/$script,third-party
 .com/vj1/$script,third-party
+.com/vj2/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -846,6 +848,7 @@ ubmcmm.baidustatic.com
 ###cs_right_couplet
 ###dbgg
 ###dgf_pc
+###diads
 ###duilian_left
 ###duilian_right
 ###dy_card_dy
@@ -1608,8 +1611,10 @@ newduba.cn###jq_youxi
 ||brkzczn.cn^
 ||bwwlw.cn^
 ||campu.ltd^
+||cbhwekr.cn^
 ||ccohayo.xyz^
 ||cdcc3.com^
+||cdfda.xyz^
 ||chaozhunbb.xyz^
 ||ck33.top^
 ||clkdus.xyz^
@@ -1624,6 +1629,7 @@ newduba.cn###jq_youxi
 ||doccd.xyz^
 ||dqazwsxd.xyz^
 ||dtjhtp.xyz^
+||ealdi.xyz^
 ||ecav5.com^
 ||ej65.xyz^
 ||enahmy.xyz^
@@ -1633,6 +1639,7 @@ newduba.cn###jq_youxi
 ||feild.xyz^
 ||ffbjhl.xyz^
 ||fijipic.xyz^
+||findnam.xyz^
 ||fionamignon.com^
 ||flpnnqe.xyz^
 ||flyinsky2009.ltd^
@@ -1650,6 +1657,7 @@ newduba.cn###jq_youxi
 ||helid.xyz^
 ||hgpdoa.cn^
 ||hhrnxr.xyz^
+||himeneko.ink^
 ||hsrgnac.cn^
 ||huaweinnd.top^
 ||hxes.cn^
@@ -1661,6 +1669,7 @@ newduba.cn###jq_youxi
 ||imu2021.site^
 ||ioiksw.cn^
 ||itoken.pro^
+||iughyy7919.com^
 ||jbzjegn.cn^
 ||jeedi.xyz^
 ||jerrytom.xyz^
@@ -1682,10 +1691,12 @@ newduba.cn###jq_youxi
 ||lendc.xyz^
 ||lianxi.link^
 ||linuozhiyao.xyz^
+||lnnjnv.xyz^
 ||lwtqqq.com^
 ||lxbbs.fun^
 ||mhegew.xyz^
 ||mindopu.com^
+||moend.xyz^
 ||mrgecm.xyz^
 ||naned.xyz^
 ||networkname.xyz^
@@ -1700,8 +1711,11 @@ newduba.cn###jq_youxi
 ||p4pd.cn^
 ||pansclub.xyz^
 ||pbgtpjz.cn^
+||peishuning1.cn^
 ||pkkylyx.xyz^
+||poiqwnekb.com^
 ||poopd.xyz^
+||poqwnllkm.com^
 ||ppshop.club^
 ||pqxyqq.com^
 ||prlioxb.cn^
@@ -1709,18 +1723,22 @@ newduba.cn###jq_youxi
 ||qatuaad.cn^
 ||qingdou.ltd^
 ||qiwjiy.xyz^
+||qpoiwnelc.com^
 ||qqied.xyz^
 ||qwrdj.xyz^
 ||rcxysoj.cn^
 ||readme.red^
 ||reffnik.cn^
 ||rpajqxo.cn^
+||rtdxqq.com^
 ||rtjmln.xyz^
 ||scrvw3.com^
 ||sh6ss7.top^
+||sisjwol.xyz^
 ||sjalipa.cn^
 ||smailes.pro^
 ||sozrrkx.xyz^
+||szsbiw.xyz^
 ||tc911.vip^
 ||tfonlyuse.shop^
 ||tianma704.ltd^
@@ -1751,6 +1769,7 @@ newduba.cn###jq_youxi
 ||xcaukve.cn^
 ||xingyang.in^
 ||xlxknf.xyz^
+||xni.ink^
 ||xrkyqq.com^
 ||xunjie.fun^
 ||yankuoyyds.com^
@@ -11920,6 +11939,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pjtime.com/js/show_ad
+||pki.net.cn/public/*/plugins/
+||pki.net.cn/public/1/assets/js/custom/tt.
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||play6111.com/js/
@@ -12528,8 +12549,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
-||tlxxw.cc/public/*/plugins/
-||tlxxw.cc/public/1/assets/js/custom/tt.
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmea116.oss-cn-beijing.aliyuncs.com^
 ||tmioe.com/img/att/boom.jpg
@@ -18213,6 +18232,7 @@ bukaivip.com##img[onclick]
 jhhrm.com##img[onerror*="/ad/"]
 jiligame.com##img[onerror="zhurl($(this))"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
+novipnoad.com##img[src*="/bd/"] + span
 bccn.net##img[src*="data:"]
 939394.xyz##img[src^="/"]
 939394.xyz##img[src^="\\"]
@@ -18278,6 +18298,7 @@ news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 nfstar.net#?#.myui-panel-bg:-abp-has(strong:-abp-contains(广告))
+novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 china.com##object[width="360"][height="300"]
 sina.com.cn##p + .article-video
 benyixiwang.com##p img[src*=".dlssyht.cn/u/"][title]
@@ -20546,6 +20567,7 @@ jx.la##[onclick*="apk"]
 piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 smjb.net##div[style*="height: 50%"]
+||138txt.net/js/ssgdd.
 ||1pwx.com/js/ck.js
 ||222xs.com/js/greentea.js
 ||230book.net/js/sweetcake.js
@@ -20630,8 +20652,6 @@ smjb.net##div[style*="height: 50%"]
 ||zhuishubox.com/js/after-rain.js
 ! General rules for Novels
 ###appss[style="padding:15px;"]
-###asdw3
-###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
 ###gudingweiDiv
