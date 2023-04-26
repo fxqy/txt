@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K7HAWdPRT3d9M1w6IvU3Eg
-! Version: 202304252220
+! Checksum: evT1Qt66HHrW5hHFoMcTLQ
+! Version: 202304262220
 ! Title: EasyList China
-! Last modified: 25 Apr 2023 22:20 UTC
+! Last modified: 26 Apr 2023 22:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -236,6 +236,7 @@
 /bg5t4h.oss-
 /blgg/*
 /blog/showdetail.php?z=$script,third-party
+/bookxiaoshuo.oss-
 /botad.html
 /BrandXuanDong.js
 /bt*.com/imgs.js?t=
@@ -948,7 +949,6 @@ newduba.cn###jq_youxi
 ###player > #ADtip
 ###player-bottom-ads
 ###playerAdvLayer
-###playerContainer > .nav-ads
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
@@ -1660,8 +1660,10 @@ newduba.cn###jq_youxi
 ||dqazwsxd.xyz^
 ||dtjhtp.xyz^
 ||dtnhjzl.xyz^
+||dyhnbgtsl.xyz^
 ||ealdi.xyz^
 ||ecav5.com^
+||eitb7.top^
 ||ej65.xyz^
 ||enahmy.xyz^
 ||endio.xyz^
@@ -1683,8 +1685,10 @@ newduba.cn###jq_youxi
 ||fzcsd33.com^
 ||gaokao.asia^
 ||giold.xyz^
+||goiagm.xyz^
 ||gpqicw.xyz^
 ||gwvzgjb.cn^
+||gxemtes.xyz^
 ||gzexsc.top^
 ||gzsjym.xyz^
 ||gzsscr.cn^
@@ -1722,6 +1726,7 @@ newduba.cn###jq_youxi
 ||jfanhao.com^
 ||jiuba20230320.live^
 ||jlzz.name^
+||jndyl.xyz^
 ||jvkckeg.cn^
 ||jwjdpab.cn^
 ||jwronx.xyz^
@@ -1749,6 +1754,7 @@ newduba.cn###jq_youxi
 ||maoqxyl.xyz^
 ||mc3369.xyz^
 ||mdqhyxe.cn^
+||meexx.xyz^
 ||mem3.cn^
 ||mfifsux.xyz^
 ||mhegew.xyz^
@@ -1767,6 +1773,7 @@ newduba.cn###jq_youxi
 ||opida.xyz^
 ||originate.ltd^
 ||otwiss.xyz^
+||oubqzcg.cn^
 ||p4pd.cn^
 ||pansclub.xyz^
 ||pbgtpjz.cn^
@@ -1852,11 +1859,13 @@ newduba.cn###jq_youxi
 ||wdygoi.xyz^
 ||web4023.top^
 ||weeqmcq.cn^
+||wenxiaowu.xyz^
 ||whbn.xyz^
 ||windyang.xyz^
 ||wjaqc.xyz^
 ||wvwl.cn^
 ||wwgqqq.com^
+||wwqfqq.com^
 ||wxxmt.xyz^
 ||wyjbvoz.xyz^
 ||wyynike.cn^
@@ -1874,8 +1883,10 @@ newduba.cn###jq_youxi
 ||xrkyqq.com^
 ||xueyugaoyuan.xyz^
 ||xunjie.fun^
+||xyjcpcb.cn^
 ||yankuoyyds.com^
 ||yb0a.xyz^
+||ychkujj.cn^
 ||yegzkw.xyz^
 ||yfohgo.xyz^
 ||yingce.asia^
@@ -1885,6 +1896,7 @@ newduba.cn###jq_youxi
 ||yulingaa.xyz^
 ||yywh.vip^
 ||zbvchabjbcj.com^
+||zcdfll.xyz^
 ||zdkdwk.buzz^
 ||zdlnhv.xyz^
 ||zdyuoae.xyz^
@@ -16456,6 +16468,7 @@ hepuwang.com##.n5_dbhfad > .wapper
 ccoo.cn##.n_adbox
 msn.cn##.nativeadserversidecontentmodule
 dan-teng.top##.nav
+nivod4.tv##.nav-ads
 jiemian.com##.nav-next-ad-views
 lenovo.com.cn##.nav_ad1
 lenovo.com.cn##.nav_ad2
