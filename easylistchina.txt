@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /wmZgwaiHHhwZDBgDf7DWA
-! Version: 202304292220
+! Checksum: kesBK25hqYKInPARBftxBQ
+! Version: 202304302220
 ! Title: EasyList China
-! Last modified: 29 Apr 2023 22:20 UTC
+! Last modified: 30 Apr 2023 22:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -741,12 +741,12 @@
 ?method=baidu.ting.commercial.tactics&
 _billboard_320x100.iframe.
 _btbttme/fox/img/QT_
+_dasiqq315.
 _fioiwhfo_
 _float_fuo.js
 _naimabdd_
 _popAds.
 _tm11_pmt_
-_uvy6qyny.js
 _yad_jsonp_
 ubmcmm.baidustatic.com
 |http://*.cn/ad/
@@ -1582,6 +1582,7 @@ newduba.cn###jq_youxi
 ##a[href*=".bucd.icu"]
 ##a[href*=".mmrjmh.com/"]
 ##a[href*=".oidmwq2v.cn"]
+##a[href*=".tdchat.in"]
 ~v2ny.org##a[href*=".v2ny.org"]
 ##a[href*="/bucd.top"]
 ##a[href*="/d6586.com:"]
@@ -1594,7 +1595,9 @@ newduba.cn###jq_youxi
 ||230579.top^
 ||331qka.cn^
 ||39nw.com^
+||4388888.xyz^
 ||480img.com^
+||4cjh.xyz^
 ||52qd.club^
 ||5xur.top^
 ||7067.top^
@@ -1617,6 +1620,7 @@ newduba.cn###jq_youxi
 ||adbtwyxl96.fun^
 ||agwdac.xyz^
 ||aircraft-fapi.club^
+||ajjgune.cn^
 ||ajucem.xyz^
 ||akdhiahcjojdkck.com^
 ||alejd.xyz^
@@ -1649,6 +1653,7 @@ newduba.cn###jq_youxi
 ||ccohayo.xyz^
 ||cdcc3.com^
 ||cdfda.xyz^
+||cdkke.xyz^
 ||cdn-99-pic.cc^
 ||cennv.cn^
 ||cfxkluv.cn^
@@ -1704,6 +1709,7 @@ newduba.cn###jq_youxi
 ||goiagm.xyz^
 ||golden88.co^
 ||gpqicw.xyz^
+||grxeyig.xyz^
 ||gwvzgjb.cn^
 ||gxemtes.xyz^
 ||gykyec.xyz^
@@ -1746,6 +1752,7 @@ newduba.cn###jq_youxi
 ||jerrytom.xyz^
 ||jfanhao.com^
 ||jiangzimeng1.cn^
+||jinmin.online^
 ||jiqadoi.cn^
 ||jiuba20230320.live^
 ||jlzz.name^
@@ -1787,6 +1794,7 @@ newduba.cn###jq_youxi
 ||mindopu.com^
 ||moend.xyz^
 ||mrgecm.xyz^
+||mrruuov.cn^
 ||nagmopd.cn^
 ||naned.xyz^
 ||ncyx.ltd^
@@ -1817,6 +1825,7 @@ newduba.cn###jq_youxi
 ||poopd.xyz^
 ||poqwnllkm.com^
 ||ppshop.club^
+||pqldzp.xyz^
 ||pqxyqq.com^
 ||prlioxb.cn^
 ||prtlth.xyz^
@@ -1839,6 +1848,7 @@ newduba.cn###jq_youxi
 ||reffnik.cn^
 ||rencaihome.xyz^
 ||rizgtf.xyz^
+||rksnqq.com^
 ||rpajqxo.cn^
 ||rqytqq.com^
 ||rsbepv.xyz^
@@ -1947,6 +1957,7 @@ newduba.cn###jq_youxi
 ||zdlnhv.xyz^
 ||zdo-bdg.xyz^
 ||zdyuoae.xyz^
+||zgyvg.top^
 ||zhalinyyds.com^
 ||zhemu.xyz^
 ||zhoubo01.cn^
@@ -12303,7 +12314,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||rfidworld.com.cn/js/RFID.js
 ||rfidworld.com.cn/js/RFIDExec.js
 ||rfidworld.com.cn/Notice/Home
-||ri1.site/wp-content/uploads/*x400.
 ||riaway.com/statics/idea.jpg
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo*.gif
@@ -14044,7 +14054,7 @@ hao.360.cn,hao.360.com###left_float
 sina.com.cn###left_focus_ad
 hao123.com###leftbannerv2
 xc6b.com###leftbottbox
-ri1.site,www.wenxuecity.com###leftside
+www.wenxuecity.com###leftside
 hao123.com###lefttip
 hao123.com###lefttip-container
 iplaysoft.com###link1111
@@ -14315,7 +14325,7 @@ uc123.com###right_elevator
 gmw.cn###rightad1 + .contentColumnRight
 xc6b.com###rightbottbox
 ixueyi.com,shangxueba.com###rightfloatdiv
-ri1.site,www.wenxuecity.com###rightside
+www.wenxuecity.com###rightside
 nczsks.com###rightyxjs
 motocity.com.tw###rotator
 so.com###rt-interest-list
@@ -14776,7 +14786,7 @@ zuimeia.com##.activity-poster:not([href*="zuimeia."])
 2345.com##.activity-skin-trig
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
 2345.com##.acts11-sidefixed
-100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xchina.fun,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
+100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xchina.fun,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
 cqmmgo.com##.ad-160x40
 19lou.com,ihome99.com##.ad-190x60
 cqmmgo.com##.ad-230x60
@@ -16144,7 +16154,6 @@ iqshw.com##.iqshwad-comm
 haojiyou.la##.iqshwad-div
 douyu.com##.isLink[href^="https://igxe.cn/"]
 czsp12.com##.iswindow
-sokankan51.cc##.item > .item > a[target="_blank"]
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 gansudaily.com.cn##.itemFloat
 cnbeta.com##.items_area .time
@@ -17790,7 +17799,6 @@ peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/att
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
 ilvruan.com##a[href^="http"]:not([href*="ilvruan"]) > img
-mengzhan521.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 107cine.com##a[href^="http://107cine.com/ads/"]
 hepuwang.com##a[href^="http://ad."]
