@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yqDiSR0MM6zaBXdgZtOLZQ
-! Version: 202305092220
+! Checksum: r96UMiAezgwPhGWBfEsvIA
+! Version: 202305102220
 ! Title: EasyPrivacy
-! Last modified: 09 May 2023 22:20 UTC
+! Last modified: 10 May 2023 22:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4771,7 +4771,7 @@
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
-://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
+://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.lol|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;type=eligibleimpression;
 ;type=pixel;
 =comscoreAdobeDpvCall&
@@ -8245,7 +8245,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
 ||onepush.app^$third-party
-||onesignal.com^$third-party
 ||outfunnel.com^$third-party
 ||pn.vg^$third-party
 ||provesrc.com^$third-party
@@ -12219,6 +12218,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||olytics.omeda.com^
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
+||onesignal.com/api/v*/apps/
+||onesignal.com/api/v1/sync/
+||onesignal.com/sdks/OneSignalSDKStyles
+||onesignal.com/sdks/OneSignalSDKWorker
+||onesignal.com/webPushAnalytics
 ||onespot-tracking.herokuapp.com^
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
@@ -13452,6 +13456,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.onet.pl^
 ||export.newscube.de^$~subdocument
 ||fc.webmasterpro.de^$third-party
+||fd.bawag.at^
 ||filmaster.tv^*/flm.tracker.min.js
 ||freshclip.tv/tracking/
 ||frontlineshop.com/ev/co/frontline?*&uid=
@@ -15187,7 +15192,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||r.bbci.co.uk^
 ||r.my.com^
 ||rakuten.com/rmsgjs/soj2.js
+||ranker.com/api/px
 ||ranker.com/api/tr?
+||ranker.com/api/tracking/comscore
 ||rankhit.china.com^
 ||ras.yahoo.com^
 ||realestate.com.au^*/p.js
@@ -34538,6 +34545,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
+@@||amplitude.com/libs/amplitude-8.5.0-min.gz.js$script,domain=kink.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
