@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ycWQHbY7HzkA9IOmb/Qx1Q
+! Checksum: zytOxjYK4WIt8v0XXqoyrg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.88.69
-! TimeUpdated: 2023-05-12T17:02:59+00:00
+! Version: 2.0.88.74
+! TimeUpdated: 2023-05-13T17:02:54+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4387,6 +4387,7 @@ newduba.cn###jq_youxi
 ||aprlitj.cn^
 ||aqpvglv.cn^
 ||awdc6.com^
+||baidudbvjksbvs.com^
 ||baitu1llbkotsfthllcjeg.com^
 ||balspaulite.com^
 ||baytfede.xyz^
@@ -4488,6 +4489,7 @@ newduba.cn###jq_youxi
 ||fvzljv.xyz^
 ||fweia.xyz^
 ||fzcsd33.com^
+||g77ds2.xyz^
 ||gaokao.asia^
 ||gggppp666.com^
 ||giold.xyz^
@@ -4550,6 +4552,7 @@ newduba.cn###jq_youxi
 ||jeidd.xyz^
 ||jerrytom.xyz^
 ||jfanhao.com^
+||jhxcld.xyz^
 ||jiangzimeng1.cn^
 ||jinmin.online^
 ||jiqadoi.cn^
@@ -4579,6 +4582,7 @@ newduba.cn###jq_youxi
 ||kkgytur.cn^
 ||kkylx.xyz^
 ||kmlxlkz.cn^
+||knxvwxe.cn^
 ||koekd.xyz^
 ||kpqdkg.xyz^
 ||kprjva.cn^
@@ -4629,6 +4633,7 @@ newduba.cn###jq_youxi
 ||nsfdsa.xyz^
 ||nurahf.xyz^
 ||nvchmkw.cn^
+||nwecd.xyz^
 ||oimzak.xyz^
 ||ojuhwc.xyz^
 ||on-you.cn^
@@ -4669,6 +4674,7 @@ newduba.cn###jq_youxi
 ||qiwjiy.xyz^
 ||qkcaqq.xyz^
 ||qkwsqq.com^
+||qnmtqq.com^
 ||qpoiwnelc.com^
 ||qqied.xyz^
 ||qwahk.com^
@@ -4677,6 +4683,7 @@ newduba.cn###jq_youxi
 ||rbrv9.cn^
 ||rbxunao.cn^
 ||rcxysoj.cn^
+||rdtjkwy.cn^
 ||readme.red^
 ||reffnik.cn^
 ||rencaihome.xyz^
@@ -4758,6 +4765,7 @@ newduba.cn###jq_youxi
 ||vydbvp.xyz^
 ||vzfizr.xyz^
 ||w4jz.top^
+||w9f1r.top^
 ||wangjc.ltd^
 ||wangjiayi.fun^
 ||wangyq.ltd^
@@ -4785,6 +4793,7 @@ newduba.cn###jq_youxi
 ||wyjbvoz.xyz^
 ||wyynike.cn^
 ||x4csq.top^
+||xbldocp.xyz^
 ||xbvmrx.xyz^
 ||xcaukve.cn^
 ||xckyqq.com^
@@ -4802,6 +4811,7 @@ newduba.cn###jq_youxi
 ||xnjvn1.com^
 ||xnmqqq.com^
 ||xrkyqq.com^
+||xuanqi.ltd^
 ||xueyugaoyuan.xyz^
 ||xunjie.fun^
 ||xyjcpcb.cn^
@@ -4817,9 +4827,11 @@ newduba.cn###jq_youxi
 ||yingce.asia^
 ||yingnanyyds.com^
 ||yisangyyds.com^
+||yttc.ren^
 ||yuebog.xyz^
 ||yulingaa.xyz^
 ||yywh.vip^
+||zbbvhj.xyz^
 ||zbvchabjbcj.com^
 ||zcdfll.xyz^
 ||zdkdwk.buzz^
@@ -4827,6 +4839,7 @@ newduba.cn###jq_youxi
 ||zdo-bdg.xyz^
 ||zdobdg.fyi^
 ||zdyuoae.xyz^
+||zebjlt.buzz^
 ||zgyvg.top^
 ||zhalinyyds.com^
 ||zhanghao164.xyz^
@@ -19948,6 +19961,7 @@ itxueyuan.com##a[href*="guanggaowei"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 c4dsky.com##a[href*="ibaotu.com"]
 jinti.com##a[href*="immobel.com"]
+kdslife.com##a[href*="kds.2144.cn"]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com##a[href*="meidebi."]
 nfuwow.com##a[href*="myyj.net"]
@@ -22444,6 +22458,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||jy135.com^$third-party
 ||k1.dancihu.com^
 ||k1.wanwenwan.cn^
+||k1.wendahu.com^
 ||ka5188.com^
 ||kanxiao.net^$third-party
 ||kc.gouchezj.com^
