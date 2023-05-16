@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: hQ0BDYP87/YBTn3xp55WAw
+! Checksum: 9VblzpKx7J0UIXUNgSDi8g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.88.90
-! TimeUpdated: 2023-05-15T17:02:59+00:00
+! Version: 2.0.88.98
+! TimeUpdated: 2023-05-16T17:03:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,6 +75,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||jp.twww.sbs^
 ||002777.xyz^
 ||app2.10090dfs.com^
 ||w94.1qlgi.top^
@@ -725,6 +726,8 @@ zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(no-setTimeout-if, ad_load_fail)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83404
 xiebruce.top##+js(addEventListener-defuser, , showRemoveAdBlocker)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=xiebruce.top
+! https://github.com/AdguardTeam/AdguardFilters/issues/150839
+ddrk.me##+js(set-constant, Object.prototype.cnobpreroll_, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149128
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90881
 ddys.*##+js(set-constant, Object.prototype.canobpreroll_, true)
@@ -966,6 +969,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !--------------------------------------!
 ! SECTION: Chinese - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/150757
+m.91zww.com##+js(abort-on-property-write, delCookie)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150387
 pornbest.org##+js(abort-current-script, jQuery, injectPops)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150150
@@ -1256,9 +1261,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
+! Similar to regexp above, but using the denyallow modifier
+$script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com,domain=m.91zww.com
 !
 !
 !
+5dy15.cc##div[id][class^="is_"][style^="margin"]
 /images/friend/*.webp?$domain=pornbest.org|pornlulu.com
 pornlulu.com,pornbest.org###fullPageModal
 jxnlz.xyz##a[target="_blank"] > img
@@ -2565,8 +2573,6 @@ adguard.com,adguard.app##.hello_from_adguard_chinese
 ! Good: example.org#@#.ad
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/149925
-pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150114
 ||lensdump.com/i/*.gif$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149526
@@ -4326,6 +4332,7 @@ newduba.cn###jq_youxi
 ||0776.red^
 ||08u6q.com^
 ||1136999.com^
+||1385a.xyz^
 ||13niao20230422.live^
 ||1512a.com^
 ||16niao20230125.live^
@@ -4441,6 +4448,7 @@ newduba.cn###jq_youxi
 ||ck33.top^
 ||clkdus.xyz^
 ||cloudsong.xyz^
+||clqkqq.com^
 ||cnmmcjn.cn^
 ||cnucpaq.xyz^
 ||codeice.xyz^
@@ -4561,6 +4569,7 @@ newduba.cn###jq_youxi
 ||itoken.pro^
 ||iughyy7919.com^
 ||iwandlo.top^
+||iwdvvoc.cn^
 ||jbtfmis.xyz^
 ||jbzjegn.cn^
 ||jeedi.xyz^
@@ -4622,6 +4631,7 @@ newduba.cn###jq_youxi
 ||lwtqqq.com^
 ||lxbbs.fun^
 ||lxyl66.cn^
+||mahao1.cn^
 ||maoqxyl.xyz^
 ||mc3369.xyz^
 ||mdqhyxe.cn^
@@ -4665,6 +4675,7 @@ newduba.cn###jq_youxi
 ||oubqzcg.cn^
 ||p2oh1.xyz^
 ||p4pd.cn^
+||pacix.xyz^
 ||pansclub.xyz^
 ||pbgtpjz.cn^
 ||pedjqkl.xyz^
@@ -4702,6 +4713,7 @@ newduba.cn###jq_youxi
 ||qwahk.com^
 ||qwrdj.xyz^
 ||ra1.xyz^
+||radish-cake.xyz^
 ||rbbbdj.xyz^
 ||rbrv9.cn^
 ||rbxunao.cn^
@@ -4780,6 +4792,7 @@ newduba.cn###jq_youxi
 ||uu9735uu.com^
 ||uuuxyjh.cn^
 ||uwhreur.cn^
+||uxwkiyp.xyz^
 ||uzuarlv.cn^
 ||v0cf.xyz^
 ||vel7.xyz^
@@ -4862,6 +4875,7 @@ newduba.cn###jq_youxi
 ||yulingaa.xyz^
 ||ywsiqlg.cn^
 ||yywh.vip^
+||z11011.com^
 ||zbbvhj.xyz^
 ||zbvchabjbcj.com^
 ||zcdfll.xyz^
@@ -4880,6 +4894,7 @@ newduba.cn###jq_youxi
 ||zhouduanyyds.com^
 ||zhuxiao11.cn^
 ||zjqs.shop^
+||zldzbr.xyz^
 ||zmfdjb.xyz^
 ||znnodl.xyz^
 ||zouqiuyyds.com^
@@ -17841,6 +17856,7 @@ acfun.cn##.danmu-activity
 soufun.com##.danmu_inbox
 mtrend.cn##.daogou-foot
 bbs.it168.com##.daoh2 + .bor8
+qq.com,sogou.com##.daohang-gamecenter
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
@@ -17896,6 +17912,7 @@ iqiyi.com##.dove_banner
 iqiyi.com##.dove_videos
 3d66.com##.down-adver
 zol.com.cn##.down-append-mol__pic
+downza.cn##.down-item-2
 xiaopi.com##.down-list
 mianbao99.com##.downApp
 gamersky.com##.downLoadGame-2
@@ -17910,11 +17927,8 @@ xiazaizhijia.com##.down_list
 7x7n.com##.down_load_1
 7x7n.com##.down_load_2
 dayanzai.me##.down_show_intro_first_box
-downza.cn##.down_soft_bottom
-downza.cn##.down_top
 18183.com##.down_url
 greenxiazai.com##.downbtn > a:last-child
-downza.cn##.downbtn-top
 portablesoft.org##.downcenter
 51xiazai.cn##.downgs
 3dmgame.com##.downl_list + script + div
@@ -18120,7 +18134,7 @@ juxia.com##.game_img_list
 yxlady.com##.game_wrap
 sina.com.cn##.gamead1
 qidian.com##.games-op-wrap
-3987.com,downza.cn,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
+3987.com,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
 3h3.com##.gaosu_div
 3h3.com,downxia.com##.gaosu_down_div
 so.com##.garllery_ad
