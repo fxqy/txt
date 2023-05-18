@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: JGgql89NMEO9jzHHzjLU4w
+! Checksum: 0VlKcve6YhF3LK6Vw22icQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.89.8
-! TimeUpdated: 2023-05-17T17:02:59+00:00
+! Version: 2.0.89.14
+! TimeUpdated: 2023-05-18T16:31:10+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1283,7 +1283,7 @@ dy.xdf.cn##.ad2
 nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
 newmobilelife.com###ATS_sticky
 tieba.baidu.com##.top_toutu_admarks
-||statics.123pan.com/static-by-custom/web-banner
+123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 wnflb2023.com##.GzList
 bdys03.com##.artplayer-plugin-ads
 ||u10*.com/*.gif$domain=bhuai.top
@@ -4359,6 +4359,7 @@ newduba.cn###jq_youxi
 ||52qd.club^
 ||54ha.cn^
 ||5xur.top^
+||6h1cz.xyz^
 ||7067.top^
 ||7xwx.cn^
 ||88885aaa.com^
@@ -4420,10 +4421,12 @@ newduba.cn###jq_youxi
 ||betgdr.xyz^
 ||bili96.co^
 ||bjcpjab.cn^
+||bjtel.cn^
 ||bjwh8.xyz^
 ||bkae.top^
 ||blue-rain.com.cn^
 ||blxfqq.com^
+||bockd.xyz^
 ||bovhzz.xyz^
 ||boyi.info^
 ||bozumi.xyz^
@@ -4503,6 +4506,7 @@ newduba.cn###jq_youxi
 ||fangguanjia.xyz^
 ||fangqingkai.icu^
 ||fcied.xyz^
+||fdytdc.xyz^
 ||feiju12138.xyz^
 ||feild.xyz^
 ||ffbjhl.xyz^
@@ -4546,6 +4550,7 @@ newduba.cn###jq_youxi
 ||heliangjun2.cn^
 ||helid.xyz^
 ||hffxc.com^
+||hfhytx.xyz^
 ||hgpdoa.cn^
 ||hhrnxr.xyz^
 ||himeneko.ink^
@@ -4557,6 +4562,7 @@ newduba.cn###jq_youxi
 ||huangji1.cn^
 ||huaweinnd.top^
 ||huishengqihang.xyz^
+||humgrww.xyz^
 ||hunlimd.cn^
 ||hvfubp.xyz^
 ||hwhefj.xyz^
@@ -4625,6 +4631,7 @@ newduba.cn###jq_youxi
 ||koekd.xyz^
 ||kpqdkg.xyz^
 ||kprjva.cn^
+||kryjqq.com^
 ||kucoa.xyz^
 ||kybzkiw.xyz^
 ||kzjkexn.cn^
@@ -4641,6 +4648,7 @@ newduba.cn###jq_youxi
 ||lqglqq.com^
 ||luckydino.ren^
 ||ludie.xyz^
+||luuss.cn^
 ||lwh147.xyz^
 ||lwtqqq.com^
 ||lxbbs.fun^
@@ -4714,6 +4722,7 @@ newduba.cn###jq_youxi
 ||prlioxb.cn^
 ||prtlth.xyz^
 ||pvjlfjz.cn^
+||qange.com^
 ||qatuaad.cn^
 ||qfblqq.com^
 ||qfdtqq.com^
@@ -4763,6 +4772,7 @@ newduba.cn###jq_youxi
 ||seumouxuezha.xyz^
 ||sh6ss7.top^
 ||shangyuan.ltd^
+||singmwn51g.com^
 ||sisjwol.xyz^
 ||sjalipa.cn^
 ||skluff.com^
@@ -4882,6 +4892,7 @@ newduba.cn###jq_youxi
 ||xvrvgod.xyz^
 ||xyjcpcb.cn^
 ||xyzyqq.com^
+||xzlurd.xyz^
 ||yanghetp.com^
 ||yangyuqing.xyz^
 ||yankuoyyds.com^
@@ -16684,6 +16695,7 @@ kaoyan1v1.com###showAD
 dmzj.com###show_tip_bg
 smzy.com###showa
 rising.cn###shuangshiyibid
+1688.com.au###side-ads-wrapper
 maxthon.cn###side-game-pop
 iwan.baidu.com###side-xbox
 ifeng.com###sideBar[class^="box_"]
@@ -16781,6 +16793,7 @@ hexun.com###tonglan_1 + .layout
 chinaz.com###toolsIntro
 uuu9.com###top
 159i.com###top > div[class]:first-child
+1688.com.au###top-ad-layout-new
 gameapps.hk###top-ad-left
 gameapps.hk###top-ad-right
 hao123.com###top-anim
