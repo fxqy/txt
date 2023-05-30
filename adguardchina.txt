@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Hu/6GNr9yiAQ7/Q9pK7u9Q
+! Checksum: NPIW51WQLvJyeKGxHiH+Ng
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.90.2
-! TimeUpdated: 2023-05-29T16:31:19+00:00
+! Version: 2.0.90.10
+! TimeUpdated: 2023-05-30T17:03:04+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,6 +75,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||joiwnq2.cn^
+||2tyne.ic^
 ||kkkjpg-522.cc^$third-party
 ||mg.nezqmud.com^
 ||ekofelj.xyz^
@@ -700,7 +702,7 @@ game735.com#$#div[id^="gklobl"] { height: 1px!important; }
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46061#issuecomment-601842012
-t66y.com##+js(no-setTimeout-if, tpcHtml)
+t66y.com##+js(no-setTimeout-if, /tpc[0-9]?Html/)
 !+ NOT_PLATFORM(windows, mac, android)
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium, ext_edge)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
@@ -1281,6 +1283,8 @@ $script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cl
 !
 !
 !
+||laozuo.org/banner/
+ala.baidu.com##.tbui_aside_float_bar + .clearfix
 3czol.com##div[class^="ban_"]
 bilibili.com##.video-page-game-card-small
 iyf.tv##.player-right
@@ -4372,6 +4376,7 @@ newduba.cn###jq_youxi
 ||52qd.club^
 ||54ha.cn^
 ||5xur.top^
+||6696q.com^
 ||69wx1.top^
 ||6h1cz.xyz^
 ||7067.top^
@@ -4397,6 +4402,7 @@ newduba.cn###jq_youxi
 ||aaaaa882.com^
 ||aagomsi.xyz^
 ||aamv.vip^
+||abc748596aaa.vip^
 ||acbe.club^
 ||accid.xyz^
 ||aceik.xyz^
@@ -4436,6 +4442,7 @@ newduba.cn###jq_youxi
 ||baidudsvbshj.com^
 ||baitu1llbkotsfthllcjeg.com^
 ||balspaulite.com^
+||bapdkgmvn.xyz^
 ||baytfede.xyz^
 ||bcivqxd.cn^
 ||bdrzxp.xyz^
@@ -4594,6 +4601,7 @@ newduba.cn###jq_youxi
 ||gjmqqq.com^
 ||gjxczx.xyz^
 ||gmasrjx.cn^
+||godlu.com^
 ||goiagm.xyz^
 ||goikbnjksdf.com^
 ||golden88.co^
@@ -4689,6 +4697,7 @@ newduba.cn###jq_youxi
 ||jrtwi.xyz^
 ||jrzaht.xyz^
 ||jstimiz.xyz^
+||jt56.co^
 ||junkao.club^
 ||justasimple.top^
 ||jvkckeg.cn^
@@ -4731,6 +4740,7 @@ newduba.cn###jq_youxi
 ||lewqiiy.xyz^
 ||lgecqrb.com^
 ||lianxi.link^
+||lifvfr.xyz^
 ||linuozhiyao.xyz^
 ||ljte0.com^
 ||lkidke.com^
@@ -4783,6 +4793,7 @@ newduba.cn###jq_youxi
 ||mxknqq.com^
 ||mzqf1.com^
 ||nagmopd.cn^
+||nakop.xyz^
 ||naned.xyz^
 ||ncyksuw.xyz^
 ||ncyx.ltd^
@@ -4805,6 +4816,7 @@ newduba.cn###jq_youxi
 ||nvchmkw.cn^
 ||nwandlc.top^
 ||nwecd.xyz^
+||nwuidsbjak.com^
 ||ocoda.xyz^
 ||ogtphoj.cn^
 ||oiewpw.com^
@@ -4927,8 +4939,10 @@ newduba.cn###jq_youxi
 ||taoli.name^
 ||tc911.vip^
 ||tejiachong.co^
+||tfations.live^
 ||tffulllist.shop^
 ||tfonlyuse.shop^
+||tfprivacy.live^
 ||tian0.ltd^
 ||tiancaiwei.wang^
 ||tianma704.ltd^
@@ -4955,6 +4969,7 @@ newduba.cn###jq_youxi
 ||u97jr.xyz^
 ||ubifyc.xyz^
 ||ucqihfh.cn^
+||uejnmjdpd.xyz^
 ||ufgg55.xyz^
 ||umcpebi.cn^
 ||uqelxct.cn^
@@ -4968,12 +4983,14 @@ newduba.cn###jq_youxi
 ||uu7819uu.com^
 ||uu9735uu.com^
 ||uuuxyjh.cn^
+||uwandlt.top^
 ||uwhreur.cn^
 ||uxwkiyp.xyz^
 ||uysdxmo.com^
 ||uz44x.xyz^
 ||uzuarlv.cn^
 ||v0cf.xyz^
+||vdebtqm.xyz^
 ||vel7.xyz^
 ||vezvpd.xyz^
 ||vfsvv1.com^
@@ -5081,6 +5098,7 @@ newduba.cn###jq_youxi
 ||yywh.vip^
 ||z11011.com^
 ||z74lb.com^
+||zaiyuanyqq.com^
 ||zbbvhj.xyz^
 ||zbvchabjbcj.com^
 ||zcdfll.xyz^
@@ -22836,6 +22854,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||richh.cn^
 ||rst2.y3600.cn^
 ||ruiwen.com/css_
+||ruiwen.com/jscss/
 ||rxys.cn^
 ||s.yaozui.com^
 ||s.zixuntop.com^
